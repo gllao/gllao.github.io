@@ -1,1 +1,0 @@
-mgta。us.kg
