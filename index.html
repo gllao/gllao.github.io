@@ -1,41 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>内容加载器</title>
+    <meta charset="UTF-8">
+    <title>Bookmarks</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
-<div id="content"></div>
+    <div id="content"></div>
 
-<script>
-// 获取路径参数，默认使用/sq
-const path = location.search ? location.search.slice(1) : "/sq";
-
-// 创建并发送请求
-const xhr = new XMLHttpRequest();
-xhr.open('GET', path, true);
-xhr.send();
-
-xhr.onload = function() {
-    if (xhr.status >= 200 && xhr.status < 400) {
-        const text = xhr.responseText;
-        const firstLine = text.split('\n')[0].trim();
+    <script>
+    (function() {
+        const DEFAULT_PATH = '/sq';
         
-        // 更新标题
-        document.title += firstLine.startsWith('#') 
-            ? ' ' + firstLine.replace(/^#+\s*/, '')
-            : '.';
-            
-        // 渲染内容
-        document.getElementById("content").innerHTML = marked(text);
-    } else {
-        location.href = 'https://fjvi.github.io/sq';
-    }
-};
+        function getRequestPath() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('path') || DEFAULT_PATH;
+        }
 
-xhr.onerror = function() {
-    location.href = 'https://fjvi.github.io/sq';
-};
-</script>
+        function updateTitle(firstLine) {
+            if (firstLine.startsWith('#')) {
+                const titleText = firstLine.replace(/^#+\s*/, '').trim();
+                document.title = titleText + ' - ' + document.title;
+            }
+        }
+
+        async function loadContent() {
+            const path = getRequestPath();
+            const contentEl = document.getElementById("content");
+            
+            try {
+                const response = await fetch(path);
+                if (!response.ok) {
+                    contentEl.innerHTML = "内容加载失败，请检查路径是否正确";
+                    return;
+                }
+                
+                const text = await response.text();
+                const firstLine = text.split('\n')[0];
+                
+                updateTitle(firstLine);
+                contentEl.innerHTML = marked(text);
+                
+                // 更新URL但不刷新页面
+                history.pushState({}, '', `?path=${encodeURIComponent(path)}`);
+                
+            } catch (error) {
+                console.error('加载失败:', error);
+                contentEl.innerHTML = "网络错误，无法加载内容";
+            }
+        }
+
+        // 处理浏览器前进/后退
+        window.addEventListener('popstate', loadContent);
+        
+        // 初始加载
+        loadContent();
+    })();
+    </script>
 </body>
 </html>
