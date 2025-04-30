@@ -1,61 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <title>Bookmarks</title>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+  <title>加载中…</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>body{font-family:sans-serif;padding:1rem;line-height:1.6}#err{color:#c00}</style>
 </head>
 <body>
-    <div id="content"></div>
-
-    <script>
-    (function() {
-        const DEFAULT_PATH = '/sq';
-        
-        function getRequestPath() {
-            const urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get('path') || DEFAULT_PATH;
+  <div id="content">加载中…</div>
+  <div id="err" hidden></div>
+  <script>
+    (async()=>{
+      if(location.protocol!=='https:'&&location.hostname!=='localhost'){
+        return document.getElementById('content').textContent='请使用 HTTPS 或 localhost';
+      }
+      let url=location.hash.slice(1)||location.search.slice(1)||'sq/';
+      async function fetchMd(u){
+        let r=await fetch(u);
+        if(r.status===404) throw {code:404, url:u};
+        if(!r.ok) throw new Error(r.status);
+        return r.text();
+      }
+      try{
+        let txt;
+        try{
+          txt=await fetchMd(url);
+        }catch(e){
+          if(e.code===404){
+            let alt=url.endsWith('/')?url+'README.md':url+'/README.md';
+            txt=await fetchMd(alt);
+          } else throw e;
         }
-
-        function updateTitle(firstLine) {
-            if (firstLine.startsWith('#')) {
-                const titleText = firstLine.replace(/^#+\s*/, '').trim();
-                document.title = titleText + ' - ' + document.title;
-            }
-        }
-
-        async function loadContent() {
-            const path = getRequestPath();
-            const contentEl = document.getElementById("content");
-            
-            try {
-                const response = await fetch(path);
-                if (!response.ok) {
-                    contentEl.innerHTML = "内容加载失败，请检查路径是否正确";
-                    return;
-                }
-                
-                const text = await response.text();
-                const firstLine = text.split('\n')[0];
-                
-                updateTitle(firstLine);
-                contentEl.innerHTML = marked(text);
-                
-                // 更新URL但不刷新页面
-                history.pushState({}, '', `?path=${encodeURIComponent(path)}`);
-                
-            } catch (error) {
-                console.error('加载失败:', error);
-                contentEl.innerHTML = "网络错误，无法加载内容";
-            }
-        }
-
-        // 处理浏览器前进/后退
-        window.addEventListener('popstate', loadContent);
-        
-        // 初始加载
-        loadContent();
+        let first=txt.split('\n')[0].trim();
+        document.title=first.startsWith('#')?first.replace(/^#+\s*/, ''):url;
+        document.getElementById('content').innerHTML=marked.parse(txt);
+      }catch(e){
+        let el=document.getElementById('err');
+        el.hidden=false;
+        el.textContent=e.code===404?`未找到文档 (${e.url})`:'加载失败: '+e.message;
+      }
     })();
-    </script>
+  </script>
 </body>
 </html>
