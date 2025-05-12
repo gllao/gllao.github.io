@@ -10,7 +10,10 @@
   
 <body>
 <aside class="accordion">
-	<h1>Bookmarks</h1>
+	<div class="menu-header">
+    <h1>Bookmarks</h1>
+                <button onclick="toggleEdit()" id="editBtn" style="display:none;">✏️ 编辑</button>
+    </div>
 	<div class="opened-for-codepen">
 		<h2>常用</h2>
 		<div style="display: show">
@@ -20,22 +23,26 @@
 				<a href="https://note.692.cloudns.be/">📝Paste云笔记</a>
 				<a href="https://drop.692.cloudns.be/">📁 Drop分享</a>
 				<a href="https://fjvi.github.io/sq/">⭐ Bookmarks</a>
+				<a href="https://fjvi.github.io/wiki/index.html">⭐ Bookmarks@wiki</a>
 				<a href="https://692.pages.dev/">⭐ 692.pages</a>
 				<a href="https://test.aypwip.org/webnote/wodewangluobianqianziliudi">🟨 便签</a>
 			    <a href="https://test.aypwip.org/webnote/6889692note">🟨 便签692</a>
 				<a href="https://gist.github.com/fjvi/">🧾 Gists</a>
+		    	<a href="https://idx.google.com/">🚀 Google IDX</a>
 		    </div>
 		    <h4>文本复制</h4>
-	   	    <div class="menu" style="display: none">
-                <span onclick="copy(event)">/?ed=2560&PROXYIP=ts.hpc.tw</span>
-                <span onclick="copy(event)">/?ed=2560&PROXYIP=cdn-all.xn--b6gac.eu.org</span>
-                <span onclick="copy(event)">/?ed=2560&PROXYIP=cdn.xn--b6gac.eu.org</span>
-                <span onclick="copy(event)">/?ed=2560&PROXYIP=cdn-b100.xn--b6gac.eu.org</span>
-                <span onclick="copy(event)">/?ed=2560&PROXYIP=bestproxy.onecf.eu.org</span>
-                <span onclick="copy(event)">/?ed=2560&PROXYIP=47.57.233.126</span>
-                <span onclick="copy(event)">preview</span>
-                <span onclick="copy(event)">mobilebasic</span>
-                <span onclick="copy(event)">ipconfig /flushdns</span>
+	   	    <div class="wenben" style="display: none">
+                <span onclick="copy(event)" title="ts.hpc.tw">/?ed=2560&PROXYIP=ts.hpc.tw</span>
+                <span onclick="copy(event)" title="cdn-all.xn--b6gac.eu.org">/?ed=2560&PROXYIP=cdn-all.xn--b6gac.eu.org</span>
+                <span onclick="copy(event)" title="cdn.xn--b6gac.eu.org">/?ed=2560&PROXYIP=cdn.xn--b6gac.eu.org</span>
+                <span onclick="copy(event)" title="cdn-b100.xn--b6gac.eu.org">/?ed=2560&PROXYIP=cdn-b100.xn--b6gac.eu.org</span>
+                <span onclick="copy(event)" title="bestproxy.onecf.eu.org">/?ed=2560&PROXYIP=bestproxy.onecf.eu.org</span>
+                <span onclick="copy(event)" title="PROXYIP">/?ed=2560&PROXYIP=47.57.233.126</span>
+                <span onclick="copy(event)" title="预览模式">preview</span>
+                <span onclick="copy(event)" title="预览模式">mobilebasic</span>
+                <span onclick="copy(event)" title="刷新DNS">ipconfig /flushdns</span>
+                <span onclick="copy(event)" title="Google IDX一键脚本">nix=y uuid=5a2ad762-3ff3-49cb-9187-34e9cf8a42dc vmpt=692 agn=idx.692.cloudns.be agk=eyJhIjoiODYwNDkxY2JmMjQ1ZmUzNGU5NmFhMTI3YTg5ODNmNjciLCJ0IjoiODE0ODgwZDItNTdiYy00N2Y2LTk5YzAtOTIyMTllZjNmMjI0IiwicyI6Ik5qY3lPR1UwT1dRdE5EVXhaQzAwTURkaExUZzVOekl0TWpsbU56VmtZVE13WVdGbCJ9 bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosb/main/argosb.sh)</span>
+                <span onclick="copy(event)" title="重启资源管理器">taskkill /f /im explorer.exe & start explorer.exe</span>
 				<h5></h5>
 			</div>
 			<a href="https://www.google.com/ncr">🔎 Google</a>
@@ -74,12 +81,14 @@
 			<a href="https://translate.google.com/#zh-CN">Google 翻译</a>
 			<a href="https://www.blogger.com/home?pli=1">Blogger 博客</a>
 			<a href="https://www.google.com/interests/saved">Google 收藏</a>
+			<a href="https://console.cloud.google.com/">google 云计算</a>
+			<a href="https://colab.research.google.com/">Google Colab</a>
+		    	<a href="https://idx.google.com/">🚀 Google IDX</a>
 			<a href="https://calendar.google.com">Google 日历</a>
 			<a href="https://talkgadget.google.com/">Google 环聊</a>
 			<a href="https://www.google.com/takeout/#">Google 备份</a>
 			<a href="https://myactivity.google.com/myactivity">Google 活动记录</a>
 			<a href="https://mail.google.com/tasks/canvas?pli=1">Google 工作表</a>
-			<a href="https://console.cloud.google.com/">google 云计算</a>
 			<a href="https://www.google.com/maps/">Google 地图</a>
 			<a href="https://earth.google.com/web/">Google 地球</a>
 			<a href="https://payments.google.com/">Google 付款</a>
@@ -138,6 +147,8 @@
 				<a href="https://www.youtube.com/@AM_CLUBS/videos">AM科技 </a>
 				<a href="https://www.youtube.com/@lingdujieshuo/videos">零度解说</a>
 				<a href="https://www.youtube.com/@bulianglin/videos">不良林</a>
+				<a href="https://www.youtube.com/@Univzeros/videos">癸鱼</a>
+				<a href="https://www.youtube.com/@%E5%BA%B7%E5%BA%B7%E7%9A%84V2Ray%E4%B8%8EClash/videos">康康的订阅天地</a>
 				<h5></h5>
 			</div>
 			<a href="https://www.youtube.com/@ProletariatsBishop/videos">睡前消息</a>
@@ -163,13 +174,17 @@
                 <a href="https://github.com/fjvi/note" >note</a>
                 <a href="https://github.com/fjvi/Gmeek" >Gmeek</a>
                 <a href="https://github.com/fjvi/wiki" >wiki</a>
+				<a href="https://github.com/6889692/wiki">6889692/wiki</a>
+				<a href="https://github.com/6889692/cfip">6889692/cfip</a>
                 <a href="https://github.com/fjvi/code" >code</a>
+				<a href="https://github.com/fjvi/photo">photo</a>
 			</div>
 			<h4>收藏项目</h4>
 			<div style="display: none">
 				<a href="https://github.com/XIU2/CloudflareSpeedTest?tab=readme-ov-file">CloudflareSpeedTest: 🌩「自选优选 IP」</a>
 				<a href="https://github.com/indianajson/cloudflare-nameservers">cloudflare-服务器列表</a>
                 <a href="https://github.com/yonggekkk/Cloudflare_vless_trojan" >甬哥侃侃侃/Cf-workers</a>
+                <a href="https://github.com/yonggekkk/ArgoSB" >ArgoSB一键无交互脚本</a>
                 <a href="https://github.com/cmliu/edgetunnel" >cm喂饭tunnel</a>
                 <a href="https://github.com/amclubs/am-cf-tunnel" >abc部署/am-cf-tunnel</a>
                 <a href="https://github.com/Meekdai/Gmeek/issues" >Gmeek</a>
@@ -181,7 +196,7 @@
 				<h5></h5>
 			</div>
             <a href="https://github.com/fjvi?tab=repositories" >😺 fjvi@GitHub</a>
-            <a href="https://github.com/fjvi/note/" >😺 fjvi/note</a>
+            <a href="https://github.com/fjvi/note/issues" >📚 note/issues</a>
             <a href="https://fjvi.github.io/note/">📒 MGTnote</a>
             <a href="https://github.com/fjvi/note/issues/new/choose" >✍️新建笔记@note</a>
             <a href="https://gist.github.com/fjvi" >Gist</a>
@@ -246,28 +261,36 @@
 				<a href="https://bpb.692.cloudns.be/sub/a5da4daa-7656-427e-a3cc-46e2a298a197#BPB-Normal">💧#BPB@IP</a>	
 				<a href="https://bbb.692.cloudns.be/panel">💦BPB面板@DOMAIN</a>			
 				<a href="https://bbb.692.cloudns.be/sub/normal/zEUVdWRfITfk3CyO#BPB-Normal">💧#BPB@DOMAIN</a>
-				<a href="https://a.692.cloudns.be/123d0a27-2f5b-4bfc-9de6-928591d22d53">🔗a.692【AM】</a>
-				<a href="https://b.692.cloudns.be/123d0a27-2f5b-4bfc-9de6-928591d22d53">🔗b.692【AM】</a>
-				<a href="https://c.692.cloudns.be/5dd21503-9013-4854-ac4b-625a1d93cd27">🔗c.692【CMedg】</a>
+				<a href="https://a.mgta.dpdns.org/123d0a27-2f5b-4bfc-9de6-928591d22d53">🔗a.692【AM】</a>
+				<a href="https://c.mgta.dpdns.org/5dd21503-9013-4854-ac4b-625a1d93cd27">🔗c.692【CMedg】</a>
 				<a href="https://github.com/6889692/wiki">6889692/wiki</a>
-				<a href="https://a.692.cloudns.be/123d0a27-2f5b-4bfc-9de6-928591d22d53?sub&IP_URL=https://txtkv.pages.dev/ipUrl.txt?token=6889692">Url@a.692【AM】</a>
-				<a href="https://a.692.cloudns.be/123d0a27-2f5b-4bfc-9de6-928591d22d53?sub&IP_URL_TXT=https://txtkv.pages.dev/cfip.txt?token=6889692">cfip@a.692【AM】</a>
-				<a href="https://a.692.cloudns.be/123d0a27-2f5b-4bfc-9de6-928591d22d53?sub&IP_URL_TXT=https://txtkv.pages.dev/cf-ip.txt?token=6889692">cf-ip@a.692【AM】</a>
-				<a href="https://a.692.cloudns.be/123d0a27-2f5b-4bfc-9de6-928591d22d53?sub&IP_URL_TXT=https://txtkv.pages.dev/cfnat.txt?token=6889692">cfnat@a.692【AM】</a>
-				<a href="https://a.692.cloudns.be/123d0a27-2f5b-4bfc-9de6-928591d22d53?sub&IP_URL_TXT=https://txtkv.pages.dev/domain.txt?token=6889692">domain@a.692【AM】</a>
-				<a href="https://a.692.cloudns.be/123d0a27-2f5b-4bfc-9de6-928591d22d53?sub&IP_URL_TXT=https://raw.githubusercontent.com/6889692/wiki/main/cfnat.txt">CFnat优选@GITHUB</a>
-				<a href="https://a.692.cloudns.be/123d0a27-2f5b-4bfc-9de6-928591d22d53?sub&IP_URL_TXT=https://raw.githubusercontent.com/6889692/wiki/main/domain.txt">domain@GITHUB</a>
+				<a href="https://a.mgta.dpdns.org/123d0a27-2f5b-4bfc-9de6-928591d22d53?sub&IP_URL=https://raw.githubusercontent.com/6889692/wiki/main/dyq.txt">dyq@GitHub</a>
+				<a href="https://a.mgta.dpdns.org/123d0a27-2f5b-4bfc-9de6-928591d22d53?sub&IP_URL_TXT=https://raw.githubusercontent.com/6889692/wiki/main/cfip.txt">GitHub_cfip</a>
+				<a href="https://a.mgta.dpdns.org/123d0a27-2f5b-4bfc-9de6-928591d22d53?sub&IP_URL_TXT=https://raw.githubusercontent.com/6889692/wiki/main/domain.txt">GitHub_domain</a>
+				<a href="https://a.mgta.dpdns.org/123d0a27-2f5b-4bfc-9de6-928591d22d53?sub&IP_URL_TXT=https://raw.githubusercontent.com/6889692/wiki/main/visa.txt">GitHub_visa</a>
+				<a href="https://a.mgta.dpdns.org/123d0a27-2f5b-4bfc-9de6-928591d22d53?sub&IP_URL_TXT=https://raw.githubusercontent.com/6889692/wiki/main/CF.TXT">GitHub_CF</a>
+				<a href="https://a.mgta.dpdns.org/123d0a27-2f5b-4bfc-9de6-928591d22d53?sub&IP_URL_TXT=https://raw.githubusercontent.com/6889692/wiki/main/cfnat.txt">GitHub_CFnat</a>
+				<a href="https://sub.692.cloudns.be">SUB订阅转换</a>
+				<a href="https://sub.692.cloudns.be/sub?host=idx.692.cloudns.be&uuid=5a2ad762-3ff3-49cb-9187-34e9cf8a42dc&path=%2F5a2ad762-3ff3-49cb-9187-34e9cf8a42dc-vm%3Fed%3D2048&sni=idx.692.cloudns.be&type=none&alpn=h3&alterid=0&security=auto">IDX.vless@SUB</a>
+				<a href="https://sub.692.cloudns.be/sub?uuid=e340dcb9-6fd8-491d-81b8-08441d1730f5&encryption=none&security=tls&sni=sg.692.cloudns.be&alpn=h3&fp=random&allowInsecure=1&type=ws&host=sg.692.cloudns.be&path=%2F">SG.vless@SUB</a>
+				<a href="https://raw.githubusercontent.com/6889692/wiki/main/idx.txt">idx@GITHUB</a>
+				<a href="https://a.mgta.dpdns.org/123d0a27-2f5b-4bfc-9de6-928591d22d53?sub&IP_URL=https://txtkv.pages.dev/ipUrl.txt?token=6889692">Url@a.692【AM】</a>
+				<a href="https://a.mgta.dpdns.org/123d0a27-2f5b-4bfc-9de6-928591d22d53?sub&IP_URL_TXT=https://txtkv.pages.dev/cfip.txt?token=6889692">cfip@a.692【AM】</a>
+				<a href="https://a.mgta.dpdns.org/123d0a27-2f5b-4bfc-9de6-928591d22d53?sub&IP_URL_TXT=https://txtkv.pages.dev/cf-ip.txt?token=6889692">cf-ip@a.692【AM】</a>
+				<a href="https://a.mgta.dpdns.org/123d0a27-2f5b-4bfc-9de6-928591d22d53?sub&IP_URL_TXT=https://txtkv.pages.dev/cfnat.txt?token=6889692">cfnat@a.692【AM】</a>
+				<a href="https://a.mgta.dpdns.org/123d0a27-2f5b-4bfc-9de6-928591d22d53?sub&IP_URL_TXT=https://txtkv.pages.dev/domain.txt?token=6889692">domain@a.692【AM】</a>
 				<a href="https://cf.mgta.ip-ddns.com/69be2980-ce76-4f23-a7e4-a3f071f70772/pty">🔗侃侃侃</a>
 				<a href="https://fjvi.pages.dev/6889692/pty">🔗fjvi@Trojan</a>
-				<a href="https://a.mgta.dpdns.org/397ca0ef-75cb-4f4f-b6bf-c22d549ae4c4">🔗a.mgta@FJ</a>
-				<a href="https://b.mgta.dpdns.org/panel">💦BPB面板@FJ</a>
-				<a href="https://b.mgta.dpdns.org/sub/normal/c2c779af-5d19-4f61-a015-ad443fbc4184#BPB-Normal">💧BPB@FJ</a>
+				<a href="https://a.6889692.dpdns.org/397ca0ef-75cb-4f4f-b6bf-c22d549ae4c4">🔗CM@FJ</a>
+				<a href="https://b.6889692.dpdns.org/panel">💦BPB面板@FJ</a>
+				<a href="https://b.6889692.dpdns.org/c2c779af-5d19-4f61-a015-ad443fbc4184#BPB-Normal">💧BPB@FJ</a>
 				<a href="https://SOS.CMLiussss.net/auto">SOS.CMLiussss</a>
 				<a href="dmxlc3M6Ly9lMzQwZGNiOS02ZmQ4LTQ5MWQtODFiOC0wODQ0MWQxNzMwZjVAc2cuNjkyLmNsb3VkbnMuYmU6NDQzP2VuY3J5cHRpb249bm9uZSZzZWN1cml0eT10bHMmc25pPXNnLjY5Mi5jbG91ZG5zLmJlJmFsbG93SW5zZWN1cmU9MSZ0eXBlPXdzJmhvc3Q9c2cuNjkyLmNsb3VkbnMuYmUmcGF0aD0lMkYjc2cuNjkyLmNsb3VkbnMuYmUNCg==">vless://sg.692.cloudns.be</a>
 				<h5></h5>
 			</div>
 		    <a href="https://hosts.gitcdn.top/hosts.txt">GitHub hosts更新</a>
 		    <a href="https://ap-southeast-1.run.claw.cloud/">sg@claw</a>
+		    <a href="https://olhskesjlbho.ap-southeast-1.clawcloudrun.com/panel/inbounds">3x-ui面板@sg.claw</a>
 		    <a href="https://us-west-1.run.claw.cloud/">us@claw</a>
 			<a href="https://www.nslookup.io/domains/cdn-all.xn--b6gac.eu.org/dns-records/">ProxyIP-nslookup</a>
 			<a href="https://fofa.info/"> FOFA搜索</a>
@@ -572,44 +595,172 @@
 		<a href="https://github.com/fjvi/sq/edit/main/index.html">sq_编辑</a>
 		<a href="https://github.dev/fjvi/sq/tree/main">sq_编辑 2</a>
 	</div>
+
+    <div id="linkEditor" style="display:none; position:fixed; top:30%; left:50%; transform:translateX(-50%);
+     background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0,0,0,0.3); z-index:3000;">
+        <h3>编辑超链接</h3>
+        <label>文字：<input type="text" id="linkText" style="width: 300px;"></label><br><br>
+        <label>地址：<input type="text" id="linkHref" style="width: 300px;"></label><br><br>
+        <button onclick="applyLinkEdit()">保存</button>
+        <button onclick="cancelLinkEdit()">取消</button>
+    </div>
 </aside>
-<script>// 手风琴菜单功能
-  const headers = ["H1", "H2", "H3", "H4", "H5", "H6"];
 
-  document.querySelector(".accordion").addEventListener("click", function(e) {
-    const target = e.target,
-          name = target.nodeName.toUpperCase();
+<script>
+// ✏️ 切换编辑模式
+function toggleEdit() {
+  const body = document.body;
+  const btn = document.getElementById("editBtn");
+  const isEditable = body.getAttribute("contenteditable") === "true";
 
-    if (headers.includes(name)) {
-      const subItem = target.nextElementSibling;
-      let depth = 0, parent = subItem.parentElement;
-      while (parent !== this) { depth++; parent = parent.parentElement; }
-      Array.from(this.querySelectorAll(".accordion p, .accordion div")).forEach(el => {
-        let elDepth = 0, elParent = el.parentElement;
-        while (elParent !== this) { elDepth++; elParent = elParent.parentElement; }
-        if (elDepth >= depth && el !== subItem) el.style.display = "none";
-      });
-      subItem.style.display = (subItem.style.display === "block") ? "none" : "block";
-      if (subItem.style.display === "block") {
-        const visibleElements = Array.from(this.querySelectorAll(".accordion :visible"));
-        if (visibleElements.length) visibleElements[visibleElements.length - 1].style.borderRadius = "0 0 10px 10px";
-      }
-      target.style.borderBottomRightRadius = target.style.borderBottomLeftRadius = "0";
-    }
-  });
+  if (isEditable) {
+    // 关闭编辑并保存
+    body.removeAttribute("contenteditable");
+    btn.textContent = "✏️ 编辑";
+    saveContent(); // 自动触发保存
+  } else {
+    // 开启编辑
+    body.setAttribute("contenteditable", "true");
+    btn.textContent = "✅ 完成";
+  }
+}
+
+function saveContent() {
+  // 获取页面内容并保存
+  const content = document.documentElement.outerHTML;
+  
+  // 保持常用菜单始终展开
+  const commonBookmarks = document.getElementById("common-bookmarks");
+  const commonBookmarksStatus = commonBookmarks.style.display;
+  
+  // 记录常用菜单状态，并保存
+  localStorage.setItem("commonBookmarksStatus", commonBookmarksStatus);
+
+  const blob = new Blob([content], { type: "text/html" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "bookmarks.html"; // 可根据需要改名
+  a.click();
+}
+
+// 加载保存状态
+document.addEventListener("DOMContentLoaded", function () {
+  const savedCommonBookmarksStatus = localStorage.getItem("commonBookmarksStatus");
+  if (savedCommonBookmarksStatus === "block") {
+    document.getElementById("common-bookmarks").style.display = "block";
+  }
+});
+
+// 编辑超链接功能
+let currentLink = null;
+
+document.addEventListener('dblclick', function (e) {
+  if (e.target.tagName === 'A' && document.body.getAttribute("contenteditable") === "true") {
+    e.preventDefault();
+    currentLink = e.target;
+    document.getElementById("linkText").value = currentLink.textContent;
+    document.getElementById("linkHref").value = currentLink.getAttribute("href");
+    document.getElementById("linkEditor").style.display = "block";
+  }
+});
+
+function applyLinkEdit() {
+  if (!currentLink) return;
+  currentLink.textContent = document.getElementById("linkText").value;
+  currentLink.setAttribute("href", document.getElementById("linkHref").value);
+  document.getElementById("linkEditor").style.display = "none";
+  currentLink = null;
+}
+
+function cancelLinkEdit() {
+  document.getElementById("linkEditor").style.display = "none";
+  currentLink = null;
+}
+
+// 📋 编辑模式下只复制纯文本
+document.addEventListener('copy', function (e) {
+  if (document.body.getAttribute("contenteditable") === "true") {
+    e.preventDefault();
+    const selection = window.getSelection();
+    const text = selection.toString();
+    e.clipboardData.setData('text/plain', text);
+  }
+});
 </script>
-	
-<script>// 点击复制功能
-    copy = (event) => {
-    let innerText = event.target.innerText;
-    var tmpInput = document.createElement("input");
-    document.body.appendChild(tmpInput);
-    tmpInput.value = innerText;
-    tmpInput.select();
-    document.execCommand("cut"); 
-    tmpInput.remove();
+
+<script>
+// 手风琴菜单功能
+const headers = ["H1", "H2", "H3", "H4", "H5", "H6"];
+
+document.querySelector(".accordion").addEventListener("click", function(e) {
+  const target = e.target,
+        name = target.nodeName.toUpperCase();
+
+  if (headers.includes(name)) {
+    const subItem = target.nextElementSibling;
+    let depth = 0, parent = subItem.parentElement;
+    while (parent !== this) { depth++; parent = parent.parentElement; }
+    Array.from(this.querySelectorAll(".accordion p, .accordion div")).forEach(el => {
+      let elDepth = 0, elParent = el.parentElement;
+      while (elParent !== this) { elDepth++; elParent = elParent.parentElement; }
+      if (elDepth >= depth && el !== subItem) el.style.display = "none";
+    });
+    subItem.style.display = (subItem.style.display === "block") ? "none" : "block";
+    if (subItem.style.display === "block") {
+      const visibleElements = Array.from(this.querySelectorAll(".accordion :visible"));
+      if (visibleElements.length) visibleElements[visibleElements.length - 1].style.borderRadius = "0 0 10px 10px";
     }
-</script>	
+    target.style.borderBottomRightRadius = target.style.borderBottomLeftRadius = "0";
+  }
+});
+</script>
+
+<script>
+// 点击复制功能
+copy = (event) => {
+  let innerText = event.target.innerText;
+  var tmpInput = document.createElement("input");
+  document.body.appendChild(tmpInput);
+  tmpInput.value = innerText;
+  tmpInput.select();
+  document.execCommand("cut"); 
+  tmpInput.remove();
+}
+</script>
+  
+<script>
+// 加速title显示
+(function() {
+  const tip = Object.assign(document.createElement('div'), {
+      id: 'tip-div',
+      style: `display:none;color:#000;background:#f3f3f3;border:1px solid #ccc;
+              font:12px/16px sans-serif;padding:5px;position:absolute;
+              z-index:2000;pointer-events:none;max-width:300px;`
+  });
+  document.body.appendChild(tip);
+
+  document.onmousemove = e => {
+      const t = e.target;
+      const title = t.title || t.getAttribute('_title');
+
+      if (!title) return tip.style.display = 'none';
+
+      if (t.title) {
+          t.setAttribute('_title', t.title);
+          t.removeAttribute('title');
+      }
+
+      if (tip.textContent !== title) tip.textContent = title;
+
+      tip.style.display = 'block';
+      const x = Math.min(e.pageX + 10, innerWidth - tip.offsetWidth - 5);
+      const y = Math.min(e.pageY + 10, innerHeight - tip.offsetHeight - 5);
+      tip.style.left = x + 'px';
+      tip.style.top = y + 'px';
+  };
+})();
+</script>
+
 <style>
        
         * {margin: 0;padding: 0;}
@@ -633,7 +784,6 @@
             font-family: Lobster;
             font-size: 1.6rem;
             font-weight: normal;
-            border-bottom: 1px solid #ddd;
             color: #bbb;
         }
         .accordion h1:hover {
@@ -641,11 +791,13 @@
         }
         .accordion h2 {
             box-sizing: border-box;
-            padding: 8px 30px;
+            padding: 10px 30px;
             background-color: #ddd;
             border-bottom: 1px solid #bbb;
             font-size: 1.4rem;
             color: #333;
+            position: sticky;/* 固定菜单 */
+            top: 0;/* 固定菜单 */
         }
         .accordion h2:hover {
             background-color: #99d3fd;
@@ -692,7 +844,7 @@
             font-size: 1.3rem;
             color: #b94152;
         }
-        .menu {
+        .wenben {
             width: 680px;
             margin: 0 auto;
         }
@@ -714,23 +866,64 @@
         .accordion span:hover {
             background-color: #99d3fd;
         }
-        .accordion span:hover::after {
+        .accordion span:hover::before {
             content: "⿻";
             font-size: 1rem;
             color: #b94152;
             background-color: #fff;
             border: 1px solid #ccc;
-            padding: 2px 6px;
-			margin-left: 4px;		
+            padding: 2px 5px;
+			margin-left: 175px;
+			margin-top: -3px;
             border-radius: 5px;	
+			position:absolute;
         }
         .accordion span:active {
             background-color: red;
         }
-        .accordion span:active:after {
+        .accordion span:active:before {
             content: "✔";
-        }
-</style>
+            font-size: 1rem;
+            color: #b94152;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 2px 7px;
+			margin-left: 175px;
+			margin-top: -3px;
+            border-radius: 5px;	
+			position:absolute;
+        }	
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #bbb;
+}
 
-</body>
+.menu-header h1 {
+  font-family: Lobster;
+  font-size: 1.6rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.menu-header button {
+  font-size: 14px;
+  padding: 4px 10px;
+  margin-right: 30px;
+  color: #888;
+  background-color: #333;
+  border: 1px solid #444;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu-header button:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+		
+</style>
 </html>
