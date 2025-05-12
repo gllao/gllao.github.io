@@ -12,7 +12,7 @@
 <aside class="accordion">
 	<div class="menu-header">
   <h1>Bookmarks</h1>
-  <button onclick="toggleEdit()" id="editBtn" style="display:none;">✏️ 编辑</button>
+  <button onclick="toggleEdit()" id="editBtn" >✏️ 编辑</button>
 </div>
 
 	<div class="opened-for-codepen" id="common-bookmarks">
@@ -593,8 +593,8 @@
 	</div>
 	<h1>Updates</h1>
 	<div style="display: none">
-		<a href="https://github.com/fjvi/sq/edit/main/index.html">sq_编辑</a>
-		<a href="https://github.dev/fjvi/sq/tree/main">sq_编辑 2</a>
+		<a href="https://github.com/fjvi/fjvi.github.io/edit/main/index.html">sq_编辑</a>
+		<a href="https://github.dev/fjvi/fjvi.github.io/tree/main">sq_编辑 2</a>
 	</div>
     <div id="linkEditor" style="display:none; position:fixed; top:30%; left:50%; transform:translateX(-50%);
      background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0,0,0,0.3); z-index:3000;">
@@ -897,7 +897,7 @@ copy = (event) => {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 30px;
+  padding: 0px;
   background-color: #333;
   color: #bbb;
 }
@@ -912,6 +912,7 @@ copy = (event) => {
 .menu-header button {
   font-size: 14px;
   padding: 4px 10px;
+  margin-right: 30px;
   color: #888;
   background-color: #333;
   border: 1px solid #444;
