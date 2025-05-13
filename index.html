@@ -45,7 +45,6 @@
                 <span onclick="copy(event)" title="刷新DNS">ipconfig /flushdns</span>
                 <span onclick="copy(event)" title="Google IDX一键脚本">nix=y uuid=5a2ad762-3ff3-49cb-9187-34e9cf8a42dc vmpt=692 agn=idx.692.cloudns.be agk=eyJhIjoiODYwNDkxY2JmMjQ1ZmUzNGU5NmFhMTI3YTg5ODNmNjciLCJ0IjoiODE0ODgwZDItNTdiYy00N2Y2LTk5YzAtOTIyMTllZjNmMjI0IiwicyI6Ik5qY3lPR1UwT1dRdE5EVXhaQzAwTURkaExUZzVOekl0TWpsbU56VmtZVE13WVdGbCJ9 bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosb/main/argosb.sh)</span>
                 <span onclick="copy(event)" title="重启资源管理器">taskkill /f /im explorer.exe & start explorer.exe</span>
-				<h5></h5>
 			</div>
 			<a href="https://www.google.com/ncr">🔎 Google</a>
 			<a href="https://www.youtube.com/">🔴 YouTube</a>
@@ -487,7 +486,7 @@ background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0
 
 <script>
 // ✏️ 切换编辑模式
-function toggleEdit() {
+async function toggleEdit() {
   const body = document.body;
   const btn = document.getElementById("editBtn");
   const isEditable = body.getAttribute("contenteditable") === "true";
@@ -498,19 +497,40 @@ function toggleEdit() {
     btn.textContent = "✏️ 编辑";
     saveContent(); // 自动触发保存
   } else {
-    // 开启编辑
-    body.setAttribute("contenteditable", "true");
-    btn.textContent = "✅ 完成";
+    // 要求输入密码
+    const password = prompt("请输入密码：");
+    if (password === null) return; // 用户取消
+
+    try {
+      const res = await fetch("https://api.6889692.workers.dev/api/check-password", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ password })
+      });
+
+      const result = await res.json();
+
+      if (result.success) {
+        body.setAttribute("contenteditable", "true");
+        btn.textContent = "✅ 完成";
+      } else {
+        alert("密码错误！");
+      }
+    } catch (error) {
+      alert("网络错误，请稍后再试！");
+      console.error("密码验证失败", error);
+    }
   }
 }
 
 function saveContent() {
-  // 获取页面内容并保存
   const content = document.documentElement.outerHTML;
   const blob = new Blob([content], { type: "text/html" });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
-  a.download = "index.html"; // 可根据需要改名
+  a.download = "index.html";
   a.click();
 }
 
@@ -618,7 +638,7 @@ copy = (event) => {
         * {margin: 0;padding: 0;}
         body{
 			font-size: 100%;
-			background-image: url(https://raw.githubusercontent.com/fjvi/img/refs/heads/main/background/001%20.jpg);
+			background-image: url(https://raw.githubusercontent.com/fjvi/img/refs/heads/main/background/001.jpg);
 			}
         .accordion {
             max-width: 720px;
@@ -638,6 +658,7 @@ copy = (event) => {
             font-size: 1.6rem;
             font-weight: normal;
             color: #bbb;
+            margin: 1px auto;
         }
         .accordion h1:hover {
             color: #fff;
@@ -649,6 +670,7 @@ copy = (event) => {
             border-bottom: 1px solid #bbb;
             font-size: 1.4rem;
             color: #333;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);/* 阴影 */
             position: sticky;/* 固定菜单 */
             top: 0;/* 固定菜单 */
         }
@@ -698,8 +720,8 @@ copy = (event) => {
             color: #b94152;
         }
         .wenben {
-            width: 680px;
-            margin: 0 auto;
+            padding: 10px 10px;
+            background-color: #ddd;
         }
         .accordion span {
             line-height: 20px;
@@ -713,7 +735,7 @@ copy = (event) => {
 			
             display: inline-block;  /*将span当做块级元素对待*/
 			white-space: nowrap;  /*强制span不换行*/
-            width: 200px;  /*限制宽度*/
+            width: 208px;  /*限制宽度*/
             overflow: hidden;  /*超出宽度部分隐藏*/
         }
         .accordion span:hover {
@@ -745,7 +767,14 @@ copy = (event) => {
 			margin-top: -3px;
             border-radius: 5px;	
 			position:absolute;
-        }	
+        }
+		@media (max-width: 480px) {
+     .wenben {
+        }
+        .accordion span {
+            width: 94%;
+        }
+    }	
 .menu-header {
   display: flex;
   justify-content: space-between;
@@ -767,7 +796,7 @@ copy = (event) => {
   padding: 4px 10px;
   margin-right: 30px;
   color: #888;
-  background-color: #333;
+  background-color: #3f3f3f;
   border: 1px solid #444;
   border-radius: 5px;
   cursor: pointer;
