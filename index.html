@@ -475,14 +475,14 @@
 		<a href="https://github.com/fjvi/fjvi.github.io/upload/main">💾 上传文件</a>
 		<a href="https://github.dev/fjvi/fjvi.github.io/tree/main">VS Code 编辑</a>
 	</div>
-    <div id="linkEditor" style="display:none; position:fixed; top:30%; left:50%; transform:translateX(-50%);
-     background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0,0,0,0.3); z-index:3000;">
-        <h3>编辑超链接</h3>
-        <label>文字：<input type="text" id="linkText" style="width: 300px;"></label><br><br>
-        <label>地址：<input type="text" id="linkHref" style="width: 300px;"></label><br><br>
-        <button onclick="applyLinkEdit()">保存</button>
-        <button onclick="cancelLinkEdit()">取消</button>
-    </div>
+<div id="linkEditor" style="display:none; position:fixed; top:30%; left:50%; transform:translateX(-50%);
+background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0,0,0,0.3); border-radius: 20px;text-align: center; z-index:3000;">
+<h3>编辑书签</h3>
+<label>网名：<input type="text" id="linkText" style="width: 480px; padding: 10px;"></label><br><br>
+<label>网址：<input type="text" id="linkHref" style="width: 480px; padding: 10px;"></label><br><br>
+<button onclick="applyLinkEdit()" style="font-size: 1rem; padding: 3px 10px;">保存</button>
+<button onclick="cancelLinkEdit()" style="font-size: 1rem; padding: 3px 10px; margin-left:10px;">取消</button>
+</div>
 </aside>
 
 <script>
