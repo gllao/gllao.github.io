@@ -45,6 +45,7 @@
                 <span onclick="copy(event)" title="刷新DNS">ipconfig /flushdns</span>
                 <span onclick="copy(event)" title="Google IDX一键脚本">nix=y uuid=5a2ad762-3ff3-49cb-9187-34e9cf8a42dc vmpt=692 agn=idx.692.cloudns.be agk=eyJhIjoiODYwNDkxY2JmMjQ1ZmUzNGU5NmFhMTI3YTg5ODNmNjciLCJ0IjoiODE0ODgwZDItNTdiYy00N2Y2LTk5YzAtOTIyMTllZjNmMjI0IiwicyI6Ik5qY3lPR1UwT1dRdE5EVXhaQzAwTURkaExUZzVOekl0TWpsbU56VmtZVE13WVdGbCJ9 bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosb/main/argosb.sh)</span>
                 <span onclick="copy(event)" title="重启资源管理器">taskkill /f /im explorer.exe & start explorer.exe</span>
+                <span onclick="copy(event)" title="清楚浏览器缓存密码">localStorage.removeItem("pw_verified_at");</span>
 			</div>
 			<a href="https://www.google.com/ncr">🔎 Google</a>
 			<a href="https://www.youtube.com/">🔴 YouTube</a>
@@ -257,7 +258,7 @@
 				<a href="https://www.youneed.win/category/nodeshare">节点分享- 放牧的风</a>
 				<a href="https://github.com/free18/v2ray">free18/v2ray: 每日分享免费节点</a>
 			</div>
-			<h3>订阅链接 +</h3>
+			<h3 data-password="true">订阅链接 ꄗ</h3>
 			<div>
 				<a href="https://bpb.692.cloudns.be/admin">💦BPB面板@IP</a>
 				<a href="https://bpb.692.cloudns.be/sub/a5da4daa-7656-427e-a3cc-46e2a298a197#BPB-Normal">💧#BPB@IP</a>	
@@ -336,7 +337,7 @@
 			<a href="https://blogtrottr.com/subscriptions">blogtrottr-订阅发邮箱</a>
 			<a href="https://fanyi.youdao.com/">有道翻译_</a>
 		</div>
-		<h2>存储</h2>
+		<h2 data-password="true">存储 ꄗ</h2>
 		<div style="display: none">
 			<h3>邮箱</h3>
 			<div>
@@ -356,6 +357,7 @@
 				<a href="https://fjvi.github.io/wiki/bookmarks_2024_10_3.html">bookmarks_2024_10_3.html</a>
 				<a href="https://fjvi.github.io/wiki/bookmarks_2025_5_12.html">bookmarks_2024_10_3.html</a>
 			    <a href="https://fjvi.github.io/wiki/Bookmarklet%E5%B0%8F%E4%B9%A6%E7%AD%BE%E5%B7%A5%E5%85%B7.html">Bookmarklet小书签工具</a>
+				<a href="https://fjvi.github.io/wiki/jav.html">Jav</a>
 			</div>
 			<h3>永硕 +</h3>
 			<div>
@@ -483,9 +485,89 @@ background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0
 <button onclick="cancelLinkEdit()" style="font-size: 1rem; padding: 3px 10px; margin-left:10px;">取消</button>
 </div>
 </aside>
-
 <script>
-// ✏️ 切换编辑模式
+// 手风琴菜单栏+密码保护
+function saveContent() {
+  const content = document.documentElement.outerHTML;
+  const blob = new Blob([content], { type: "text/html" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "index.html";
+  a.click();
+}
+
+const headers = ["H1", "H2", "H3", "H4", "H5", "H6"];
+const apiUrl = "https://api.692.cloudns.be/api/check-password";
+const passwordTimeout = 5 * 60 * 1000; // 5分钟有效
+
+// 检查本地是否已验证密码
+function isPasswordValid() {
+  const timestamp = localStorage.getItem("pw_verified_at");
+  return timestamp && (Date.now() - Number(timestamp) < passwordTimeout);
+}
+
+// 保存密码验证成功时间
+function setPasswordValid() {
+  localStorage.setItem("pw_verified_at", Date.now());
+}
+
+// 展开/折叠菜单
+function toggleMenu(target) {
+  const subItem = target.nextElementSibling;
+  let depth = 0, parent = subItem.parentElement;
+  while (parent && parent !== document.querySelector(".accordion")) {
+    depth++; parent = parent.parentElement;
+  }
+
+  document.querySelectorAll(".accordion p, .accordion div").forEach(el => {
+    let elDepth = 0, elParent = el.parentElement;
+    while (elParent && elParent !== document.querySelector(".accordion")) {
+      elDepth++; elParent = elParent.parentElement;
+    }
+    if (elDepth >= depth && el !== subItem) el.style.display = "none";
+  });
+
+  subItem.style.display = (subItem.style.display === "block") ? "none" : "block";
+  target.style.borderBottomRightRadius = target.style.borderBottomLeftRadius = "0";
+}
+
+document.querySelector(".accordion").addEventListener("click", async function(e) {
+  const target = e.target;
+  const name = target.nodeName.toUpperCase();
+
+  if (!headers.includes(name)) return;
+
+  const requiresPassword = target.getAttribute("data-password") === "true";
+
+  if (requiresPassword && !isPasswordValid()) {
+    const password = prompt("请输入密码：");
+    if (password === null) return; // 用户点击取消
+
+    try {
+      const res = await fetch(apiUrl, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password })
+      });
+      const data = await res.json();
+
+      if (data.success) {
+        setPasswordValid();
+        toggleMenu(target);
+      } else {
+        alert("密码错误！");
+        window.close();
+      }
+    } catch (err) {
+      alert("请求失败，请稍后重试！");
+    }
+  } else {
+    toggleMenu(target);
+  }
+});
+</script>
+<script>
+// ✏️ 切换编辑模式+密码保护
 async function toggleEdit() {
   const body = document.body;
   const btn = document.getElementById("editBtn");
@@ -502,7 +584,7 @@ async function toggleEdit() {
     if (password === null) return; // 用户取消
 
     try {
-      const res = await fetch("https://api.6889692.workers.dev/api/check-password", {
+      const res = await fetch("https://api.692.cloudns.be/api/check-password", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -524,16 +606,8 @@ async function toggleEdit() {
     }
   }
 }
-
-function saveContent() {
-  const content = document.documentElement.outerHTML;
-  const blob = new Blob([content], { type: "text/html" });
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(blob);
-  a.download = "index.html";
-  a.click();
-}
-
+</script>
+<script>
 // 编辑超链接功能
 let currentLink = null;
 
@@ -561,34 +635,6 @@ function cancelLinkEdit() {
 }
 
 </script>
-
-<script>
-// 手风琴菜单功能
-const headers = ["H1", "H2", "H3", "H4", "H5", "H6"];
-
-document.querySelector(".accordion").addEventListener("click", function(e) {
-  const target = e.target,
-        name = target.nodeName.toUpperCase();
-
-  if (headers.includes(name)) {
-    const subItem = target.nextElementSibling;
-    let depth = 0, parent = subItem.parentElement;
-    while (parent !== this) { depth++; parent = parent.parentElement; }
-    Array.from(this.querySelectorAll(".accordion p, .accordion div")).forEach(el => {
-      let elDepth = 0, elParent = el.parentElement;
-      while (elParent !== this) { elDepth++; elParent = elParent.parentElement; }
-      if (elDepth >= depth && el !== subItem) el.style.display = "none";
-    });
-    subItem.style.display = (subItem.style.display === "block") ? "none" : "block";
-    if (subItem.style.display === "block") {
-      const visibleElements = Array.from(this.querySelectorAll(".accordion :visible"));
-      if (visibleElements.length) visibleElements[visibleElements.length - 1].style.borderRadius = "0 0 10px 10px";
-    }
-    target.style.borderBottomRightRadius = target.style.borderBottomLeftRadius = "0";
-  }
-});
-</script>
-
 <script>
 // 点击复制功能
 copy = (event) => {
