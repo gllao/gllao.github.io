@@ -34,7 +34,8 @@
 				<a href="https://clip.692.cloudns.be/">🗐 Clip剪贴板</a>
 				<a href="https://note.692.cloudns.be/">📝Paste云笔记</a>
 				<a href="https://drop.692.cloudns.be/">📁 Drop分享</a>
-				<a href="https://fjvi.github.io/sq/">⭐ Bookmarks</a>
+				<a href="https://fjvi.github.io/">⭐ Bookmarks</a>
+				<a href="https://fjvi.github.io/sq/">⭐ Bookmarks@sq</a>
 				<a href="https://fjvi.github.io/wiki/index.html">⭐ Bookmarks@wiki</a>
 				<a href="https://692.pages.dev/">⭐ 692.pages</a>
 				<a href="https://test.aypwip.org/webnote/wodewangluobianqianziliudi">🟨 便签</a>
@@ -499,7 +500,7 @@ background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0
         * {margin: 0;padding: 0;}
         body{
 			font-size: 100%;
-			background-image: url(https://raw.githubusercontent.com/fjvi/img/refs/heads/main/background/001.jpg);
+            background-image: url(https://fjvi.github.io/img/background/001.jpg);
 			}
         .accordion {
             max-width: 720px;
@@ -531,7 +532,7 @@ background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0
             border-bottom: 1px solid #bbb;
             font-size: 1.4rem;
             color: #333;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);/* 阴影 */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);/* 阴影 */
             position: sticky;/* 固定菜单 */
             top: 0;/* 固定菜单 */
         }
@@ -542,7 +543,7 @@ background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0
         .accordion h3 {
             padding: 8px 30px;
             background-color: #b94152;
-            font-size: 1rem;
+            font-size: 1.2rem;
             border-bottom: 1px solid #ddd;
             color: #ddd;
         }
@@ -642,7 +643,6 @@ background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px;
   background-color: #333;
   color: #bbb;
 }
@@ -670,7 +670,8 @@ background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0
   color: white;
 }		
 </style>
-<script src="src/plus.js">
+<script src="src/plus.js"></script>
+<script>
 // 手风琴菜单功能
 const headers = ["H1", "H2", "H3", "H4", "H5", "H6"];
 
@@ -697,7 +698,8 @@ document.querySelector(".accordion").addEventListener("click", function(e) {
 });
 
 </script>
-<script>// 点击复制功能
+<script>
+// 点击复制功能
     copy = (event) => {
     let innerText = event.target.innerText;
     var tmpInput = document.createElement("input");
@@ -707,6 +709,35 @@ document.querySelector(".accordion").addEventListener("click", function(e) {
     document.execCommand("cut"); 
     tmpInput.remove();
     }
+</script>
+<script>
+// ✏️ 切换编辑模式
+function toggleEdit() {
+  const body = document.body;
+  const btn = document.getElementById("editBtn");
+  const isEditable = body.getAttribute("contenteditable") === "true";
+
+  if (isEditable) {
+    // 关闭编辑并保存
+    body.removeAttribute("contenteditable");
+    btn.textContent = "✏️ 编辑";
+    saveContent(); // 自动触发保存
+  } else {
+    // 开启编辑
+    body.setAttribute("contenteditable", "true");
+    btn.textContent = "✅ 完成";
+  }
+}
+
+function saveContent() {
+  // 获取页面内容并保存
+  const content = document.documentElement.outerHTML;
+  const blob = new Blob([content], { type: "text/html" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "index.html"; // 可根据需要改名
+  a.click();
+}
 </script>
 </body>
 </html>
