@@ -10,23 +10,13 @@
   
 <body>
 <aside class="accordion">
-	<div class="menu-header">
-    <h1>Bookmarks</h1>
-    <button onclick="toggleEdit()" id="editBtn" >✏️ 编辑</button>
-    </div>
-
+	<h1>Bookmarks</h1>
 	<div class="opened-for-codepen">
 		<h2>常用</h2>
 		<div style="display: block;"> 
 			<h3 data-password="true">Lock 🔒</h3>
 			<div style="display: none">
-			    <a href="https://fjvi.github.io/wiki/sheji.html">🏡 设计资源</a>
-				<a href="https://clip.692.cloudns.be/">🗐 Clip剪贴板</a>
-				<a href="https://note.692.cloudns.be/">📝Paste云笔记</a>
-				<a href="https://drop.692.cloudns.be/">📁 Drop分享</a>
-				<a href="https://test.aypwip.org/webnote/wodewangluobianqianziliudi">🟨 便签</a>
-			    <a href="https://test.aypwip.org/webnote/6889692note">🟨 便签692</a>
-				<a href="https://gist.github.com/fjvi/">🧾 Gists</a>
+				<a href="https://fjvi.github.io/wiki/jav.html">Jav</a>
 		    </div>
 			<h4>收藏</h4>
 			<div style="display: none">
@@ -56,7 +46,7 @@
                 <span onclick="copy(event)" title="刷新DNS">ipconfig /flushdns</span>
                 <span onclick="copy(event)" title="Google IDX一键脚本">nix=y uuid=5a2ad762-3ff3-49cb-9187-34e9cf8a42dc vmpt=692 agn=idx.692.cloudns.be agk=eyJhIjoiODYwNDkxY2JmMjQ1ZmUzNGU5NmFhMTI3YTg5ODNmNjciLCJ0IjoiODE0ODgwZDItNTdiYy00N2Y2LTk5YzAtOTIyMTllZjNmMjI0IiwicyI6Ik5qY3lPR1UwT1dRdE5EVXhaQzAwTURkaExUZzVOekl0TWpsbU56VmtZVE13WVdGbCJ9 bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosb/main/argosb.sh)</span>
                 <span onclick="copy(event)" title="重启资源管理器">taskkill /f /im explorer.exe & start explorer.exe</span>
-                <span onclick="copy(event)" title="清楚浏览器缓存密码">localStorage.removeItem("pw_verified_at");</span>
+                <span onclick="copy(event)" title="删除浏览器缓存密码">localStorage.removeItem("pw_verified_at");</span>
 			</div>
 			<a href="https://www.google.com/ncr">🔎 Google</a>
 			<a href="https://www.youtube.com/">🔴 YouTube</a>
@@ -68,7 +58,6 @@
 			<a href="https://dash.cloudflare.com/login?lang=zh-Hans-CN">🌩️ Cloudflare</a>
 			<a href="https://chat.deepseek.com/">🐋 DeepSeek</a>
 			<a href="https://chatgpt.com/">֎ ChatGPT</a>
-			
 		</div>
 		<h2>Google</h2>
 		<div style="display: none">
@@ -213,6 +202,7 @@
             <a href="https://github.com/fjvi/note/issues" >📚 note/issues</a>
             <a href="https://fjvi.github.io/note/">📒 MGTnote</a>
             <a href="https://github.com/fjvi/note/issues/new/choose" >✍️新建笔记@note</a>
+            <a href="https://fjvi.github.io/photo/">🖼️ 相册</a>
             <a href="https://gist.github.com/fjvi" >Gist</a>
             <a href="https://github.com/explore">GitHub探索</a>
             <a href="https://gitee.com/" >Gitee.com</a>
@@ -354,7 +344,7 @@
 			<div>
 				<a href="https://fjvi.github.io">⭐ Bookmarks</a>
 				<a href="https://fjvi.github.io/sq/">⭐ Bookmarks@sq</a>
-				<a href="https://fjvi.github.io/wiki/index.html">Bookmarks@wiki</a>
+				<a href="https://fjvi.github.io/wiki/index.html">⭐ Bookmarks@wiki</a>
 			    <a href="https://fjvi.github.io/wiki/sheji.html">设计资源</a>
 				<a href="https://fjvi.github.io/wiki/bookmarks_2024_10_3.html">bookmarks_2024_10_3.html</a>
 				<a href="https://fjvi.github.io/wiki/bookmarks_2025_5_12.html">bookmarks_2024_10_3.html</a>
@@ -426,9 +416,9 @@
 				<a href="https://5sing.kugou.com/index.html">5sing音乐</a>
 				<h5></h5>
 			</div>
-			<a href="https://emojidb.org/">搜索EmojiDB</a>
 			<a href="https://cn.piliapp.com/symbol/">特殊符号</a>
 			<a href="https://cn.piliapp.com/emoji/list/">表情符号</a>
+			<a href="https://emojidb.org/">表情符号搜索</a>
 			<a href="https://https://tools.liumingye.cn/music/">MyFreeMp3-ping</a>
 			<a href="https://tuostudy.upnb.top/">图欧学习资源</a>
 			<a href="https://www.yunso.net/">小云搜索</a>
@@ -481,11 +471,12 @@
 			<a href="https://www.huanqiu.com/">环球网</a>
 		</div>
 	</div>
-	<h1>Updates</h1>
+	<h1 data-password="true">Updates ꄗ</h1>
 	<div style="display: none">
-		<a href="https://github.com/fjvi/fjvi.github.io/edit/main/index.html">✏️ 在线编辑</a>
-		<a href="https://github.com/fjvi/fjvi.github.io/upload/main">💾 上传文件</a>
-		<a href="https://github.dev/fjvi/fjvi.github.io/tree/main">VS Code 编辑</a>
+		<a href="javascript:(function(){document.body.setAttribute('contenteditable', 'true');document.onkeydown = function (e) {e = e || window.event;if(e.keyCode === 27){document.body.setAttribute('contenteditable', 'false');const html = document.documentElement.outerHTML;const blob = new Blob([html], {type: 'text/html'});const link = document.createElement('a');link.href = URL.createObjectURL(blob);link.download = 'index.html';link.click();;}}		})();"//编辑后按 【Esc】 自动下载文件 base target="_self" >✏️ 本页编辑</a>
+		<a href="https://github.com/fjvi/sq/edit/main/index.html">💾 在线编辑</a>
+		<a href="https://github.com/fjvi/sq/upload/main">📤 上传文件</a>
+		<a href="https://github.dev/fjvi/sq/tree/main">VS Code 编辑</a>
 	</div>
 <div id="linkEditor" style="display:none; position:fixed; top:30%; left:50%; transform:translateX(-50%);
 background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0,0,0,0.3); border-radius: 20px;text-align: center; z-index:3000;">
@@ -496,7 +487,7 @@ background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0
 <button onclick="cancelLinkEdit()" style="font-size: 1rem; padding: 3px 10px; margin-left:10px;">取消</button>
 </div>
 </aside>
-<style>       
+<style>
         * {margin: 0;padding: 0;}
         body{
 			font-size: 100%;
@@ -554,7 +545,7 @@ background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0
         .accordion h4 {
             padding: 8px 30px;
             background-color: #ffc25a;
-            font-size: 1rem;
+            font-size: 1.2rem;
             border-bottom: 1px solid #ddd;
             color: #b94152;
         }
@@ -636,70 +627,36 @@ background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0
         .accordion span {
             width: 94%;
         }
-    }	
-	
-/* ✏️ 编辑按钮 */
-.menu-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  color: #bbb;
-}
-
-.menu-header h1 {
-  font-family: Lobster;
-  font-size: 1.6rem;
-  font-weight: normal;
-  margin: 0;
-}
-
-.menu-header button {
-  font-size: 14px;
-  padding: 4px 10px;
-  margin-right: 30px;
-  color: #888;
-  background-color: #3f3f3f;
-  border: 1px solid #444;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.menu-header button:hover {
-  background-color: #45a049;
-  color: white;
-}		
+    }
 </style>
 <script src="src/plus.js"></script>
-<script>
-// 手风琴菜单功能
-const headers = ["H1", "H2", "H3", "H4", "H5", "H6"];
+<script>// 手风琴菜单功能
+  const headers = ["H1", "H2", "H3", "H4", "H5", "H6"];
 
-document.querySelector(".accordion").addEventListener("click", function(e) {
-  const target = e.target,
-        name = target.nodeName.toUpperCase();
+  document.querySelector(".accordion").addEventListener("click", function(e) {
+    const target = e.target,
+          name = target.nodeName.toUpperCase();
 
-  if (headers.includes(name)) {
-    const subItem = target.nextElementSibling;
-    let depth = 0, parent = subItem.parentElement;
-    while (parent !== this) { depth++; parent = parent.parentElement; }
-    Array.from(this.querySelectorAll(".accordion p, .accordion div")).forEach(el => {
-      let elDepth = 0, elParent = el.parentElement;
-      while (elParent !== this) { elDepth++; elParent = elParent.parentElement; }
-      if (elDepth >= depth && el !== subItem) el.style.display = "none";
-    });
-    subItem.style.display = (subItem.style.display === "block") ? "none" : "block";
-    if (subItem.style.display === "block") {
-      const visibleElements = Array.from(this.querySelectorAll(".accordion :visible"));
-      if (visibleElements.length) visibleElements[visibleElements.length - 1].style.borderRadius = "0 0 10px 10px";
+    if (headers.includes(name)) {
+      const subItem = target.nextElementSibling;
+      let depth = 0, parent = subItem.parentElement;
+      while (parent !== this) { depth++; parent = parent.parentElement; }
+      Array.from(this.querySelectorAll(".accordion p, .accordion div")).forEach(el => {
+        let elDepth = 0, elParent = el.parentElement;
+        while (elParent !== this) { elDepth++; elParent = elParent.parentElement; }
+        if (elDepth >= depth && el !== subItem) el.style.display = "none";
+      });
+      subItem.style.display = (subItem.style.display === "block") ? "none" : "block";
+      if (subItem.style.display === "block") {
+        const visibleElements = Array.from(this.querySelectorAll(".accordion :visible"));
+        if (visibleElements.length) visibleElements[visibleElements.length - 1].style.borderRadius = "0 0 10px 10px";
+      }
+      target.style.borderBottomRightRadius = target.style.borderBottomLeftRadius = "0";
     }
-    target.style.borderBottomRightRadius = target.style.borderBottomLeftRadius = "0";
-  }
-});
-
+  });
 </script>
 <script>
-// 点击复制功能
+<script>// 点击复制功能
     copy = (event) => {
     let innerText = event.target.innerText;
     var tmpInput = document.createElement("input");
@@ -711,32 +668,30 @@ document.querySelector(".accordion").addEventListener("click", function(e) {
     }
 </script>
 <script>
-// ✏️ 切换编辑模式
-function toggleEdit() {
-  const body = document.body;
-  const btn = document.getElementById("editBtn");
-  const isEditable = body.getAttribute("contenteditable") === "true";
+// 编辑超链接功能
+let currentLink = null;
 
-  if (isEditable) {
-    // 关闭编辑并保存
-    body.removeAttribute("contenteditable");
-    btn.textContent = "✏️ 编辑";
-    saveContent(); // 自动触发保存
-  } else {
-    // 开启编辑
-    body.setAttribute("contenteditable", "true");
-    btn.textContent = "✅ 完成";
+document.addEventListener('dblclick', function (e) {
+  if (e.target.tagName === 'A' && document.body.getAttribute("contenteditable") === "true") {
+    e.preventDefault();
+    currentLink = e.target;
+    document.getElementById("linkText").value = currentLink.textContent;
+    document.getElementById("linkHref").value = currentLink.getAttribute("href");
+    document.getElementById("linkEditor").style.display = "block";
   }
+});
+
+function applyLinkEdit() {
+  if (!currentLink) return;
+  currentLink.textContent = document.getElementById("linkText").value;
+  currentLink.setAttribute("href", document.getElementById("linkHref").value);
+  document.getElementById("linkEditor").style.display = "none";
+  currentLink = null;
 }
 
-function saveContent() {
-  // 获取页面内容并保存
-  const content = document.documentElement.outerHTML;
-  const blob = new Blob([content], { type: "text/html" });
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(blob);
-  a.download = "index.html"; // 可根据需要改名
-  a.click();
+function cancelLinkEdit() {
+  document.getElementById("linkEditor").style.display = "none";
+  currentLink = null;
 }
 </script>
 </body>
