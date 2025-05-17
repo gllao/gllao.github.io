@@ -44,9 +44,11 @@
                 <span onclick="copy(event)" title="预览模式">preview</span>
                 <span onclick="copy(event)" title="预览模式">mobilebasic</span>
                 <span onclick="copy(event)" title="刷新DNS">ipconfig /flushdns</span>
+                <span onclick="copy(event)" title="开启本地服务器">python -m http.server 8000</span>
+                <span onclick="copy(event)" title="本地服务器首页">http://localhost:8000</span>
                 <span onclick="copy(event)" title="Google IDX一键脚本">nix=y uuid=5a2ad762-3ff3-49cb-9187-34e9cf8a42dc vmpt=692 agn=idx.692.cloudns.be agk=eyJhIjoiODYwNDkxY2JmMjQ1ZmUzNGU5NmFhMTI3YTg5ODNmNjciLCJ0IjoiODE0ODgwZDItNTdiYy00N2Y2LTk5YzAtOTIyMTllZjNmMjI0IiwicyI6Ik5qY3lPR1UwT1dRdE5EVXhaQzAwTURkaExUZzVOekl0TWpsbU56VmtZVE13WVdGbCJ9 bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosb/main/argosb.sh)</span>
                 <span onclick="copy(event)" title="重启资源管理器">taskkill /f /im explorer.exe & start explorer.exe</span>
-                <span onclick="copy(event)" title="删除浏览器缓存密码">localStorage.removeItem("pw_verified_at");</span>
+                <span onclick="copy(event)" title="清楚浏览器缓存密码">localStorage.removeItem("pw_verified_at");</span>
 			</div>
 			<a href="https://www.google.com/ncr">🔎 Google</a>
 			<a href="https://www.youtube.com/">🔴 YouTube</a>
@@ -474,9 +476,9 @@
 	<h1 data-password="true">Updates ꄗ</h1>
 	<div style="display: none">
 		<a href="javascript:(function(){document.body.setAttribute('contenteditable', 'true');document.onkeydown = function (e) {e = e || window.event;if(e.keyCode === 27){document.body.setAttribute('contenteditable', 'false');const html = document.documentElement.outerHTML;const blob = new Blob([html], {type: 'text/html'});const link = document.createElement('a');link.href = URL.createObjectURL(blob);link.download = 'index.html';link.click();;}}		})();"//编辑后按 【Esc】 自动下载文件 base target="_self" >✏️ 本页编辑</a>
-		<a href="https://github.com/fjvi/sq/edit/main/index.html">💾 在线编辑</a>
-		<a href="https://github.com/fjvi/sq/upload/main">📤 上传文件</a>
-		<a href="https://github.dev/fjvi/sq/tree/main">VS Code 编辑</a>
+		<a href="https://github.com/fjvi/fjvi.github.io/edit/main/index.html">✏️ 在线编辑</a>
+		<a href="https://github.com/fjvi/fjvi.github.io/upload/main">💾 上传文件</a>
+		<a href="https://github.dev/fjvi/fjvi.github.io/tree/main">VS Code 编辑</a>
 	</div>
 <div id="linkEditor" style="display:none; position:fixed; top:30%; left:50%; transform:translateX(-50%);
 background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0,0,0,0.3); border-radius: 20px;text-align: center; z-index:3000;">
@@ -492,6 +494,7 @@ background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0
         body{
 			font-size: 100%;
             background-image: url(https://fjvi.github.io/img/background/001.jpg);
+			background-attachment: fixed;
 			}
         .accordion {
             max-width: 720px;
@@ -622,12 +625,8 @@ background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0
 			position:absolute;
         }
 		@media (max-width: 480px) {
-     .copy {
-        }
-        .accordion span {
-            width: 94%;
-        }
-    }
+     .copy {.accordion span { width: 94%;}        
+        }    }		
 </style>
 <script src="src/plus.js"></script>
 <script>// 手风琴菜单功能
@@ -654,8 +653,8 @@ background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0
       target.style.borderBottomRightRadius = target.style.borderBottomLeftRadius = "0";
     }
   });
+  
 </script>
-<script>
 <script>// 点击复制功能
     copy = (event) => {
     let innerText = event.target.innerText;
