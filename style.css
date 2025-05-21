@@ -167,7 +167,7 @@ ul.search-results {
     box-sizing: border-box;
     padding: 10px 30px;
     background-color: #ddd;
-    border-bottom: 0.5px solid #bbb;
+    border-bottom: 1px solid #bbb;
     font-size: 1.4rem;
     color: #333;
 }
@@ -175,6 +175,7 @@ ul.search-results {
 .level-2>a.menu-item:hover {
     background-color: #99d3fd;
     color: #b94152;
+    font-weight: bold;
 }
 
 /* 三级菜单 */
@@ -182,7 +183,7 @@ ul.search-results {
     padding: 8px 30px;
     margin: 0px auto;
     background-color: #f1ebd8;
-    border-bottom: 0.5px solid  #e7c8a0;
+    border-bottom: 1px solid  #e7c8a0;
     font-size: 1.2rem;
     color: #333;
 }
@@ -190,6 +191,7 @@ ul.search-results {
 .level-3>a.menu-item:hover {
     background-color: #99d3fd;
     color: #b94152;
+    font-weight: bold;
 }
 
 /* 四级菜单 */
@@ -197,7 +199,7 @@ ul.search-results {
     padding: 8px 30px;
     margin: 0px auto;
     background-color: #e6efff;
-    border-bottom: 0.5px solid #b8c4d9;
+    border-bottom: 1px solid #b8c4d9;
     font-size: 1.2rem;
     color: #333;
 }
@@ -205,6 +207,7 @@ ul.search-results {
 .level-4>a.menu-item:hover {
     background-color: #99d3fd;
     color: #b94152;
+    font-weight: bold;
 }
 
 /* ========== 展开菜单栏属性 ========== */
@@ -244,7 +247,7 @@ a.bookmark-link {
     display: inline-flex;
     align-items: center;
     background-color: #f8f8f8;
-    color: #0156c5;
+    color: #333;
     text-decoration: none;
     padding: 4px 8px;
     gap: 8px;
@@ -278,7 +281,7 @@ a.bookmark-link:hover {
     padding: 6px 12px;
     gap: 8px;
     font-style: italic;
-    border-bottom: 0.5px solid #ffb75a;
+    border-bottom: 1px solid #ffb75a;
 	cursor: text;
 }
 
@@ -296,6 +299,9 @@ a.bookmark-link:hover {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+.bookmark-data-item:hover {
+	animation: shan 4s linear infinite;
 }
 
 .bookmark-data-item.copied .copy-symbol {
@@ -365,4 +371,10 @@ a.bookmark-link:hover {
 
 #modal-upload-btn:hover {
     background-color: #0056b3; /* 鼠标悬停时加深颜色 */
+}
+@keyframes shan {
+    0% ,100%{
+        color: #f93853;
+        text-shadow: 4px 2px 4px #666;
+    }
 }
