@@ -19,7 +19,7 @@
                   },
                   {
                     "dateAdded": 1423876990128,
-                    "dateLastUsed": 1747738574046,
+                    "dateLastUsed": 1747823837031,
                     "id": "1598",
                     "index": 1,
                     "parentId": "5022",
@@ -46,18 +46,9 @@
                     "url": "https://fjvi.github.io/wiki/sheji.html"
                   },
                   {
-                    "dateAdded": 1747321419301,
-                    "id": "5227",
-                    "index": 4,
-                    "parentId": "5022",
-                    "syncing": true,
-                    "title": "bookmarks_2024_10_3.html",
-                    "url": "https://fjvi.github.io/wiki/bookmarks_2024_10_3.html"
-                  },
-                  {
                     "dateAdded": 1747321433813,
                     "id": "5228",
-                    "index": 5,
+                    "index": 4,
                     "parentId": "5022",
                     "syncing": true,
                     "title": "bookmarks_2025_5_12.html",
@@ -66,24 +57,25 @@
                   {
                     "dateAdded": 1747321442141,
                     "id": "5229",
-                    "index": 6,
+                    "index": 5,
                     "parentId": "5022",
                     "syncing": true,
                     "title": "Bookmarklet小书签工具",
                     "url": "https://fjvi.github.io/wiki/Bookmarklet%E5%B0%8F%E4%B9%A6%E7%AD%BE%E5%B7%A5%E5%85%B7.html"
                   },
                   {
-                    "dateAdded": 1747321472101,
-                    "id": "5230",
-                    "index": 7,
+                    "dateAdded": 1742362031337,
+                    "dateLastUsed": 1747825054595,
+                    "id": "5128",
+                    "index": 6,
                     "parentId": "5022",
                     "syncing": true,
-                    "title": "Jav@Wiki",
-                    "url": "https://fjvi.github.io/wiki/jav.html"
+                    "title": "692.pages",
+                    "url": "https://692.pages.dev/"
                   }
                 ],
                 "dateAdded": 1741485122591,
-                "dateGroupModified": 1747321671661,
+                "dateGroupModified": 1747825263551,
                 "id": "5022",
                 "index": 0,
                 "parentId": "5219",
@@ -91,108 +83,7 @@
                 "title": "Bookmarks"
               },
               {
-                "children": [
-                  {
-                    "children": [
-                      {
-                        "dateAdded": 1741854268462,
-                        "dateLastUsed": 1746513426680,
-                        "id": "5099",
-                        "index": 0,
-                        "parentId": "5112",
-                        "syncing": true,
-                        "title": "clip",
-                        "url": "https://clip.692.cloudns.be/"
-                      },
-                      {
-                        "dateAdded": 1741859674178,
-                        "dateLastUsed": 1742439207935,
-                        "id": "5103",
-                        "index": 1,
-                        "parentId": "5112",
-                        "syncing": true,
-                        "title": "Paste",
-                        "url": "https://note.692.cloudns.be/"
-                      },
-                      {
-                        "dateAdded": 1741950964285,
-                        "dateLastUsed": 1742010297062,
-                        "id": "5109",
-                        "index": 2,
-                        "parentId": "5112",
-                        "syncing": true,
-                        "title": "Drop",
-                        "url": "https://drop.692.cloudns.be/"
-                      },
-                      {
-                        "dateAdded": 1741660446512,
-                        "dateLastUsed": 1741660514738,
-                        "id": "5087",
-                        "index": 3,
-                        "parentId": "5112",
-                        "syncing": true,
-                        "title": "G-便签",
-                        "url": "https://docs.google.com/spreadsheets/d/1WH0EtITps2aLeuORj-iw8slokKqqgsrOWCVDAfrLOMs/edit?resourcekey=&gid=1495922553#gid=1495922553"
-                      },
-                      {
-                        "dateAdded": 1741664210198,
-                        "id": "5088",
-                        "index": 4,
-                        "parentId": "5112",
-                        "syncing": true,
-                        "title": "便签",
-                        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfRJz6LvfwvYv8zcSPwOA52SeEDawfp8qyZ3s4K0GES8rB8pA/viewform"
-                      },
-                      {
-                        "dateAdded": 1727979354507,
-                        "dateLastUsed": 1741596383297,
-                        "id": "2099",
-                        "index": 5,
-                        "parentId": "5112",
-                        "syncing": true,
-                        "title": "便签",
-                        "url": "https://test.aypwip.org/webnote/6889692note"
-                      }
-                    ],
-                    "dateAdded": 1742007900447,
-                    "dateGroupModified": 1742008173312,
-                    "id": "5112",
-                    "index": 0,
-                    "parentId": "2111",
-                    "syncing": true,
-                    "title": "剪切板"
-                  },
-                  {
-                    "dateAdded": 1741485143271,
-                    "dateLastUsed": 1747075385489,
-                    "id": "5023",
-                    "index": 1,
-                    "parentId": "2111",
-                    "syncing": true,
-                    "title": "Jav",
-                    "url": "https://fjvi.github.io/wiki/Jav.html"
-                  },
-                  {
-                    "dateAdded": 1742362031337,
-                    "dateLastUsed": 1742835693575,
-                    "id": "5128",
-                    "index": 2,
-                    "parentId": "2111",
-                    "syncing": true,
-                    "title": "692.pages",
-                    "url": "https://692.pages.dev/"
-                  },
-                  {
-                    "dateAdded": 1743696749282,
-                    "dateLastUsed": 1747618063728,
-                    "id": "5172",
-                    "index": 3,
-                    "parentId": "2111",
-                    "syncing": true,
-                    "title": "mgta.dpdns",
-                    "url": "https://mgta.dpdns.org/"
-                  }
-                ],
+                "children": [],
                 "dateAdded": 1728149124774,
                 "dateGroupModified": 1747617951617,
                 "id": "2111",
@@ -202,10 +93,80 @@
                 "title": "收藏"
               },
               {
-                "dateAdded": 1423571553780,
-                "dateLastUsed": 1747742399855,
-                "id": "1599",
+                "children": [
+                  {
+                    "dateAdded": 1741854268462,
+                    "dateLastUsed": 1747820941205,
+                    "id": "5099",
+                    "index": 0,
+                    "parentId": "5112",
+                    "syncing": true,
+                    "title": "clip",
+                    "url": "https://clip.692.cloudns.be/"
+                  },
+                  {
+                    "dateAdded": 1741859674178,
+                    "dateLastUsed": 1742439207935,
+                    "id": "5103",
+                    "index": 1,
+                    "parentId": "5112",
+                    "syncing": true,
+                    "title": "Paste",
+                    "url": "https://note.692.cloudns.be/"
+                  },
+                  {
+                    "dateAdded": 1741950964285,
+                    "dateLastUsed": 1742010297062,
+                    "id": "5109",
+                    "index": 2,
+                    "parentId": "5112",
+                    "syncing": true,
+                    "title": "Drop",
+                    "url": "https://drop.692.cloudns.be/"
+                  },
+                  {
+                    "dateAdded": 1741660446512,
+                    "dateLastUsed": 1741660514738,
+                    "id": "5087",
+                    "index": 3,
+                    "parentId": "5112",
+                    "syncing": true,
+                    "title": "G-便签",
+                    "url": "https://docs.google.com/spreadsheets/d/1WH0EtITps2aLeuORj-iw8slokKqqgsrOWCVDAfrLOMs/edit?resourcekey=&gid=1495922553#gid=1495922553"
+                  },
+                  {
+                    "dateAdded": 1741664210198,
+                    "id": "5088",
+                    "index": 4,
+                    "parentId": "5112",
+                    "syncing": true,
+                    "title": "便签",
+                    "url": "https://docs.google.com/forms/d/e/1FAIpQLSfRJz6LvfwvYv8zcSPwOA52SeEDawfp8qyZ3s4K0GES8rB8pA/viewform"
+                  },
+                  {
+                    "dateAdded": 1727979354507,
+                    "dateLastUsed": 1741596383297,
+                    "id": "2099",
+                    "index": 5,
+                    "parentId": "5112",
+                    "syncing": true,
+                    "title": "便签",
+                    "url": "https://test.aypwip.org/webnote/6889692note"
+                  }
+                ],
+                "dateAdded": 1742007900447,
+                "dateGroupModified": 1742008173312,
+                "id": "5112",
                 "index": 2,
+                "parentId": "5219",
+                "syncing": true,
+                "title": "剪切板"
+              },
+              {
+                "dateAdded": 1423571553780,
+                "dateLastUsed": 1747802162196,
+                "id": "1599",
+                "index": 3,
                 "parentId": "5219",
                 "syncing": true,
                 "title": "Google",
@@ -215,7 +176,7 @@
                 "dateAdded": 1629118051302,
                 "dateLastUsed": 1746979347380,
                 "id": "1602",
-                "index": 3,
+                "index": 4,
                 "parentId": "5219",
                 "syncing": true,
                 "title": "YouTube",
@@ -225,7 +186,7 @@
                 "dateAdded": 1677593317248,
                 "dateLastUsed": 1746939450870,
                 "id": "1601",
-                "index": 4,
+                "index": 5,
                 "parentId": "5219",
                 "syncing": true,
                 "title": "🅱bing",
@@ -235,7 +196,7 @@
                 "dateAdded": 1727795081351,
                 "dateLastUsed": 1747401834876,
                 "id": "2097",
-                "index": 5,
+                "index": 6,
                 "parentId": "5219",
                 "syncing": true,
                 "title": "Github",
@@ -245,7 +206,7 @@
                 "dateAdded": 1727150635839,
                 "dateLastUsed": 1747398665381,
                 "id": "2058",
-                "index": 6,
+                "index": 7,
                 "parentId": "5219",
                 "syncing": true,
                 "title": "cloudflare",
@@ -253,9 +214,9 @@
               },
               {
                 "dateAdded": 1740666626685,
-                "dateLastUsed": 1747743315332,
+                "dateLastUsed": 1747824997325,
                 "id": "2791",
-                "index": 7,
+                "index": 8,
                 "parentId": "5219",
                 "syncing": true,
                 "title": "MGTnote",
@@ -265,7 +226,7 @@
                 "dateAdded": 1613890621579,
                 "dateLastUsed": 1740581210691,
                 "id": "1607",
-                "index": 8,
+                "index": 9,
                 "parentId": "5219",
                 "syncing": true,
                 "title": "易空间",
@@ -275,7 +236,7 @@
                 "dateAdded": 1727979897948,
                 "dateLastUsed": 1743957630869,
                 "id": "2100",
-                "index": 9,
+                "index": 10,
                 "parentId": "5219",
                 "syncing": true,
                 "title": "便签",
@@ -283,9 +244,9 @@
               },
               {
                 "dateAdded": 1740017996540,
-                "dateLastUsed": 1747650112088,
+                "dateLastUsed": 1747814724869,
                 "id": "2213",
-                "index": 10,
+                "index": 11,
                 "parentId": "5219",
                 "syncing": true,
                 "title": "DeepSeek",
@@ -295,7 +256,7 @@
                 "dateAdded": 1730268767166,
                 "dateLastUsed": 1747737793566,
                 "id": "2208",
-                "index": 11,
+                "index": 12,
                 "parentId": "5219",
                 "syncing": true,
                 "title": "GPT",
@@ -303,12 +264,207 @@
               }
             ],
             "dateAdded": 1747300171048,
-            "dateGroupModified": 1747749263099,
+            "dateGroupModified": 1747821324738,
             "id": "5219",
             "index": 0,
             "parentId": "1",
             "syncing": true,
             "title": "⭐  常用"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "dateAdded": 1747591382001,
+                    "dateLastUsed": 1747741264010,
+                    "id": "5268",
+                    "index": 0,
+                    "parentId": "5333",
+                    "syncing": true,
+                    "title": "公共DNS 国内 114DNS 114.114.114.11…",
+                    "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3E%E5%85%AC%E5%85%B1DNS%20%E5%9B%BD%E5%86%85%20114DNS%20114.114.114.114%20%E9%98%BF%E9%87%8C%E5%85%AC%E5%85%B1DNS%3A%20IPv4%EF%BC%9A%20%20223.5.5.5%20%20%20%E5%A4%87%E9%80%89%EF%BC%9A223.6.6.6%20IPv6%EF%BC%9A2400%3A3200%3A%3A1%20IPV6%3A%202400%3A3200%3Ababa%3A%3A1%20DoH%EF%BC%9Ahttps%3A%2F%2F223.5.5.5%2Fdns-query%20DoH%EF%BC%9Ahttps%3A%2F%2F223.6.6.6%2Fdns-query%20DoH%EF%BC%9Ahttps%3A%2F%2Fdns.alidns.com%2Fdns-query%20DoT%EF%BC%9Adns.alidns.com%20DoT%EF%BC%9A223.5.5.5%20DoT%EF%BC%9A223.6.6.6%20%20%E8%85%BE%E8%AE%AF%E5%85%AC%E5%85%B1DNS(DNSPod)%3A%20IPv4%EF%BC%9A%20%20119.29.29.29%20IPV6%3A2402%3A4e00%3A%3A%20DoH%EF%BC%9Ahttps%3A%2F%2Fdoh.pub%2Fdns-query%20DoH%EF%BC%9Ahttps%3A%2F%2F1.12.12.12%2Fdns-query%20DoH%EF%BC%9Ahttps%3A%2F%2F120.53.53.53%2Fdns-query%20DoH%EF%BC%9Ahttps%3A%2F%2Fsm2.doh.pub%2Fdns-query%20(%E5%9B%BD%E5%AF%86)%20DoT%EF%BC%9Adot.pub%20DoT%EF%BC%9A1.12.12.12%20DoT%EF%BC%9A120.53.53.53%20%20%E7%99%BE%E5%BA%A6%E5%85%AC%E5%85%B1DNS%EF%BC%9A%20IPv4%3A%20%20180.76.76.76%20IPV6%3A%202400%3Ada00%3A%3A6666%20%20360%E5%85%AC%E5%85%B1DNS%3A%20%E7%94%B5%E4%BF%A1%2F%E9%93%81%E9%80%9A%2F%E7%A7%BB%E5%8A%A8IPv4%3A%20101.226.4.6%20%E7%94%B5%E4%BF%A1%2F%E9%93%81%E9%80%9A%2F%E7%A7%BB%E5%8A%A8IPv4%3A%20218.30.118.6%20%E8%81%94%E9%80%9AIPv4%3A%20123.125.81.6%20%E8%81%94%E9%80%9AIPv4%3A%20140.207.198.6%20DoH%3A%20https%3A%2F%2Fdoh.360.cn%20DoT%3A%20dot.360.cn%20%20CNNIC%20DNS%3A%20IPV4%3A%201.2.4.8%20IPV4%3A%20210.2.4.8%20IPV6%3A%202001%3Adc7%3A1000%3A%3A1%20%20%E5%A2%83%E5%A4%96%20Google%E5%85%AC%E5%85%B1DNS%EF%BC%9A%20IPv4%EF%BC%9A%20%208.8.8.8%20IPv4%EF%BC%9A8.8.4.4%20IPV6%3A%202001%3A4860%3A4860%3A%3A8888%20IPV6%3A%202001%3A4860%3A4860%3A%3A8844)%20DoH%E5%9C%B0%E5%9D%80%EF%BC%9Ahttps%3A%2F%2Fdns.google%2Fdns-query%20DoH%E5%9C%B0%E5%9D%80%EF%BC%9Ahttps%3A%2F%2F8.8.8.8%2Fdns-query%20DoH%E5%9C%B0%E5%9D%80%EF%BC%9Ahttps%3A%2F%2F8.8.4.4%2Fdns-query%20DoT%3Adns.google%20DoT%3A8.8.8.8%20DoT%3A8.8.4.4%20%20Cloudflare%E5%85%AC%E5%85%B1DNS%3A%20IPv4%3A%20%201.1.1.1%20IPV4%3A%201.0.0.1%20IPV6%3A%202606%3A4700%3A4700%3A%3A1111%20IPV6%3A%202606%3A4700%3A4700%3A%3A1001%20DoH%3A%20https%3A%2F%2F1.1.1.1%2Fdns-query%20DoH%3A%20https%3A%2F%2F1.0.0.1%2Fdns-query%20DoH%3A%20https%3A%2F%2Fcloudflare-dns.com%2Fdns-query%20DoT%EF%BC%9A1.1.1.1%20DoT%EF%BC%9A1.0.0.1%20DoT%EF%BC%9A1dot1dot1dot1.cloudflare-dns.com%20DoT%EF%BC%9Acloudflare-dns.com%20DoT%EF%BC%9Aone.one.one.one%20%20%E5%8F%B0%E6%B9%BEQuad%20101(twnic)%3A%20IPV4%3A%20101.101.101.101%20IPV4%3A%20101.102.103.104%20IPV6%3A%C2%A02001%3Ade4%3A%3A101%20IPV6%3A%202001%3Ade4%3A%3A102%20DoH%3A%20https%3A%2F%2Fdns.twnic.tw%2Fdns-query%20%20DNS.SB%E5%85%AC%E5%85%B1DNS%3A%20IPv4%3A%20185.222.222.222%20IPV4%3A%2045.11.45.11%20DoH%3A%20https%3A%2F%2Fdoh.sb%2Fdns-query%20(%E6%88%96%E8%80%85%EF%BC%9Ahttps%3A%2F%2Fdoh.dns.sb%2Fdns-query%E4%B8%A4%E4%B8%AA%E6%8C%87%E5%90%91%E4%B8%80%E6%A0%B7%EF%BC%8C%E5%8F%AA%E6%98%AF%E5%9F%9F%E5%90%8D%E4%B8%8D%E4%B8%80%E6%A0%B7)%20DoH%3A%20https%3A%2F%2F45.11.45.11%2Fdns-query%20DoH%3A%20https%3A%2F%2F185.222.222.222%2Fdns-query%20DoT%3A%20dot.sb%20DoT%3A%20185.222.222.222%20DoT%3A%2045.11.45.11%20DoH%E9%A6%99%E6%B8%AF%E8%8A%82%E7%82%B9%3A%20https%3A%2F%2Fhk-hkg.doh.sb%2Fdns-query%C2%A0%20(%E6%9B%B4%E5%A4%9A%E5%88%86%E8%8A%82%E7%82%B9%EF%BC%9Ahttps%3A%2F%2Fdns.sb%2Fdoh%2F%EF%BC%8C%E5%8F%AF%E4%BB%A5%E6%A0%B9%E6%8D%AE%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E9%80%89%E6%8B%A9%E9%80%9F%E5%BA%A6%E5%BF%AB%E4%B8%80%E4%BA%9B%E7%9A%84%E8%8A%82%E7%82%B9%E3%80%82)%20%20AdGuard%20%E5%85%AC%E5%85%B1DNS%3A%20IPV4%E9%BB%98%E8%AE%A4%E8%BF%87%E6%BB%A4%E5%B9%BF%E5%91%8A%3A%2094.140.14.14%20IPV4%E9%BB%98%E8%AE%A4%E8%BF%87%E6%BB%A4%E5%B9%BF%E5%91%8A%EF%BC%9A94.140.15.15%20IPV4%E6%97%A0%E8%BF%87%E6%BB%A4%3A%2094.140.14.140%20IPV4%E6%97%A0%E8%BF%87%E6%BB%A4%3A94.140.14.141%20IPV4%E5%AE%B6%E5%BA%AD%E4%BF%9D%E6%8A%A4(%E8%BF%87%E6%BB%A4%E5%B9%BF%E5%91%8A%E4%B8%8E%E6%88%90%E4%BA%BA%E5%86%85%E5%AE%B9)%EF%BC%9A94.140.14.15%20IPV4%E5%AE%B6%E5%BA%AD%E4%BF%9D%E6%8A%A4(%E8%BF%87%E6%BB%A4%E5%B9%BF%E5%91%8A%E4%B8%8E%E6%88%90%E4%BA%BA%E5%86%85%E5%AE%B9)%EF%BC%9A94.140.15.16%20DoH%E9%BB%98%E8%AE%A4%E8%BF%87%E6%BB%A4%E5%B9%BF%E5%91%8A%EF%BC%9Ahttps%3A%2F%2Fdns.adguard.com%2Fdns-query%20DoH%E5%AE%B6%E5%BA%AD%E4%BF%9D%E6%8A%A4(%E8%BF%87%E6%BB%A4%E5%B9%BF%E5%91%8A%E4%B8%8E%E6%88%90%E4%BA%BA%E5%86%85%E5%AE%B9)%EF%BC%9Ahttps%3A%2F%2Fdns-family.adguard.com%2Fdns-query%20DoH%E9%9D%9E%E8%BF%87%E6%BB%A4%EF%BC%9Ahttps%3A%2F%2Fdns-unfiltered.adguard.com%2Fdns-query%20DoT%E9%BB%98%E8%AE%A4%E8%BF%87%E6%BB%A4%E5%B9%BF%E5%91%8A%EF%BC%9Adns.adguard.com%20DoT%E5%AE%B6%E5%BA%AD%E4%BF%9D%E6%8A%A4(%E8%BF%87%E6%BB%A4%E5%B9%BF%E5%91%8A%E4%B8%8E%E6%88%90%E4%BA%BA%E5%86%85%E5%AE%B9)%EF%BC%9Adns-family.adguard.com%20DoT%E9%9D%9E%E8%BF%87%E6%BB%A4%EF%BC%9Adns-unfiltered.adguard.com%20%20OpenDNS(Cisco)%3A%20IPv4%EF%BC%9A208.67.222.222%20IPv4%EF%BC%9A208.67.220.220%20IPV4%20Family%3A%20208.67.222.123%20IPV4%20Family%3A%20208.67.220.123%20IPV6%3A%202620%3A0%3Accc%3A%3A2%20IPV6%3A%202620%3A0%3Accd%3A%3A2%20DoH%EF%BC%9Ahttps%3A%2F%2Fdoh.opendns.com%2Fdns-query%20DoH%20Family%EF%BC%9Ahttps%3A%2F%2Fdoh.familyshield.opendns.com%2Fdns-query%20DoT%3A%20dns.umbrella.com%20%20IBM%20Quad9%3A%20IPv4%E9%BB%98%E8%AE%A4%E5%AE%89%E5%85%A8%EF%BC%9A9.9.9.9%20IPv4%E9%BB%98%E8%AE%A4%E5%AE%89%E5%85%A8%EF%BC%9A149.112.112.112%20IPv6%E9%BB%98%E8%AE%A4%E5%AE%89%E5%85%A8%3A%202620%3Afe%3A%3Afe%20IPv6%E9%BB%98%E8%AE%A4%E5%AE%89%E5%85%A8%3A%202620%3Afe%3A%3Afe%3A9%20DoH%E9%BB%98%E8%AE%A4%EF%BC%9Ahttps%3A%2F%2Fdns.quad9.net%2Fdns-query%20DoT%E9%BB%98%E8%AE%A4%EF%BC%9Adns.quad9.net%20IPv4%E6%97%A0%E8%BF%87%E6%BB%A4%EF%BC%9A9.9.9.10%20IPv4%E6%97%A0%E8%BF%87%E6%BB%A4%EF%BC%9A149.112.112.10%20IPv6%E6%97%A0%E8%BF%87%E6%BB%A4%3A%202620%3Afe%3A%3A10%20IPv6%E6%97%A0%E8%BF%87%E6%BB%A4%3A%202620%3Afe%3A%3Afe%3A10%20DoH%E6%97%A0%E8%BF%87%E6%BB%A4%EF%BC%9Ahttps%3A%2F%2Fdns10.quad9.net%2Fdns-query%20DoT%E6%97%A0%E8%BF%87%E6%BB%A4%EF%BC%9Adns10.quad9.net%20IPv4%20ECS%E4%BF%9D%E6%8A%A4%EF%BC%9A9.9.9.11%20IPv4%20ECS%E4%BF%9D%E6%8A%A4%EF%BC%9A149.112.112.11%20IPv6%20ECS%E4%BF%9D%E6%8A%A4%3A%202620%3Afe%3A%3A11%20IPv6%20ECS%E4%BF%9D%E6%8A%A4%3A%202620%3Afe%3A%3Afe%3A11%20DoH%20ECS%E4%BF%9D%E6%8A%A4%EF%BC%9Ahttps%3A%2F%2Fdns11.quad9.net%2Fdns-query%20DoT%20ECS%E4%BF%9D%E6%8A%A4%EF%BC%9Adns11.quad9.net%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
+                  },
+                  {
+                    "dateAdded": 1747591521365,
+                    "dateLastUsed": 1747741839948,
+                    "id": "5269",
+                    "index": 1,
+                    "parentId": "5333",
+                    "syncing": true,
+                    "title": "CF优选IP和反代IP的方法总结 blog.onetwoon…",
+                    "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3ECF%E4%BC%98%E9%80%89IP%E5%92%8C%E5%8F%8D%E4%BB%A3IP%E7%9A%84%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93%20blog.onetwoone.eu.org%20%20Cloudflare%E7%9A%84workers%E5%92%8Cpages%E6%90%AD%E5%BB%BA%E7%9A%84%E5%85%8D%E8%B4%B9vpn%E8%8A%82%E7%82%B9%E7%AE%80%E5%8D%95%E5%A5%BD%E7%94%A8%EF%BC%8C%E4%BD%86%E8%A6%81%E4%BF%9D%E8%AF%81%E9%80%9F%E5%BA%A6%E6%88%91%E4%BB%AC%E5%BF%85%E9%A1%BB%E4%BC%98%E5%8C%96CF%E7%9A%84IP%E5%92%8C%E5%8F%8D%E4%BB%A3CF%E7%9A%84IP%E3%80%82%E7%8E%B0%E6%8A%8A%E5%86%85%E5%AE%B9%E6%80%BB%E7%BB%93%E5%A6%82%E4%B8%8B%EF%BC%9A%20%201.%E5%AF%BB%E6%89%BE%E4%BC%98%E9%80%89IP%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%9A%20%20%E7%BD%91%E7%AB%99%E7%9B%B4%E6%8E%A5%E8%8E%B7%E5%8F%96%E6%B3%95%EF%BC%9A%E7%AE%80%E5%8D%95%E3%80%81%E6%96%B9%E4%BE%BF%EF%BC%8C%E4%BD%86%E4%BD%BF%E7%94%A8%E7%9A%84%E4%BA%BA%E5%A4%AA%E5%A4%9A%EF%BC%8C%E5%8F%AF%E8%83%BD%E8%B4%A8%E9%87%8F%E8%BE%83%E4%B8%80%E8%88%AC%E3%80%82%20https%3A%2F%2Fstock.hostmonit.com%2FCloudFlareYes%20%20https%3A%2F%2Fmonitor.gacjie.cn%2Fpage%2Fcloudflare%2Fipv4.html%20%20http%3A%2F%2Fip.flares.cloud%2F%20%20https%3A%2F%2Fgithub.com%2Fymyuuu%2FIPDB%EF%BC%88%E8%BF%99%E4%B8%AA%E5%8F%AF%E4%B8%8D%E4%BD%86%E6%9C%89CF%E7%9A%84IP%EF%BC%8C%E8%BF%98%E6%9C%89%E5%8F%8D%E4%BB%A3CF%E7%9A%84IP%EF%BC%89%20%20%E4%BB%8E%E7%99%BD%E5%AB%96%E5%93%A5%E8%8E%B7%E5%BE%97%EF%BC%9Ahttps%3A%2F%2Fzip.baipiao.eu.org%20%20%E7%94%B5%E6%8A%A5%E7%BE%A4%E7%BB%84%E8%8E%B7%E5%BE%97%EF%BC%9A%C2%A0https%3A%2F%2Ft.me%2Fcf_push%20%20%E4%BB%8E%E6%9F%90%E9%A1%B9%E7%9B%AE%E8%8E%B7%E5%BE%97%EF%BC%9Ahttps%3A%2F%2Fgithub.com%2Fymyuuu%2FIPDB%20%20%E4%BB%A5%E4%B8%8A%E4%B8%A4%E7%A7%8D%E6%96%B9%E6%B3%95%E6%98%AF%E4%BB%8E%E5%85%B6%E5%AE%83%E5%A4%A7%E4%BD%AC%E7%9B%B4%E6%8E%A5%E8%8E%B7%E5%8F%96%E5%BE%97%E5%88%B0%EF%BC%8C%E6%96%B9%E6%B3%95%E7%AE%80%E5%8D%95%E3%80%81%E7%9B%B4%E6%8E%A5%EF%BC%8C%E9%9D%9E%E5%B8%B8%E9%80%82%E5%90%88%E5%B0%8F%E7%99%BD%E6%9C%8B%E5%8F%8B%E3%80%82%20%203.fofa%E5%AF%BB%E6%89%BE%E4%B8%AA%E6%80%A7%E5%8C%96%E7%9A%84CF%E7%9A%84IP%E6%88%96%E5%8F%8D%E4%BB%A3IP%EF%BC%9A%20https%3A%2F%2Ffofa.info%2F%20%20%E8%BF%99%E6%98%AF%E4%B8%80%E7%A7%8D%E9%9D%9E%E5%B8%B8%E5%A5%BD%E7%94%A8%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%8C%E5%88%A9%E7%94%A8%E5%AE%83%E8%83%BD%E5%A4%9F%E5%AF%BB%E6%89%BE%E8%87%AA%E5%B7%B1%E6%83%B3%E8%A6%81%E7%9A%84%E4%BB%BB%E4%BD%95IP%EF%BC%8C%E6%96%B9%E4%BE%BF%E5%87%86%E7%A1%AE%E3%80%82%E5%AF%B9%E5%B0%8F%E7%99%BD%E4%B9%9F%E4%B8%8D%E7%AE%97%E9%9A%BE%E3%80%82%E5%AE%8C%E5%85%A8%E5%8F%AF%E4%BB%A5%E6%A0%B9%E6%8D%AE%E8%87%AA%E5%B7%B1%E7%9A%84%E8%A6%81%E6%B1%82%EF%BC%8C%E8%AE%BE%E7%BD%AE%E7%AD%9B%E9%80%89%E6%9D%A1%E4%BB%B6%EF%BC%8C%E6%AF%94%E5%A6%82%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%81%E7%AB%AF%E5%8F%A3%E3%80%81%E5%9B%BD%E5%AE%B6%E3%80%81%E5%9C%B0%E5%8C%BA%E3%80%81%E5%9F%8E%E5%B8%82%E3%80%81IP%E6%AE%B5%E7%AD%89%E3%80%82%20%203.1%E7%AD%9B%E9%80%89CF%E7%9A%84IP%E6%88%96CDN%E4%BE%8B%E5%AD%90%EF%BC%9A%20%20server%3D%22cloudflare%22%20%26amp%3B%26amp%3B%20port%3D%22443%22%20%26amp%3B%26amp%3B%20country%3D%22SG%22%20%26amp%3B%26amp%3B%20(asn%3D%2213335%22%20%7C%7C%20asn%3D%22209242%22)%20server%3D%3D%22cloudflare%22%20%26amp%3B%26amp%3B%20%23%20%E6%9F%A5%E6%89%BE%E4%BD%BF%E7%94%A8%20Cloudflare%20%E4%BD%9C%E4%B8%BA%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%20IP%20%E5%9C%B0%E5%9D%80%20port%3D%3D%22443%22%20%26amp%3B%26amp%3B%20%23%20%E6%9F%A5%E6%89%BE%E5%BC%80%E6%94%BE%E7%AB%AF%E5%8F%A3%20443%EF%BC%88HTTPS%EF%BC%89%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%20country%3D%3D%22SG%22%20%26amp%3B%26amp%3B%20%23%20%E6%9F%A5%E6%89%BE%E4%BD%8D%E4%BA%8E%E6%96%B0%E5%8A%A0%E5%9D%A1%EF%BC%88SG%EF%BC%89%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%20(asn%3D%3D%2213335%22%20%7C%7C%20%23%20ASN%20%E7%BC%96%E5%8F%B7%E4%B8%BA%2013335%20%E6%88%96%20asn%3D%3D%22209242%22)%20%23%20ASN%20%E7%BC%96%E5%8F%B7%E4%B8%BA%20209242%20%203.2%E7%AD%9B%E9%80%89%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86CF%E7%9A%84IP%E4%BE%8B%E5%AD%90%EF%BC%9A%20%20server%3D%3D%22cloudflare%22%20%26amp%3B%26amp%3B%20port%3D%3D%2280%22%20%26amp%3B%26amp%3B%20header%3D%22Forbidden%22%20%26amp%3B%26amp%3B%20country%3D%3D%22SG%22%20%26amp%3B%26amp%3B%20asn!%3D%2213335%22%20%26amp%3B%26amp%3B%20asn!%3D%22209242%22%20%20%E4%B8%8A%E6%96%B9%E8%AF%AD%E6%B3%95%E7%9A%84%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E%EF%BC%9A%20server%3D%3D%22cloudflare%22%20%26amp%3B%26amp%3B%20%23%20%E4%BD%BF%E7%94%A8%20Cloudflare%20%E4%BD%9C%E4%B8%BA%E6%9C%8D%E5%8A%A1%E5%99%A8%20port%3D%3D%2280%22%20%26amp%3B%26amp%3B%20%23%20%E7%AB%AF%E5%8F%A3%E5%8F%B7%E4%B8%BA%2080%EF%BC%88HTTP%EF%BC%89header%3D%22Forbidden%22%20%26amp%3B%26amp%3B%20%23%20%E8%BF%94%E5%9B%9E%20HTTP%20%E5%A4%B4%E4%BF%A1%E6%81%AF%E4%B8%AD%E5%8C%85%E5%90%AB%20%22Forbidden%22%20country%3D%3D%22SG%22%20%26amp%3B%26amp%3B%20%23%20%E4%BD%8D%E4%BA%8E%E6%96%B0%E5%8A%A0%E5%9D%A1%EF%BC%88SG%EF%BC%89%20asn!%3D%2213335%22%20%26amp%3B%26amp%3B%20%23%20%E6%8E%92%E9%99%A4%20ASN%20%E7%BC%96%E5%8F%B7%E4%B8%BA%2013335%20%E7%9A%84%20IP%20%E5%9C%B0%E5%9D%80%EF%BC%88Cloudflare%20%E5%AE%98%E6%96%B9%20IP%EF%BC%89%20asn!%3D%22209242%22%20%23%20%E6%8E%92%E9%99%A4%20ASN%20%E7%BC%96%E5%8F%B7%E4%B8%BA%20209242%20%E7%9A%84%20IP%20%E5%9C%B0%E5%9D%80%EF%BC%88Cloudflare%20%E5%AE%98%E6%96%B9%20IP%EF%BC%89%E5%85%B3%E4%BA%8E%E7%BB%8F%E5%B8%B8%E4%BD%BF%E7%94%A8%E7%9A%84ASN%E5%8F%B7%EF%BC%9A%20Cloudflare%E5%B8%B8%E7%94%A8%E5%88%B0%E7%9A%84ASN%E5%8F%B7%EF%BC%9AAS13335%20AS209242%20Cloudflare%E5%85%B6%E5%AE%83ASN%E5%8F%B7%EF%BC%9AAS394536%20AS14789%20AS139242%20AS133877%20AS132892%20AS395747%20AS203898%20AS202623%20%E9%98%BF%E9%87%8C%E4%BA%91%E5%B8%B8%E7%94%A8%E7%9A%84%EF%BC%9AASN45102%20%E7%94%B2%E9%AA%A8%E6%96%87%E4%B8%BB%E8%A6%81%E7%9A%84%EF%BC%9AASN31898%20%E6%90%AC%E7%93%A6%E5%B7%A5%E5%B8%B8%E7%94%A8%E7%9A%84%EF%BC%9AASN25820%20%20%E6%B3%A8%E6%84%8F%EF%BC%9A%E4%BB%A5%E4%B8%8A%E8%AF%AD%E6%B3%95%E4%B8%8D%E6%98%AF%E5%9B%BA%E5%AE%9A%E4%B8%8D%E5%8F%98%E7%9A%84%EF%BC%8C%E5%A6%82country%E5%8F%AF%E6%8D%A2%E6%88%90city%E6%88%96region%EF%BC%8C%E7%9B%B8%E5%BA%94%E7%9A%84%E5%AF%B9%E8%B1%A1%E4%B9%9F%E8%A6%81%E6%94%B9%E5%8F%98%E3%80%82%E5%A6%82region%3D%E2%80%9DCalifornia%E2%80%9D%EF%BC%8Cregion%3D%E2%80%9DTokyo%E2%80%9D%EF%BC%8C%E4%BD%86%E4%B8%8D%E8%83%BDregion%3D%E2%80%9DJP%E2%80%9D%E3%80%82%20%20server%3D%3D%22cloudflare%22%20%26amp%3B%26amp%3B%20port%3D%3D%2280%22%20%26amp%3B%26amp%3B%20header%3D%22Forbidden%22%20%26amp%3B%26amp%3B%20country%3D%3D%22SG%22%20%26amp%3B%26amp%3B%20asn%3D%3D%2231898%22%20%E6%AF%94%E5%A6%82%E6%B7%BB%E5%8A%A0%E4%B8%8Aasn%3D%2231898%22%2C%E5%8F%AF%E4%BB%A5%E7%AD%9B%E9%80%89%E6%96%B0%E5%8A%A0%E5%9D%A1%E7%94%B2%E9%AA%A8%E6%96%87%E5%8F%8D%E4%BB%A3CF%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82%20%204.%E6%9C%AC%E5%9C%B0%E4%BC%98%E9%80%89%E5%92%8C%E6%B5%8B%E9%80%9F%E5%B7%A5%E5%85%B7%20%20Github%EF%BC%9Ahttps%3A%2F%2Fgithub.com%2FXIU2%2FCloudflareSpeedTest%20%C2%A0%E8%BF%99%E4%B8%AA%E5%B7%A5%E5%85%B7%E8%87%AA%E5%B8%A6Cloudflare%E5%AE%98%E6%96%B9IP%E5%BA%93%EF%BC%8C%E5%A4%A7%E7%BA%A6%E6%9C%895955%E4%B8%AACF%E7%9A%84ip%2C%E5%8F%AA%E8%A6%81%E4%B8%80%E8%BF%90%E8%A1%8C%E5%B0%B1%E4%BC%9A%E8%87%AA%E5%8A%A8%E6%89%AB%E5%87%BA%E5%89%8D10%E4%B8%AA%E4%BC%98%E9%80%89IP%E3%80%82%E4%BD%86%E5%AE%83%E6%B2%A1%E6%9C%89%E5%8F%8D%E4%BB%A3IP%E5%BA%93%E5%93%88%EF%BC%8C%E5%8F%A6%E5%A4%96%E5%AE%83%E8%BF%98%E6%98%AF%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%94%A8%E7%9A%84%E6%B5%8B%E9%80%9F%E5%B7%A5%E5%85%B7%E3%80%82%20%20%E5%85%B6%E5%AE%83%E5%8F%AF%E8%83%BD%E7%94%A8%E5%88%B0%E7%9A%84%E5%B7%A5%E5%85%B7%20%20IP%E6%89%B9%E9%87%8F%E6%9F%A5%E8%AF%A2%EF%BC%9Ahttps%3A%2F%2Freallyfreegeoip.org%2Fbulk%20IP%E5%BD%92%E5%B1%9E%E5%9C%B0%E6%9F%A5%E8%AF%A2%EF%BC%9Ahttps%3A%2F%2Fipdata.co%2F%20%E4%B8%B4%E6%97%B6%E9%82%AE%E7%AE%B1%EF%BC%9Ahttps%3A%2F%2Ftemp-mail.org%2F%EF%BC%9Bhttps%3A%2F%2Ftempmail.plus%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
+                  },
+                  {
+                    "dateAdded": 1747821007798,
+                    "id": "5358",
+                    "index": 2,
+                    "parentId": "5333",
+                    "syncing": true,
+                    "title": "选中文本添加到书签background.js文件",
+                    "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%20120px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3Efunction%20escapeHTML(text)%20%7B%20%20%20return%20text%20%20%20%20%20.replace(%2F%26amp%3B%2Fg%2C%20%22%26amp%3Bamp%3B%22)%20%20%20%20%20.replace(%2F%26lt%3B%2Fg%2C%20%22%26amp%3Blt%3B%22)%20%20%20%20%20.replace(%2F%26gt%3B%2Fg%2C%20%22%26amp%3Bgt%3B%22)%3B%20%7D%20%20%2F%2F%20%E5%88%9B%E5%BB%BA%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E9%A1%B9%20chrome.runtime.onInstalled.addListener(()%20%3D%26gt%3B%20%7B%20%20%20chrome.contextMenus.removeAll(()%20%3D%26gt%3B%20%7B%20%20%20%20%20chrome.contextMenus.create(%7B%20%20%20%20%20%20%20id%3A%20%22add-selection-to-bookmarks%22%2C%20%20%20%20%20%20%20title%3A%20%22%E6%B7%BB%E5%8A%A0%E9%80%89%E4%B8%AD%E6%96%87%E6%9C%AC%E5%88%B0%E4%B9%A6%E7%AD%BE%F0%9F%93%8C%22%2C%20%20%20%20%20%20%20contexts%3A%20%5B%22selection%22%5D%20%20%20%20%20%7D)%3B%20%20%20%20%20console.log(%22%E2%9C%85%20%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E5%B7%B2%E5%88%9B%E5%BB%BA%22)%3B%20%20%20%7D)%3B%20%7D)%3B%20%20%2F%2F%20%E5%8F%B3%E9%94%AE%E7%82%B9%E5%87%BB%E9%80%BB%E8%BE%91%20chrome.contextMenus.onClicked.addListener(async%20(info%2C%20tab)%20%3D%26gt%3B%20%7B%20%20%20if%20(info.menuItemId%20%3D%3D%3D%20%22add-selection-to-bookmarks%22%20%26amp%3B%26amp%3B%20info.selectionText)%20%7B%20%20%20%20%20const%20selection%20%3D%20info.selectionText.trim()%3B%20%20%2F%2F%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%AD%E6%B3%A8%E5%85%A5%20prompt%20%E8%84%9A%E6%9C%AC%E8%AE%A9%E7%94%A8%E6%88%B7%E8%BE%93%E5%85%A5%E6%A0%87%E9%A2%98%20const%20%5B%7B%20result%3A%20userInput%20%7D%5D%20%3D%20await%20chrome.scripting.executeScript(%7B%20%20%20target%3A%20%7B%20tabId%3A%20tab.id%20%7D%2C%20%20%20func%3A%20(defaultTitle)%20%3D%26gt%3B%20%7B%20%20%20%20%20return%20prompt(%22%E8%AF%B7%E8%BE%93%E5%85%A5%E4%B9%A6%E7%AD%BE%E6%A0%87%E9%A2%98%EF%BC%9A%22%2C%20defaultTitle)%3B%20%20%20%7D%2C%20%20%20args%3A%20%5Bselection.length%20%26gt%3B%2050%20%3F%20selection.slice(0%2C%2050)%20%2B%20%22%E2%80%A6%22%20%3A%20selection%5D%20%7D)%3B%20%20if%20(!userInput)%20%7B%20%20%20console.log(%22%E2%9D%8C%20%E7%94%A8%E6%88%B7%E5%8F%96%E6%B6%88%E8%BE%93%E5%85%A5%EF%BC%8C%E6%9C%AA%E5%88%9B%E5%BB%BA%E4%B9%A6%E7%AD%BE%22)%3B%20%20%20return%3B%20%7D%20const%20title%20%3D%20userInput.trim()%3B%20%20%20%20%20%20%20%2F%2F%20%E7%94%9F%E6%88%90%20HTML%20%E6%A0%BC%E5%BC%8F%E5%86%85%E5%AE%B9%E5%B9%B6%E8%BD%AC%E4%B8%BA%20data%20URL%20%20%20%20%20const%20htmlContent%20%3D%20%60%20%26lt%3B!DOCTYPE%20html%26gt%3B%20%26lt%3Bhtml%26gt%3B%20%26lt%3Bhead%26gt%3B%20%20%20%26lt%3Bmeta%20charset%3D%22utf-8%22%26gt%3B%20%20%20%26lt%3Bstyle%26gt%3B%20%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%20120px%3B%20%7D%20%20%20%20%20pre%20%7B%20%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%20%20%20%20%20%20%20word-break%3A%20break-word%3B%20%20%20%20%20%20%20font-size%3A%2014px%3B%20%20%20%20%20%20%20line-height%3A%201.5%3B%20%20%20%20%20%7D%20%20%20%26lt%3B%2Fstyle%26gt%3B%20%26lt%3B%2Fhead%26gt%3B%20%26lt%3Bbody%26gt%3B%20%20%20%26lt%3Bpre%26gt%3B%24%7BescapeHTML(selection)%7D%26lt%3B%2Fpre%26gt%3B%20%26lt%3B%2Fbody%26gt%3B%20%26lt%3B%2Fhtml%26gt%3B%20%20%20%20%20%60.trim()%3B%20%20%20%20%20%20const%20url%20%3D%20%22data%3Atext%2Fhtml%3Bcharset%3Dutf-8%2C%22%20%2B%20encodeURIComponent(htmlContent)%3B%20%20%20%20%20%20try%20%7B%20%20%20%20%20%20%20%2F%2F%20%E6%9F%A5%E6%89%BE%E6%88%96%E5%88%9B%E5%BB%BA%E2%80%9C%F0%9F%93%91%E6%91%98%E5%BD%95%E2%80%9D%E4%B9%A6%E7%AD%BE%E6%96%87%E4%BB%B6%E5%A4%B9%20%20%20%20%20%20%20const%20folders%20%3D%20await%20chrome.bookmarks.search(%7B%20title%3A%20%22%F0%9F%93%91%E6%91%98%E5%BD%95%22%20%7D)%3B%20%20%20%20%20%20%20const%20folder%20%3D%20folders.find(b%20%3D%26gt%3B%20!b.url)%3B%20%20%20%20%20%20%20const%20folderId%20%3D%20folder%20%3F%20folder.id%20%3A%20(await%20chrome.bookmarks.create(%7B%20title%3A%20%22%F0%9F%93%91%E6%91%98%E5%BD%95%22%20%7D)).id%3B%20%20%20%20%20%20%20%20%2F%2F%20%E5%88%9B%E5%BB%BA%E4%B9%A6%E7%AD%BE%20%20%20%20%20%20%20const%20bookmark%20%3D%20await%20chrome.bookmarks.create(%7B%20%20%20%20%20%20%20%20%20parentId%3A%20folderId%2C%20%20%20%20%20%20%20%20%20title%3A%20title%2C%20%20%20%20%20%20%20%20%20url%3A%20url%20%20%20%20%20%20%20%7D)%3B%20%20%20%20%20%20%20%20console.log(%22%E2%9C%85%20%E5%B7%B2%E4%BF%9D%E5%AD%98%E4%B8%BA%E4%B9%A6%E7%AD%BE%EF%BC%9A%22%2C%20bookmark)%3B%20%20%20%20%20%7D%20catch%20(err)%20%7B%20%20%20%20%20%20%20console.error(%22%E2%9D%8C%20%E5%88%9B%E5%BB%BA%E4%B9%A6%E7%AD%BE%E5%A4%B1%E8%B4%A5%EF%BC%9A%22%2C%20err)%3B%20%20%20%20%20%7D%20%20%20%7D%20%7D)%3B%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
+                  },
+                  {
+                    "dateAdded": 1747821104591,
+                    "id": "5359",
+                    "index": 3,
+                    "parentId": "5333",
+                    "syncing": true,
+                    "title": "选中文本添加到书签manifest.json文件",
+                    "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%20120px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3E%7B%20%20%20%22manifest_version%22%3A%203%2C%20%20%20%22name%22%3A%20%22%E9%80%89%E4%B8%AD%E6%96%87%E6%9C%AC%E6%B7%BB%E5%8A%A0%E5%88%B0%E4%B9%A6%E7%AD%BE%22%2C%20%20%20%22version%22%3A%20%221.0%22%2C%20%20%20%22description%22%3A%20%22%E5%8F%B3%E9%94%AE%E5%B0%86%E9%80%89%E4%B8%AD%E7%9A%84%E6%96%87%E6%9C%AC%E6%B7%BB%E5%8A%A0%E4%B8%BA%E4%B9%A6%E7%AD%BE%E5%88%B0%E6%8C%87%E5%AE%9A%E6%96%87%E4%BB%B6%E5%A4%B9%22%2C%20%20%20%22permissions%22%3A%20%5B%22bookmarks%22%2C%20%22contextMenus%22%2C%20%22tabs%22%5D%2C%20%20%20%22background%22%3A%20%7B%20%20%20%20%20%22service_worker%22%3A%20%22background.js%22%20%20%20%7D%2C%20%20%20%22icons%22%3A%20%7B%20%20%20%20%20%2248%22%3A%20%22icon.png%22%20%20%20%7D%20%7D%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
+                  },
+                  {
+                    "dateAdded": 1747817286503,
+                    "dateLastUsed": 1747817292746,
+                    "id": "5356",
+                    "index": 4,
+                    "parentId": "5333",
+                    "syncing": true,
+                    "title": "Bookmarks_web在线书签加载数据弹窗设置",
+                    "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%20120px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3E%2F%2F%20%E6%9C%80%E7%BB%88%E7%89%88loadBtn%E4%BA%8B%E4%BB%B6%E5%A4%84%E7%90%86%20loadBtn.addEventListener(%22click%22%2C%20async%20()%20%3D%26gt%3B%20%7B%20%20%20%20%20const%20defaultPath%20%3D%20%22bookmarks.json%22%3B%20%20%20%20%20const%20input%20%3D%20prompt(%22%E8%AF%B7%E8%BE%93%E5%85%A5%E4%B9%A6%E7%AD%BE%E6%95%B0%E6%8D%AE%E4%BD%8D%E7%BD%AE%EF%BC%9A%5Cn%E2%80%A2%20%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%EF%BC%9A%E7%9B%B4%E6%8E%A5%E8%BE%93%E5%85%A5%E6%96%87%E4%BB%B6%E5%90%8D%EF%BC%88%E5%A6%82%20bookmarks.json%EF%BC%89%5Cn%E2%80%A2%20%E7%BD%91%E7%BB%9C%E6%96%87%E4%BB%B6%EF%BC%9A%E8%BE%93%E5%85%A5%E5%AE%8C%E6%95%B4URL%22%2C%20defaultPath)%3B%20%20%20%20%20%20%20%20%20%20if%20(!input)%20return%3B%20%20%20%20%20%20%20%20%20%20try%20%7B%20%20%20%20%20%20%20%20%20const%20finalUrl%20%3D%20input.startsWith('http')%20%3F%20input%20%3A%20%60data%2F%24%7Binput%7D%60%3B%20%20%20%20%20%20%20%20%20await%20loadBookmarks(finalUrl)%3B%20%20%20%20%20%20%20%20%20alert(%60%E6%88%90%E5%8A%9F%E5%8A%A0%E8%BD%BD%E6%95%B0%E6%8D%AE%EF%BC%9A%24%7BfinalUrl%7D%60)%3B%20%20%20%20%20%7D%20catch%20(e)%20%7B%20%20%20%20%20%20%20%20%20alert(%60%E5%8A%A0%E8%BD%BD%E5%A4%B1%E8%B4%A5%EF%BC%9A%24%7Be.message%7D%60)%3B%20%20%20%20%20%7D%20%7D)%3B%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
+                  }
+                ],
+                "dateAdded": 1747741971293,
+                "dateGroupModified": 1747824338006,
+                "id": "5333",
+                "index": 0,
+                "parentId": "5337",
+                "syncing": true,
+                "title": "📑便签"
+              },
+              {
+                "children": [
+                  {
+                    "dateAdded": 1747741153366,
+                    "dateLastUsed": 1747741226641,
+                    "id": "5330",
+                    "index": 0,
+                    "parentId": "5259",
+                    "syncing": true,
+                    "title": "python -m http.server 8000",
+                    "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3Epython%20-m%20http.server%208000%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
+                  },
+                  {
+                    "dateAdded": 1747743428442,
+                    "id": "5338",
+                    "index": 1,
+                    "parentId": "5259",
+                    "syncing": true,
+                    "title": "http://localhost:8000/",
+                    "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3Ehttp%3A%2F%2Flocalhost%3A8000%2F%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
+                  },
+                  {
+                    "dateAdded": 1747821581303,
+                    "id": "5369",
+                    "index": 2,
+                    "parentId": "5259",
+                    "syncing": true,
+                    "title": "刷新本地DNS",
+                    "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%20120px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3Eipconfig%20%2Fflushdns%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
+                  },
+                  {
+                    "dateAdded": 1747746019272,
+                    "dateLastUsed": 1747821790704,
+                    "id": "5345",
+                    "index": 3,
+                    "parentId": "5259",
+                    "syncing": true,
+                    "title": "Google IDX一键安装脚本",
+                    "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%20120px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3Enix%3Dy%20uuid%3D5a2ad762-3ff3-49cb-9187-34e9cf8a42dc%20vmpt%3D692%20agn%3Didx.692.cloudns.be%20agk%3DeyJhIjoiODYwNDkxY2JmMjQ1ZmUzNGU5NmFhMTI3YTg5ODNmNjciLCJ0IjoiODE0ODgwZDItNTdiYy00N2Y2LTk5YzAtOTIyMTllZjNmMjI0IiwicyI6Ik5qY3lPR1UwT1dRdE5EVXhaQzAwTURkaExUZzVOekl0TWpsbU56VmtZVE13WVdGbCJ9%20bash%20%26lt%3B(curl%20-Ls%20https%3A%2F%2Fraw.githubusercontent.com%2Fyonggekkk%2Fargosb%2Fmain%2Fargosb.sh)%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
+                  },
+                  {
+                    "dateAdded": 1747745907089,
+                    "id": "5343",
+                    "index": 4,
+                    "parentId": "5259",
+                    "syncing": true,
+                    "title": "重启资源管理器",
+                    "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%20120px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3Etaskkill%20%2Ff%20%2Fim%20explorer.exe%20%26amp%3B%20start%20explorer.exe%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
+                  },
+                  {
+                    "dateAdded": 1747745924801,
+                    "id": "5344",
+                    "index": 5,
+                    "parentId": "5259",
+                    "syncing": true,
+                    "title": "清除chrome缓存密码",
+                    "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%20120px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3ElocalStorage.removeItem(%22pw_verified_at%22)%3B%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
+                  },
+                  {
+                    "dateAdded": 1747744987891,
+                    "dateLastUsed": 1747821758896,
+                    "id": "5341",
+                    "index": 6,
+                    "parentId": "5259",
+                    "syncing": true,
+                    "title": "webhostmore一键安装脚本",
+                    "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3Ecurl%20-Ls%20https%3A%2F%2Fraw.githubusercontent.com%2Ffrankiejun%2Fnode-ws%2Frefs%2Fheads%2Fmain%2Fsetup.sh%20%7C%20bash%20-s%20w.692.cloudns.be%20%20curl%20-Ls%20https%3A%2F%2Fraw.githubusercontent.com%2Ffrankiejun%2Fnode-ws%2Frefs%2Fheads%2Fmain%2Fsetup.sh%20%7C%20bash%20-s%20w.mgta.dpdns.org%20%20%2Fhome%2Fzhvhvbow%2Fdomains%2Fw.692.cloudns.be%2Fpublic_html%2Findex.js%20%20https%3A%2F%2Fsub.692.cloudns.be%2Fsub%3Fhost%3Dweb.692.cloudns.be%26amp%3Buuid%3D11b05a52-0447-47d6-bc0d-a7817b5b5e8d%26amp%3Bpath%3D%252F%253Fed%253D2560%2526PROXYIP%253Dts.hpc.tw%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
+                  }
+                ],
+                "dateAdded": 1747569763329,
+                "dateGroupModified": 1747821856196,
+                "id": "5259",
+                "index": 1,
+                "parentId": "5337",
+                "syncing": true,
+                "title": "</> 命令"
+              },
+              {
+                "dateAdded": 1747738516721,
+                "dateLastUsed": 1747741834406,
+                "id": "5326",
+                "index": 2,
+                "parentId": "5337",
+                "syncing": true,
+                "title": "你现在可以直接替换掉你原来的那一段这部分代码。",
+                "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3E%E4%BD%A0%E7%8E%B0%E5%9C%A8%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E6%9B%BF%E6%8D%A2%E6%8E%89%E4%BD%A0%E5%8E%9F%E6%9D%A5%E7%9A%84%E9%82%A3%E4%B8%80%E6%AE%B5%E8%BF%99%E9%83%A8%E5%88%86%E4%BB%A3%E7%A0%81%E3%80%82%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
+              },
+              {
+                "dateAdded": 1747738534896,
+                "dateLastUsed": 1747743576910,
+                "id": "5327",
+                "index": 3,
+                "parentId": "5337",
+                "syncing": true,
+                "title": "最终替换代码（完全重构这段逻辑） 请直接把你那段原始的 if…",
+                "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3E%E6%9C%80%E7%BB%88%E6%9B%BF%E6%8D%A2%E4%BB%A3%E7%A0%81%EF%BC%88%E5%AE%8C%E5%85%A8%E9%87%8D%E6%9E%84%E8%BF%99%E6%AE%B5%E9%80%BB%E8%BE%91%EF%BC%89%20%E8%AF%B7%E7%9B%B4%E6%8E%A5%E6%8A%8A%E4%BD%A0%E9%82%A3%E6%AE%B5%E5%8E%9F%E5%A7%8B%E7%9A%84%20if%20(bookmark.url.startsWith(...))%20%E6%95%B4%E6%AE%B5%E6%9B%BF%E6%8D%A2%E6%88%90%E4%BB%A5%E4%B8%8B%E5%86%85%E5%AE%B9%EF%BC%9A%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
+              },
+              {
+                "dateAdded": 1747741011391,
+                "dateLastUsed": 1747743560481,
+                "id": "5328",
+                "index": 4,
+                "parentId": "5337",
+                "syncing": true,
+                "title": "转义 HTML 特殊字符 function escap…",
+                "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3E%2F%2F%20%E8%BD%AC%E4%B9%89%20HTML%20%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%20function%20escapeHTML(text)%20%7B%20%20%20return%20text%20%20%20%20%20.replace(%2F%26amp%3B%2Fg%2C%20%22%26amp%3Bamp%3B%22)%20%20%20%20%20.replace(%2F%26lt%3B%2Fg%2C%20%22%26amp%3Blt%3B%22)%20%20%20%20%20.replace(%2F%26gt%3B%2Fg%2C%20%22%26amp%3Bgt%3B%22)%3B%20%7D%20%20%2F%2F%20%E5%88%9B%E5%BB%BA%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%20chrome.runtime.onInstalled.addListener(()%20%3D%26gt%3B%20%7B%20%20%20chrome.contextMenus.removeAll(()%20%3D%26gt%3B%20%7B%20%20%20%20%20chrome.contextMenus.create(%7B%20%20%20%20%20%20%20id%3A%20%22add-selection-to-bookmarks%22%2C%20%20%20%20%20%20%20title%3A%20%22%E6%B7%BB%E5%8A%A0%E9%80%89%E4%B8%AD%E6%96%87%E6%9C%AC%E5%88%B0%E4%B9%A6%E7%AD%BE%22%2C%20%20%20%20%20%20%20contexts%3A%20%5B%22selection%22%5D%20%20%20%20%20%7D)%3B%20%20%20%20%20console.log(%22%E2%9C%85%20%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E5%B7%B2%E5%88%9B%E5%BB%BA%22)%3B%20%20%20%7D)%3B%20%7D)%3B%20%20%2F%2F%20%E5%8F%B3%E9%94%AE%E7%82%B9%E5%87%BB%E5%A4%84%E7%90%86%20chrome.contextMenus.onClicked.addListener(async%20(info%2C%20tab)%20%3D%26gt%3B%20%7B%20%20%20if%20(info.menuItemId%20%3D%3D%3D%20%22add-selection-to-bookmarks%22%20%26amp%3B%26amp%3B%20info.selectionText)%20%7B%20%20%20%20%20const%20selection%20%3D%20info.selectionText.trim()%3B%20%20%20%20%20%20%2F%2F%20%E6%A0%87%E9%A2%98%EF%BC%9A%E6%88%AA%E5%8F%96%E5%89%8D%2030%20%E5%AD%97%E7%AC%A6%20%20%20%20%20const%20title%20%3D%20selection.length%20%26gt%3B%2030%20%3F%20selection.slice(0%2C%2030)%20%2B%20%22%E2%80%A6%22%20%3A%20selection%3B%20%20%20%20%20%20%2F%2F%20%E7%BC%96%E7%A0%81%E6%96%87%E6%9C%AC%E4%BD%9C%E4%B8%BA%20URL%20%E5%8F%82%E6%95%B0%20%20%20%20%20const%20encodedText%20%3D%20encodeURIComponent(selection)%3B%20%20%20%20%20const%20url%20%3D%20%60chrome-extension%3A%2F%2F%24%7Bchrome.runtime.id%7D%2Fcopy.html%3Ftext%3D%24%7BencodedText%7D%60%3B%20%20%20%20%20%20try%20%7B%20%20%20%20%20%20%20%2F%2F%20%E6%9F%A5%E6%89%BE%E6%88%96%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%E2%80%9C%F0%9F%93%8C%E6%91%98%E5%BD%95%E2%80%9D%20%20%20%20%20%20%20const%20folders%20%3D%20await%20chrome.bookmarks.search(%7B%20title%3A%20%22%F0%9F%93%8C%E6%91%98%E5%BD%95%22%20%7D)%3B%20%20%20%20%20%20%20const%20folder%20%3D%20folders.find(b%20%3D%26gt%3B%20!b.url)%3B%20%20%20%20%20%20%20const%20folderId%20%3D%20folder%20%3F%20folder.id%20%3A%20(await%20chrome.bookmarks.create(%7B%20title%3A%20%22%F0%9F%93%8C%E6%91%98%E5%BD%95%22%20%7D)).id%3B%20%20%20%20%20%20%20%20%2F%2F%20%E5%88%9B%E5%BB%BA%E4%B9%A6%E7%AD%BE%20%20%20%20%20%20%20const%20bookmark%20%3D%20await%20chrome.bookmarks.create(%7B%20%20%20%20%20%20%20%20%20parentId%3A%20folderId%2C%20%20%20%20%20%20%20%20%20title%3A%20title%2C%20%20%20%20%20%20%20%20%20url%3A%20url%20%20%20%20%20%20%20%7D)%3B%20%20%20%20%20%20%20%20console.log(%22%E2%9C%85%20%E4%B9%A6%E7%AD%BE%E5%88%9B%E5%BB%BA%E6%88%90%E5%8A%9F%EF%BC%9A%22%2C%20bookmark)%3B%20%20%20%20%20%7D%20catch%20(err)%20%7B%20%20%20%20%20%20%20console.error(%22%E2%9D%8C%20%E5%88%9B%E5%BB%BA%E4%B9%A6%E7%AD%BE%E5%A4%B1%E8%B4%A5%EF%BC%9A%22%2C%20err)%3B%20%20%20%20%20%7D%20%20%20%7D%20%7D)%3B%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
+              },
+              {
+                "dateAdded": 1747741971299,
+                "id": "5334",
+                "index": 5,
+                "parentId": "5337",
+                "syncing": true,
+                "title": "bookmark_1.01 1.0 一个支持层级折叠显示的 …",
+                "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3Ebookmark_1.01%201.0%20%E4%B8%80%E4%B8%AA%E6%94%AF%E6%8C%81%E5%B1%82%E7%BA%A7%E6%8A%98%E5%8F%A0%E6%98%BE%E7%A4%BA%E7%9A%84%20Chrome%20%E4%B9%A6%E7%AD%BE%E6%89%A9%E5%B1%95%E3%80%82%E4%B9%9F%E6%94%AF%E6%8C%81%E6%B7%BB%E5%8A%A0%E9%80%89%E4%B8%AD%E6%96%87%E6%9C%AC%E5%88%B0%E4%B9%A6%E7%AD%BE%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
+              },
+              {
+                "dateAdded": 1747745886569,
+                "id": "5342",
+                "index": 6,
+                "parentId": "5337",
+                "syncing": true,
+                "title": "ts.hpc.tw",
+                "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%20120px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3E%2F%3Fed%3D2560%26amp%3BPROXYIP%3Dts.hpc.tw%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
+              }
+            ],
+            "dateAdded": 1747743428438,
+            "dateGroupModified": 1747826179269,
+            "id": "5337",
+            "index": 1,
+            "parentId": "1",
+            "syncing": true,
+            "title": "📑剪辑"
           },
           {
             "children": [
@@ -650,10 +806,10 @@
             "dateAdded": 1728288965305,
             "dateGroupModified": 1747742412177,
             "id": "2124",
-            "index": 1,
+            "index": 2,
             "parentId": "1",
             "syncing": true,
-            "title": "🔎   Google"
+            "title": "Google"
           },
           {
             "children": [
@@ -1085,29 +1241,47 @@
             "dateAdded": 1740644133342,
             "dateGroupModified": 1740645784081,
             "id": "2232",
-            "index": 2,
+            "index": 3,
             "parentId": "1",
             "syncing": true,
-            "title": "🔴    YouTube"
+            "title": "YouTube"
           },
           {
             "children": [
               {
                 "children": [
                   {
-                    "dateAdded": 1741508163329,
-                    "dateLastUsed": 1747581896951,
-                    "id": "5066",
+                    "dateAdded": 1747821367338,
+                    "id": "5362",
                     "index": 0,
+                    "parentId": "5272",
+                    "syncing": true,
+                    "title": "fjvi.github.io",
+                    "url": "https://github.com/fjvi/fjvi.github.io"
+                  },
+                  {
+                    "dateAdded": 1741508163329,
+                    "dateLastUsed": 1747816308930,
+                    "id": "5066",
+                    "index": 1,
                     "parentId": "5272",
                     "syncing": true,
                     "title": "fjvi/sq",
                     "url": "https://github.com/fjvi/sq"
                   },
                   {
+                    "dateAdded": 1747821434602,
+                    "id": "5364",
+                    "index": 2,
+                    "parentId": "5272",
+                    "syncing": true,
+                    "title": "fjvi/note",
+                    "url": "https://github.com/fjvi/note"
+                  },
+                  {
                     "dateAdded": 1741508130684,
                     "id": "5065",
-                    "index": 1,
+                    "index": 3,
                     "parentId": "5272",
                     "syncing": true,
                     "title": "fjvi/wiki",
@@ -1116,15 +1290,87 @@
                   {
                     "dateAdded": 1741508168004,
                     "id": "5067",
-                    "index": 2,
+                    "index": 4,
                     "parentId": "5272",
                     "syncing": true,
                     "title": "fjvi/code",
                     "url": "https://github.com/fjvi/code"
+                  },
+                  {
+                    "dateAdded": 1747821324738,
+                    "id": "5360",
+                    "index": 5,
+                    "parentId": "5272",
+                    "syncing": true,
+                    "title": "fjvi/bookmarks_rcx",
+                    "url": "https://github.com/fjvi/bookmarks_rcx"
+                  },
+                  {
+                    "dateAdded": 1747821358698,
+                    "id": "5361",
+                    "index": 6,
+                    "parentId": "5272",
+                    "syncing": true,
+                    "title": "fjvi/bookmarks",
+                    "url": "https://github.com/fjvi/bookmarks"
+                  },
+                  {
+                    "dateAdded": 1747821471140,
+                    "id": "5367",
+                    "index": 7,
+                    "parentId": "5272",
+                    "syncing": true,
+                    "title": "fjvi/photo",
+                    "url": "https://github.com/fjvi/photo"
+                  },
+                  {
+                    "dateAdded": 1747821440162,
+                    "id": "5365",
+                    "index": 8,
+                    "parentId": "5272",
+                    "syncing": true,
+                    "title": "fjvi/blog",
+                    "url": "https://github.com/fjvi/blog"
+                  },
+                  {
+                    "dateAdded": 1747821455018,
+                    "id": "5366",
+                    "index": 9,
+                    "parentId": "5272",
+                    "syncing": true,
+                    "title": "fjvi/Gmeek",
+                    "url": "https://github.com/fjvi/Gmeek"
+                  },
+                  {
+                    "dateAdded": 1747821403674,
+                    "id": "5363",
+                    "index": 10,
+                    "parentId": "5272",
+                    "syncing": true,
+                    "title": "fjvi/nav: 个人导航站",
+                    "url": "https://github.com/fjvi/nav"
+                  },
+                  {
+                    "dateAdded": 1747821476154,
+                    "id": "5368",
+                    "index": 11,
+                    "parentId": "5272",
+                    "syncing": true,
+                    "title": "fjvi/text2kv: 文本文件储存器",
+                    "url": "https://github.com/fjvi/text2kv"
+                  },
+                  {
+                    "dateAdded": 1747824338006,
+                    "id": "5372",
+                    "index": 12,
+                    "parentId": "5272",
+                    "syncing": true,
+                    "title": "fjvi/data",
+                    "url": "https://github.com/fjvi/data"
                   }
                 ],
                 "dateAdded": 1747616185011,
-                "dateGroupModified": 1747616440669,
+                "dateGroupModified": 1747824343462,
                 "id": "5272",
                 "index": 0,
                 "parentId": "2272",
@@ -1252,7 +1498,7 @@
               },
               {
                 "dateAdded": 1741508216580,
-                "dateLastUsed": 1747517984057,
+                "dateLastUsed": 1747817429065,
                 "id": "5068",
                 "index": 2,
                 "parentId": "2272",
@@ -1277,7 +1523,7 @@
                 "index": 4,
                 "parentId": "2272",
                 "syncing": true,
-                "title": "Gist",
+                "title": "Gists",
                 "url": "https://gist.github.com/fjvi"
               },
               {
@@ -1303,10 +1549,10 @@
             "dateAdded": 1740645478211,
             "dateGroupModified": 1747616187188,
             "id": "2272",
-            "index": 3,
+            "index": 4,
             "parentId": "1",
             "syncing": true,
-            "title": "😺   GitHub"
+            "title": "GitHub"
           },
           {
             "children": [
@@ -1474,10 +1720,10 @@
             "dateAdded": 1728288827409,
             "dateGroupModified": 1747616145444,
             "id": "2122",
-            "index": 4,
+            "index": 5,
             "parentId": "1",
             "syncing": true,
-            "title": "🏠   站点"
+            "title": "站点"
           },
           {
             "children": [
@@ -2020,10 +2266,10 @@
             "dateAdded": 1728201033215,
             "dateGroupModified": 1747617899815,
             "id": "2115",
-            "index": 5,
+            "index": 6,
             "parentId": "1",
             "syncing": true,
-            "title": "🌐   网络"
+            "title": "网络"
           },
           {
             "children": [
@@ -2382,10 +2628,10 @@
             "dateAdded": 1728642988357,
             "dateGroupModified": 1747743223921,
             "id": "2171",
-            "index": 6,
+            "index": 7,
             "parentId": "1",
             "syncing": true,
-            "title": "🛠️   工具"
+            "title": "工具"
           },
           {
             "children": [
@@ -2679,19 +2925,29 @@
             "dateAdded": 1741484810903,
             "dateGroupModified": 1747519704771,
             "id": "5014",
-            "index": 7,
+            "index": 8,
             "parentId": "1",
             "syncing": true,
-            "title": "💾    存储"
+            "title": "存储"
           },
           {
             "children": [
               {
                 "children": [
                   {
+                    "dateAdded": 1743696749282,
+                    "dateLastUsed": 1747825266887,
+                    "id": "5172",
+                    "index": 0,
+                    "parentId": "5048",
+                    "syncing": true,
+                    "title": "mgta.dpdns",
+                    "url": "https://mgta.dpdns.org/"
+                  },
+                  {
                     "dateAdded": 1741486084215,
                     "id": "5046",
-                    "index": 0,
+                    "index": 1,
                     "parentId": "5048",
                     "syncing": true,
                     "title": "麦谷堂@blogger",
@@ -2700,7 +2956,7 @@
                   {
                     "dateAdded": 1741486109167,
                     "id": "5047",
-                    "index": 1,
+                    "index": 2,
                     "parentId": "5048",
                     "syncing": true,
                     "title": "网络生活",
@@ -2709,7 +2965,7 @@
                   {
                     "dateAdded": 1728227407482,
                     "id": "2119",
-                    "index": 2,
+                    "index": 3,
                     "parentId": "5048",
                     "syncing": true,
                     "title": "Blogger: 修改用户个人资料",
@@ -2719,7 +2975,7 @@
                     "dateAdded": 1728480551473,
                     "dateLastUsed": 1728619924452,
                     "id": "2161",
-                    "index": 3,
+                    "index": 4,
                     "parentId": "5048",
                     "syncing": true,
                     "title": "mgta.us.kg",
@@ -2729,7 +2985,7 @@
                     "dateAdded": 1728480495857,
                     "dateLastUsed": 1740285645380,
                     "id": "2159",
-                    "index": 4,
+                    "index": 5,
                     "parentId": "5048",
                     "syncing": true,
                     "title": "mgtang.us.kg",
@@ -2737,7 +2993,7 @@
                   }
                 ],
                 "dateAdded": 1741486389887,
-                "dateGroupModified": 1741496465435,
+                "dateGroupModified": 1747825280466,
                 "id": "5048",
                 "index": 0,
                 "parentId": "2160",
@@ -2887,10 +3143,10 @@
             "dateAdded": 1728480527513,
             "dateGroupModified": 1747617719964,
             "id": "2160",
-            "index": 8,
+            "index": 9,
             "parentId": "1",
             "syncing": true,
-            "title": "📚    博客"
+            "title": "博客"
           },
           {
             "children": [
@@ -3247,9 +3503,29 @@
                     "url": "https://5sing.kugou.com/index.html"
                   },
                   {
+                    "dateAdded": 1747812726787,
+                    "dateLastUsed": 1747816462937,
+                    "id": "5351",
+                    "index": 6,
+                    "parentId": "5056",
+                    "syncing": true,
+                    "title": "data/bookmarks_2024_10_3.json",
+                    "url": "https://fjvi.github.io/sq/?data=https%3A%2F%2Fraw.githubusercontent.com%2Ffjvi%2Fdata%2Frefs%2Fheads%2Fmain%2Fbookmarks_2024_10_3.json%3Ftoken%3DGHSAT0AAAAAADBFBCZTALGX7LBMCODTTE2I2BNVQVA"
+                  },
+                  {
+                    "dateAdded": 1747812607291,
+                    "dateLastUsed": 1747823898640,
+                    "id": "5350",
+                    "index": 7,
+                    "parentId": "5056",
+                    "syncing": true,
+                    "title": "data/jav",
+                    "url": "https://fjvi.github.io/sq/?data=https%3A%2F%2Fraw.githubusercontent.com%2Ffjvi%2Fdata%2Frefs%2Fheads%2Fmain%2Fjav.json%3Ftoken%3DGHSAT0AAAAAADBFBCZSJAS2W2GJV7SPKLB22BNVM6A"
+                  },
+                  {
                     "dateAdded": 1707027446000,
                     "id": "2565",
-                    "index": 6,
+                    "index": 8,
                     "parentId": "5056",
                     "syncing": true,
                     "title": "阿里云盘无损音乐",
@@ -3259,7 +3535,7 @@
                     "dateAdded": 1707222659000,
                     "dateLastUsed": 1741496978501,
                     "id": "2567",
-                    "index": 7,
+                    "index": 9,
                     "parentId": "5056",
                     "syncing": true,
                     "title": "阿里云盘- 700G+ 无损音乐汇总",
@@ -3269,7 +3545,7 @@
                     "dateAdded": 1707222805000,
                     "dateLastUsed": 1741496851370,
                     "id": "2568",
-                    "index": 8,
+                    "index": 10,
                     "parentId": "5056",
                     "syncing": true,
                     "title": "阿里云盘-音乐合集",
@@ -3279,7 +3555,7 @@
                     "dateAdded": 1707223106000,
                     "dateLastUsed": 1741496887967,
                     "id": "2569",
-                    "index": 9,
+                    "index": 11,
                     "parentId": "5056",
                     "syncing": true,
                     "title": "阿里云盘-音乐系列",
@@ -3289,7 +3565,7 @@
                     "dateAdded": 1707231287000,
                     "dateLastUsed": 1741496936222,
                     "id": "2571",
-                    "index": 10,
+                    "index": 12,
                     "parentId": "5056",
                     "syncing": true,
                     "title": "阿里云盘-群星【无损音乐】",
@@ -3297,7 +3573,7 @@
                   }
                 ],
                 "dateAdded": 1741496763572,
-                "dateGroupModified": 1741496961330,
+                "dateGroupModified": 1747816520821,
                 "id": "5056",
                 "index": 2,
                 "parentId": "2564",
@@ -3410,10 +3686,20 @@
                 "title": "软件"
               },
               {
+                "dateAdded": 1729180239932,
+                "dateLastUsed": 1747825306095,
+                "id": "2192",
+                "index": 5,
+                "parentId": "2564",
+                "syncing": true,
+                "title": "表情符号数据库",
+                "url": "https://emojidb.org/"
+              },
+              {
                 "dateAdded": 1707040951000,
                 "dateLastUsed": 1741498930095,
                 "id": "2566",
-                "index": 5,
+                "index": 6,
                 "parentId": "2564",
                 "syncing": true,
                 "title": "致终身学习者",
@@ -3423,7 +3709,7 @@
                 "dateAdded": 1707231650000,
                 "dateLastUsed": 1741498810768,
                 "id": "2572",
-                "index": 6,
+                "index": 7,
                 "parentId": "2564",
                 "syncing": true,
                 "title": "小云搜索 - 阿里云盘夸克网盘搜索神器 蓝奏云搜索| 网盘搜索引擎",
@@ -3433,7 +3719,7 @@
                 "dateAdded": 1686106942000,
                 "dateLastUsed": 1741498870165,
                 "id": "2573",
-                "index": 7,
+                "index": 8,
                 "parentId": "2564",
                 "syncing": true,
                 "title": "图欧学习资源导航 - 终身学习者的导航站",
@@ -3443,7 +3729,7 @@
                 "dateAdded": 1729098516994,
                 "dateLastUsed": 1740645899737,
                 "id": "2186",
-                "index": 8,
+                "index": 9,
                 "parentId": "2564",
                 "syncing": true,
                 "title": "阿里云盘资源论坛 - 自由至上",
@@ -3453,7 +3739,7 @@
                 "dateAdded": 1710256197000,
                 "dateLastUsed": 1741497330544,
                 "id": "2576",
-                "index": 9,
+                "index": 10,
                 "parentId": "2564",
                 "syncing": true,
                 "title": "刘明野的工具箱 | 刘明野的工具箱提供好用、易用的工具，还在不断添加中，欢迎访问！",
@@ -3462,21 +3748,11 @@
               {
                 "dateAdded": 1709801254000,
                 "id": "2574",
-                "index": 10,
+                "index": 11,
                 "parentId": "2564",
                 "syncing": true,
                 "title": "油猴用户脚本",
                 "url": "https://greasyfork.org/zh-CN/scripts?q="
-              },
-              {
-                "dateAdded": 1729180239932,
-                "dateLastUsed": 1741871235725,
-                "id": "2192",
-                "index": 11,
-                "parentId": "2564",
-                "syncing": true,
-                "title": "表情符号数据库",
-                "url": "https://emojidb.org/"
               },
               {
                 "dateAdded": 1729180285924,
@@ -3529,178 +3805,12 @@
               }
             ],
             "dateAdded": 1740649721569,
-            "dateGroupModified": 1746095786728,
+            "dateGroupModified": 1747825303127,
             "id": "2564",
-            "index": 9,
-            "parentId": "1",
-            "syncing": true,
-            "title": "✨   资源"
-          },
-          {
-            "children": [
-              {
-                "children": [
-                  {
-                    "dateAdded": 1747591382001,
-                    "dateLastUsed": 1747741264010,
-                    "id": "5268",
-                    "index": 0,
-                    "parentId": "5333",
-                    "syncing": true,
-                    "title": "公共DNS 国内 114DNS 114.114.114.11…",
-                    "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3E%E5%85%AC%E5%85%B1DNS%20%E5%9B%BD%E5%86%85%20114DNS%20114.114.114.114%20%E9%98%BF%E9%87%8C%E5%85%AC%E5%85%B1DNS%3A%20IPv4%EF%BC%9A%20%20223.5.5.5%20%20%20%E5%A4%87%E9%80%89%EF%BC%9A223.6.6.6%20IPv6%EF%BC%9A2400%3A3200%3A%3A1%20IPV6%3A%202400%3A3200%3Ababa%3A%3A1%20DoH%EF%BC%9Ahttps%3A%2F%2F223.5.5.5%2Fdns-query%20DoH%EF%BC%9Ahttps%3A%2F%2F223.6.6.6%2Fdns-query%20DoH%EF%BC%9Ahttps%3A%2F%2Fdns.alidns.com%2Fdns-query%20DoT%EF%BC%9Adns.alidns.com%20DoT%EF%BC%9A223.5.5.5%20DoT%EF%BC%9A223.6.6.6%20%20%E8%85%BE%E8%AE%AF%E5%85%AC%E5%85%B1DNS(DNSPod)%3A%20IPv4%EF%BC%9A%20%20119.29.29.29%20IPV6%3A2402%3A4e00%3A%3A%20DoH%EF%BC%9Ahttps%3A%2F%2Fdoh.pub%2Fdns-query%20DoH%EF%BC%9Ahttps%3A%2F%2F1.12.12.12%2Fdns-query%20DoH%EF%BC%9Ahttps%3A%2F%2F120.53.53.53%2Fdns-query%20DoH%EF%BC%9Ahttps%3A%2F%2Fsm2.doh.pub%2Fdns-query%20(%E5%9B%BD%E5%AF%86)%20DoT%EF%BC%9Adot.pub%20DoT%EF%BC%9A1.12.12.12%20DoT%EF%BC%9A120.53.53.53%20%20%E7%99%BE%E5%BA%A6%E5%85%AC%E5%85%B1DNS%EF%BC%9A%20IPv4%3A%20%20180.76.76.76%20IPV6%3A%202400%3Ada00%3A%3A6666%20%20360%E5%85%AC%E5%85%B1DNS%3A%20%E7%94%B5%E4%BF%A1%2F%E9%93%81%E9%80%9A%2F%E7%A7%BB%E5%8A%A8IPv4%3A%20101.226.4.6%20%E7%94%B5%E4%BF%A1%2F%E9%93%81%E9%80%9A%2F%E7%A7%BB%E5%8A%A8IPv4%3A%20218.30.118.6%20%E8%81%94%E9%80%9AIPv4%3A%20123.125.81.6%20%E8%81%94%E9%80%9AIPv4%3A%20140.207.198.6%20DoH%3A%20https%3A%2F%2Fdoh.360.cn%20DoT%3A%20dot.360.cn%20%20CNNIC%20DNS%3A%20IPV4%3A%201.2.4.8%20IPV4%3A%20210.2.4.8%20IPV6%3A%202001%3Adc7%3A1000%3A%3A1%20%20%E5%A2%83%E5%A4%96%20Google%E5%85%AC%E5%85%B1DNS%EF%BC%9A%20IPv4%EF%BC%9A%20%208.8.8.8%20IPv4%EF%BC%9A8.8.4.4%20IPV6%3A%202001%3A4860%3A4860%3A%3A8888%20IPV6%3A%202001%3A4860%3A4860%3A%3A8844)%20DoH%E5%9C%B0%E5%9D%80%EF%BC%9Ahttps%3A%2F%2Fdns.google%2Fdns-query%20DoH%E5%9C%B0%E5%9D%80%EF%BC%9Ahttps%3A%2F%2F8.8.8.8%2Fdns-query%20DoH%E5%9C%B0%E5%9D%80%EF%BC%9Ahttps%3A%2F%2F8.8.4.4%2Fdns-query%20DoT%3Adns.google%20DoT%3A8.8.8.8%20DoT%3A8.8.4.4%20%20Cloudflare%E5%85%AC%E5%85%B1DNS%3A%20IPv4%3A%20%201.1.1.1%20IPV4%3A%201.0.0.1%20IPV6%3A%202606%3A4700%3A4700%3A%3A1111%20IPV6%3A%202606%3A4700%3A4700%3A%3A1001%20DoH%3A%20https%3A%2F%2F1.1.1.1%2Fdns-query%20DoH%3A%20https%3A%2F%2F1.0.0.1%2Fdns-query%20DoH%3A%20https%3A%2F%2Fcloudflare-dns.com%2Fdns-query%20DoT%EF%BC%9A1.1.1.1%20DoT%EF%BC%9A1.0.0.1%20DoT%EF%BC%9A1dot1dot1dot1.cloudflare-dns.com%20DoT%EF%BC%9Acloudflare-dns.com%20DoT%EF%BC%9Aone.one.one.one%20%20%E5%8F%B0%E6%B9%BEQuad%20101(twnic)%3A%20IPV4%3A%20101.101.101.101%20IPV4%3A%20101.102.103.104%20IPV6%3A%C2%A02001%3Ade4%3A%3A101%20IPV6%3A%202001%3Ade4%3A%3A102%20DoH%3A%20https%3A%2F%2Fdns.twnic.tw%2Fdns-query%20%20DNS.SB%E5%85%AC%E5%85%B1DNS%3A%20IPv4%3A%20185.222.222.222%20IPV4%3A%2045.11.45.11%20DoH%3A%20https%3A%2F%2Fdoh.sb%2Fdns-query%20(%E6%88%96%E8%80%85%EF%BC%9Ahttps%3A%2F%2Fdoh.dns.sb%2Fdns-query%E4%B8%A4%E4%B8%AA%E6%8C%87%E5%90%91%E4%B8%80%E6%A0%B7%EF%BC%8C%E5%8F%AA%E6%98%AF%E5%9F%9F%E5%90%8D%E4%B8%8D%E4%B8%80%E6%A0%B7)%20DoH%3A%20https%3A%2F%2F45.11.45.11%2Fdns-query%20DoH%3A%20https%3A%2F%2F185.222.222.222%2Fdns-query%20DoT%3A%20dot.sb%20DoT%3A%20185.222.222.222%20DoT%3A%2045.11.45.11%20DoH%E9%A6%99%E6%B8%AF%E8%8A%82%E7%82%B9%3A%20https%3A%2F%2Fhk-hkg.doh.sb%2Fdns-query%C2%A0%20(%E6%9B%B4%E5%A4%9A%E5%88%86%E8%8A%82%E7%82%B9%EF%BC%9Ahttps%3A%2F%2Fdns.sb%2Fdoh%2F%EF%BC%8C%E5%8F%AF%E4%BB%A5%E6%A0%B9%E6%8D%AE%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BD%8D%E7%BD%AE%E9%80%89%E6%8B%A9%E9%80%9F%E5%BA%A6%E5%BF%AB%E4%B8%80%E4%BA%9B%E7%9A%84%E8%8A%82%E7%82%B9%E3%80%82)%20%20AdGuard%20%E5%85%AC%E5%85%B1DNS%3A%20IPV4%E9%BB%98%E8%AE%A4%E8%BF%87%E6%BB%A4%E5%B9%BF%E5%91%8A%3A%2094.140.14.14%20IPV4%E9%BB%98%E8%AE%A4%E8%BF%87%E6%BB%A4%E5%B9%BF%E5%91%8A%EF%BC%9A94.140.15.15%20IPV4%E6%97%A0%E8%BF%87%E6%BB%A4%3A%2094.140.14.140%20IPV4%E6%97%A0%E8%BF%87%E6%BB%A4%3A94.140.14.141%20IPV4%E5%AE%B6%E5%BA%AD%E4%BF%9D%E6%8A%A4(%E8%BF%87%E6%BB%A4%E5%B9%BF%E5%91%8A%E4%B8%8E%E6%88%90%E4%BA%BA%E5%86%85%E5%AE%B9)%EF%BC%9A94.140.14.15%20IPV4%E5%AE%B6%E5%BA%AD%E4%BF%9D%E6%8A%A4(%E8%BF%87%E6%BB%A4%E5%B9%BF%E5%91%8A%E4%B8%8E%E6%88%90%E4%BA%BA%E5%86%85%E5%AE%B9)%EF%BC%9A94.140.15.16%20DoH%E9%BB%98%E8%AE%A4%E8%BF%87%E6%BB%A4%E5%B9%BF%E5%91%8A%EF%BC%9Ahttps%3A%2F%2Fdns.adguard.com%2Fdns-query%20DoH%E5%AE%B6%E5%BA%AD%E4%BF%9D%E6%8A%A4(%E8%BF%87%E6%BB%A4%E5%B9%BF%E5%91%8A%E4%B8%8E%E6%88%90%E4%BA%BA%E5%86%85%E5%AE%B9)%EF%BC%9Ahttps%3A%2F%2Fdns-family.adguard.com%2Fdns-query%20DoH%E9%9D%9E%E8%BF%87%E6%BB%A4%EF%BC%9Ahttps%3A%2F%2Fdns-unfiltered.adguard.com%2Fdns-query%20DoT%E9%BB%98%E8%AE%A4%E8%BF%87%E6%BB%A4%E5%B9%BF%E5%91%8A%EF%BC%9Adns.adguard.com%20DoT%E5%AE%B6%E5%BA%AD%E4%BF%9D%E6%8A%A4(%E8%BF%87%E6%BB%A4%E5%B9%BF%E5%91%8A%E4%B8%8E%E6%88%90%E4%BA%BA%E5%86%85%E5%AE%B9)%EF%BC%9Adns-family.adguard.com%20DoT%E9%9D%9E%E8%BF%87%E6%BB%A4%EF%BC%9Adns-unfiltered.adguard.com%20%20OpenDNS(Cisco)%3A%20IPv4%EF%BC%9A208.67.222.222%20IPv4%EF%BC%9A208.67.220.220%20IPV4%20Family%3A%20208.67.222.123%20IPV4%20Family%3A%20208.67.220.123%20IPV6%3A%202620%3A0%3Accc%3A%3A2%20IPV6%3A%202620%3A0%3Accd%3A%3A2%20DoH%EF%BC%9Ahttps%3A%2F%2Fdoh.opendns.com%2Fdns-query%20DoH%20Family%EF%BC%9Ahttps%3A%2F%2Fdoh.familyshield.opendns.com%2Fdns-query%20DoT%3A%20dns.umbrella.com%20%20IBM%20Quad9%3A%20IPv4%E9%BB%98%E8%AE%A4%E5%AE%89%E5%85%A8%EF%BC%9A9.9.9.9%20IPv4%E9%BB%98%E8%AE%A4%E5%AE%89%E5%85%A8%EF%BC%9A149.112.112.112%20IPv6%E9%BB%98%E8%AE%A4%E5%AE%89%E5%85%A8%3A%202620%3Afe%3A%3Afe%20IPv6%E9%BB%98%E8%AE%A4%E5%AE%89%E5%85%A8%3A%202620%3Afe%3A%3Afe%3A9%20DoH%E9%BB%98%E8%AE%A4%EF%BC%9Ahttps%3A%2F%2Fdns.quad9.net%2Fdns-query%20DoT%E9%BB%98%E8%AE%A4%EF%BC%9Adns.quad9.net%20IPv4%E6%97%A0%E8%BF%87%E6%BB%A4%EF%BC%9A9.9.9.10%20IPv4%E6%97%A0%E8%BF%87%E6%BB%A4%EF%BC%9A149.112.112.10%20IPv6%E6%97%A0%E8%BF%87%E6%BB%A4%3A%202620%3Afe%3A%3A10%20IPv6%E6%97%A0%E8%BF%87%E6%BB%A4%3A%202620%3Afe%3A%3Afe%3A10%20DoH%E6%97%A0%E8%BF%87%E6%BB%A4%EF%BC%9Ahttps%3A%2F%2Fdns10.quad9.net%2Fdns-query%20DoT%E6%97%A0%E8%BF%87%E6%BB%A4%EF%BC%9Adns10.quad9.net%20IPv4%20ECS%E4%BF%9D%E6%8A%A4%EF%BC%9A9.9.9.11%20IPv4%20ECS%E4%BF%9D%E6%8A%A4%EF%BC%9A149.112.112.11%20IPv6%20ECS%E4%BF%9D%E6%8A%A4%3A%202620%3Afe%3A%3A11%20IPv6%20ECS%E4%BF%9D%E6%8A%A4%3A%202620%3Afe%3A%3Afe%3A11%20DoH%20ECS%E4%BF%9D%E6%8A%A4%EF%BC%9Ahttps%3A%2F%2Fdns11.quad9.net%2Fdns-query%20DoT%20ECS%E4%BF%9D%E6%8A%A4%EF%BC%9Adns11.quad9.net%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
-                  },
-                  {
-                    "dateAdded": 1747591521365,
-                    "dateLastUsed": 1747741839948,
-                    "id": "5269",
-                    "index": 1,
-                    "parentId": "5333",
-                    "syncing": true,
-                    "title": "CF优选IP和反代IP的方法总结 blog.onetwoon…",
-                    "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3ECF%E4%BC%98%E9%80%89IP%E5%92%8C%E5%8F%8D%E4%BB%A3IP%E7%9A%84%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93%20blog.onetwoone.eu.org%20%20Cloudflare%E7%9A%84workers%E5%92%8Cpages%E6%90%AD%E5%BB%BA%E7%9A%84%E5%85%8D%E8%B4%B9vpn%E8%8A%82%E7%82%B9%E7%AE%80%E5%8D%95%E5%A5%BD%E7%94%A8%EF%BC%8C%E4%BD%86%E8%A6%81%E4%BF%9D%E8%AF%81%E9%80%9F%E5%BA%A6%E6%88%91%E4%BB%AC%E5%BF%85%E9%A1%BB%E4%BC%98%E5%8C%96CF%E7%9A%84IP%E5%92%8C%E5%8F%8D%E4%BB%A3CF%E7%9A%84IP%E3%80%82%E7%8E%B0%E6%8A%8A%E5%86%85%E5%AE%B9%E6%80%BB%E7%BB%93%E5%A6%82%E4%B8%8B%EF%BC%9A%20%201.%E5%AF%BB%E6%89%BE%E4%BC%98%E9%80%89IP%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%9A%20%20%E7%BD%91%E7%AB%99%E7%9B%B4%E6%8E%A5%E8%8E%B7%E5%8F%96%E6%B3%95%EF%BC%9A%E7%AE%80%E5%8D%95%E3%80%81%E6%96%B9%E4%BE%BF%EF%BC%8C%E4%BD%86%E4%BD%BF%E7%94%A8%E7%9A%84%E4%BA%BA%E5%A4%AA%E5%A4%9A%EF%BC%8C%E5%8F%AF%E8%83%BD%E8%B4%A8%E9%87%8F%E8%BE%83%E4%B8%80%E8%88%AC%E3%80%82%20https%3A%2F%2Fstock.hostmonit.com%2FCloudFlareYes%20%20https%3A%2F%2Fmonitor.gacjie.cn%2Fpage%2Fcloudflare%2Fipv4.html%20%20http%3A%2F%2Fip.flares.cloud%2F%20%20https%3A%2F%2Fgithub.com%2Fymyuuu%2FIPDB%EF%BC%88%E8%BF%99%E4%B8%AA%E5%8F%AF%E4%B8%8D%E4%BD%86%E6%9C%89CF%E7%9A%84IP%EF%BC%8C%E8%BF%98%E6%9C%89%E5%8F%8D%E4%BB%A3CF%E7%9A%84IP%EF%BC%89%20%20%E4%BB%8E%E7%99%BD%E5%AB%96%E5%93%A5%E8%8E%B7%E5%BE%97%EF%BC%9Ahttps%3A%2F%2Fzip.baipiao.eu.org%20%20%E7%94%B5%E6%8A%A5%E7%BE%A4%E7%BB%84%E8%8E%B7%E5%BE%97%EF%BC%9A%C2%A0https%3A%2F%2Ft.me%2Fcf_push%20%20%E4%BB%8E%E6%9F%90%E9%A1%B9%E7%9B%AE%E8%8E%B7%E5%BE%97%EF%BC%9Ahttps%3A%2F%2Fgithub.com%2Fymyuuu%2FIPDB%20%20%E4%BB%A5%E4%B8%8A%E4%B8%A4%E7%A7%8D%E6%96%B9%E6%B3%95%E6%98%AF%E4%BB%8E%E5%85%B6%E5%AE%83%E5%A4%A7%E4%BD%AC%E7%9B%B4%E6%8E%A5%E8%8E%B7%E5%8F%96%E5%BE%97%E5%88%B0%EF%BC%8C%E6%96%B9%E6%B3%95%E7%AE%80%E5%8D%95%E3%80%81%E7%9B%B4%E6%8E%A5%EF%BC%8C%E9%9D%9E%E5%B8%B8%E9%80%82%E5%90%88%E5%B0%8F%E7%99%BD%E6%9C%8B%E5%8F%8B%E3%80%82%20%203.fofa%E5%AF%BB%E6%89%BE%E4%B8%AA%E6%80%A7%E5%8C%96%E7%9A%84CF%E7%9A%84IP%E6%88%96%E5%8F%8D%E4%BB%A3IP%EF%BC%9A%20https%3A%2F%2Ffofa.info%2F%20%20%E8%BF%99%E6%98%AF%E4%B8%80%E7%A7%8D%E9%9D%9E%E5%B8%B8%E5%A5%BD%E7%94%A8%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%8C%E5%88%A9%E7%94%A8%E5%AE%83%E8%83%BD%E5%A4%9F%E5%AF%BB%E6%89%BE%E8%87%AA%E5%B7%B1%E6%83%B3%E8%A6%81%E7%9A%84%E4%BB%BB%E4%BD%95IP%EF%BC%8C%E6%96%B9%E4%BE%BF%E5%87%86%E7%A1%AE%E3%80%82%E5%AF%B9%E5%B0%8F%E7%99%BD%E4%B9%9F%E4%B8%8D%E7%AE%97%E9%9A%BE%E3%80%82%E5%AE%8C%E5%85%A8%E5%8F%AF%E4%BB%A5%E6%A0%B9%E6%8D%AE%E8%87%AA%E5%B7%B1%E7%9A%84%E8%A6%81%E6%B1%82%EF%BC%8C%E8%AE%BE%E7%BD%AE%E7%AD%9B%E9%80%89%E6%9D%A1%E4%BB%B6%EF%BC%8C%E6%AF%94%E5%A6%82%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%81%E7%AB%AF%E5%8F%A3%E3%80%81%E5%9B%BD%E5%AE%B6%E3%80%81%E5%9C%B0%E5%8C%BA%E3%80%81%E5%9F%8E%E5%B8%82%E3%80%81IP%E6%AE%B5%E7%AD%89%E3%80%82%20%203.1%E7%AD%9B%E9%80%89CF%E7%9A%84IP%E6%88%96CDN%E4%BE%8B%E5%AD%90%EF%BC%9A%20%20server%3D%22cloudflare%22%20%26amp%3B%26amp%3B%20port%3D%22443%22%20%26amp%3B%26amp%3B%20country%3D%22SG%22%20%26amp%3B%26amp%3B%20(asn%3D%2213335%22%20%7C%7C%20asn%3D%22209242%22)%20server%3D%3D%22cloudflare%22%20%26amp%3B%26amp%3B%20%23%20%E6%9F%A5%E6%89%BE%E4%BD%BF%E7%94%A8%20Cloudflare%20%E4%BD%9C%E4%B8%BA%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%20IP%20%E5%9C%B0%E5%9D%80%20port%3D%3D%22443%22%20%26amp%3B%26amp%3B%20%23%20%E6%9F%A5%E6%89%BE%E5%BC%80%E6%94%BE%E7%AB%AF%E5%8F%A3%20443%EF%BC%88HTTPS%EF%BC%89%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%20country%3D%3D%22SG%22%20%26amp%3B%26amp%3B%20%23%20%E6%9F%A5%E6%89%BE%E4%BD%8D%E4%BA%8E%E6%96%B0%E5%8A%A0%E5%9D%A1%EF%BC%88SG%EF%BC%89%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%20(asn%3D%3D%2213335%22%20%7C%7C%20%23%20ASN%20%E7%BC%96%E5%8F%B7%E4%B8%BA%2013335%20%E6%88%96%20asn%3D%3D%22209242%22)%20%23%20ASN%20%E7%BC%96%E5%8F%B7%E4%B8%BA%20209242%20%203.2%E7%AD%9B%E9%80%89%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86CF%E7%9A%84IP%E4%BE%8B%E5%AD%90%EF%BC%9A%20%20server%3D%3D%22cloudflare%22%20%26amp%3B%26amp%3B%20port%3D%3D%2280%22%20%26amp%3B%26amp%3B%20header%3D%22Forbidden%22%20%26amp%3B%26amp%3B%20country%3D%3D%22SG%22%20%26amp%3B%26amp%3B%20asn!%3D%2213335%22%20%26amp%3B%26amp%3B%20asn!%3D%22209242%22%20%20%E4%B8%8A%E6%96%B9%E8%AF%AD%E6%B3%95%E7%9A%84%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E%EF%BC%9A%20server%3D%3D%22cloudflare%22%20%26amp%3B%26amp%3B%20%23%20%E4%BD%BF%E7%94%A8%20Cloudflare%20%E4%BD%9C%E4%B8%BA%E6%9C%8D%E5%8A%A1%E5%99%A8%20port%3D%3D%2280%22%20%26amp%3B%26amp%3B%20%23%20%E7%AB%AF%E5%8F%A3%E5%8F%B7%E4%B8%BA%2080%EF%BC%88HTTP%EF%BC%89header%3D%22Forbidden%22%20%26amp%3B%26amp%3B%20%23%20%E8%BF%94%E5%9B%9E%20HTTP%20%E5%A4%B4%E4%BF%A1%E6%81%AF%E4%B8%AD%E5%8C%85%E5%90%AB%20%22Forbidden%22%20country%3D%3D%22SG%22%20%26amp%3B%26amp%3B%20%23%20%E4%BD%8D%E4%BA%8E%E6%96%B0%E5%8A%A0%E5%9D%A1%EF%BC%88SG%EF%BC%89%20asn!%3D%2213335%22%20%26amp%3B%26amp%3B%20%23%20%E6%8E%92%E9%99%A4%20ASN%20%E7%BC%96%E5%8F%B7%E4%B8%BA%2013335%20%E7%9A%84%20IP%20%E5%9C%B0%E5%9D%80%EF%BC%88Cloudflare%20%E5%AE%98%E6%96%B9%20IP%EF%BC%89%20asn!%3D%22209242%22%20%23%20%E6%8E%92%E9%99%A4%20ASN%20%E7%BC%96%E5%8F%B7%E4%B8%BA%20209242%20%E7%9A%84%20IP%20%E5%9C%B0%E5%9D%80%EF%BC%88Cloudflare%20%E5%AE%98%E6%96%B9%20IP%EF%BC%89%E5%85%B3%E4%BA%8E%E7%BB%8F%E5%B8%B8%E4%BD%BF%E7%94%A8%E7%9A%84ASN%E5%8F%B7%EF%BC%9A%20Cloudflare%E5%B8%B8%E7%94%A8%E5%88%B0%E7%9A%84ASN%E5%8F%B7%EF%BC%9AAS13335%20AS209242%20Cloudflare%E5%85%B6%E5%AE%83ASN%E5%8F%B7%EF%BC%9AAS394536%20AS14789%20AS139242%20AS133877%20AS132892%20AS395747%20AS203898%20AS202623%20%E9%98%BF%E9%87%8C%E4%BA%91%E5%B8%B8%E7%94%A8%E7%9A%84%EF%BC%9AASN45102%20%E7%94%B2%E9%AA%A8%E6%96%87%E4%B8%BB%E8%A6%81%E7%9A%84%EF%BC%9AASN31898%20%E6%90%AC%E7%93%A6%E5%B7%A5%E5%B8%B8%E7%94%A8%E7%9A%84%EF%BC%9AASN25820%20%20%E6%B3%A8%E6%84%8F%EF%BC%9A%E4%BB%A5%E4%B8%8A%E8%AF%AD%E6%B3%95%E4%B8%8D%E6%98%AF%E5%9B%BA%E5%AE%9A%E4%B8%8D%E5%8F%98%E7%9A%84%EF%BC%8C%E5%A6%82country%E5%8F%AF%E6%8D%A2%E6%88%90city%E6%88%96region%EF%BC%8C%E7%9B%B8%E5%BA%94%E7%9A%84%E5%AF%B9%E8%B1%A1%E4%B9%9F%E8%A6%81%E6%94%B9%E5%8F%98%E3%80%82%E5%A6%82region%3D%E2%80%9DCalifornia%E2%80%9D%EF%BC%8Cregion%3D%E2%80%9DTokyo%E2%80%9D%EF%BC%8C%E4%BD%86%E4%B8%8D%E8%83%BDregion%3D%E2%80%9DJP%E2%80%9D%E3%80%82%20%20server%3D%3D%22cloudflare%22%20%26amp%3B%26amp%3B%20port%3D%3D%2280%22%20%26amp%3B%26amp%3B%20header%3D%22Forbidden%22%20%26amp%3B%26amp%3B%20country%3D%3D%22SG%22%20%26amp%3B%26amp%3B%20asn%3D%3D%2231898%22%20%E6%AF%94%E5%A6%82%E6%B7%BB%E5%8A%A0%E4%B8%8Aasn%3D%2231898%22%2C%E5%8F%AF%E4%BB%A5%E7%AD%9B%E9%80%89%E6%96%B0%E5%8A%A0%E5%9D%A1%E7%94%B2%E9%AA%A8%E6%96%87%E5%8F%8D%E4%BB%A3CF%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%82%20%204.%E6%9C%AC%E5%9C%B0%E4%BC%98%E9%80%89%E5%92%8C%E6%B5%8B%E9%80%9F%E5%B7%A5%E5%85%B7%20%20Github%EF%BC%9Ahttps%3A%2F%2Fgithub.com%2FXIU2%2FCloudflareSpeedTest%20%C2%A0%E8%BF%99%E4%B8%AA%E5%B7%A5%E5%85%B7%E8%87%AA%E5%B8%A6Cloudflare%E5%AE%98%E6%96%B9IP%E5%BA%93%EF%BC%8C%E5%A4%A7%E7%BA%A6%E6%9C%895955%E4%B8%AACF%E7%9A%84ip%2C%E5%8F%AA%E8%A6%81%E4%B8%80%E8%BF%90%E8%A1%8C%E5%B0%B1%E4%BC%9A%E8%87%AA%E5%8A%A8%E6%89%AB%E5%87%BA%E5%89%8D10%E4%B8%AA%E4%BC%98%E9%80%89IP%E3%80%82%E4%BD%86%E5%AE%83%E6%B2%A1%E6%9C%89%E5%8F%8D%E4%BB%A3IP%E5%BA%93%E5%93%88%EF%BC%8C%E5%8F%A6%E5%A4%96%E5%AE%83%E8%BF%98%E6%98%AF%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%94%A8%E7%9A%84%E6%B5%8B%E9%80%9F%E5%B7%A5%E5%85%B7%E3%80%82%20%20%E5%85%B6%E5%AE%83%E5%8F%AF%E8%83%BD%E7%94%A8%E5%88%B0%E7%9A%84%E5%B7%A5%E5%85%B7%20%20IP%E6%89%B9%E9%87%8F%E6%9F%A5%E8%AF%A2%EF%BC%9Ahttps%3A%2F%2Freallyfreegeoip.org%2Fbulk%20IP%E5%BD%92%E5%B1%9E%E5%9C%B0%E6%9F%A5%E8%AF%A2%EF%BC%9Ahttps%3A%2F%2Fipdata.co%2F%20%E4%B8%B4%E6%97%B6%E9%82%AE%E7%AE%B1%EF%BC%9Ahttps%3A%2F%2Ftemp-mail.org%2F%EF%BC%9Bhttps%3A%2F%2Ftempmail.plus%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
-                  }
-                ],
-                "dateAdded": 1747741971293,
-                "dateGroupModified": 1747743481872,
-                "id": "5333",
-                "index": 0,
-                "parentId": "5337",
-                "syncing": true,
-                "title": "📑便签"
-              },
-              {
-                "children": [
-                  {
-                    "dateAdded": 1747741153366,
-                    "dateLastUsed": 1747741226641,
-                    "id": "5330",
-                    "index": 0,
-                    "parentId": "5259",
-                    "syncing": true,
-                    "title": "python -m http.server 8000",
-                    "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3Epython%20-m%20http.server%208000%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
-                  },
-                  {
-                    "dateAdded": 1747743428442,
-                    "id": "5338",
-                    "index": 1,
-                    "parentId": "5259",
-                    "syncing": true,
-                    "title": "http://localhost:8000/",
-                    "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3Ehttp%3A%2F%2Flocalhost%3A8000%2F%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
-                  }
-                ],
-                "dateAdded": 1747569763329,
-                "dateGroupModified": 1747743532088,
-                "id": "5259",
-                "index": 1,
-                "parentId": "5337",
-                "syncing": true,
-                "title": "</> 命令"
-              },
-              {
-                "dateAdded": 1747742148707,
-                "dateLastUsed": 1747746252429,
-                "id": "5336",
-                "index": 2,
-                "parentId": "5337",
-                "syncing": true,
-                "title": " background.js（直接可用）",
-                "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3E%E2%9C%85%20background.js%EF%BC%88%E7%9B%B4%E6%8E%A5%E5%8F%AF%E7%94%A8%EF%BC%89%20%2F%2F%20%E8%BD%AC%E4%B9%89%20HTML%20%E4%BF%9D%E7%95%99%E4%BB%A3%E7%A0%81%E7%BB%93%E6%9E%84%20function%20escapeHTML(text)%20%7B%20%20%20return%20text%20%20%20%20%20.replace(%2F%26amp%3B%2Fg%2C%20%22%26amp%3Bamp%3B%22)%20%20%20%20%20.replace(%2F%26lt%3B%2Fg%2C%20%22%26amp%3Blt%3B%22)%20%20%20%20%20.replace(%2F%26gt%3B%2Fg%2C%20%22%26amp%3Bgt%3B%22)%3B%20%7D%20%20%2F%2F%20%E5%88%9B%E5%BB%BA%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E9%A1%B9%20chrome.runtime.onInstalled.addListener(()%20%3D%26gt%3B%20%7B%20%20%20chrome.contextMenus.removeAll(()%20%3D%26gt%3B%20%7B%20%20%20%20%20chrome.contextMenus.create(%7B%20%20%20%20%20%20%20id%3A%20%22add-selection-to-bookmarks%22%2C%20%20%20%20%20%20%20title%3A%20%22%E6%B7%BB%E5%8A%A0%E9%80%89%E4%B8%AD%E6%96%87%E6%9C%AC%E5%88%B0%E4%B9%A6%E7%AD%BE%22%2C%20%20%20%20%20%20%20contexts%3A%20%5B%22selection%22%5D%20%20%20%20%20%7D)%3B%20%20%20%20%20console.log(%22%E2%9C%85%20%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E5%B7%B2%E5%88%9B%E5%BB%BA%22)%3B%20%20%20%7D)%3B%20%7D)%3B%20%20%2F%2F%20%E5%8F%B3%E9%94%AE%E7%82%B9%E5%87%BB%E9%80%BB%E8%BE%91%20chrome.contextMenus.onClicked.addListener(async%20(info%2C%20tab)%20%3D%26gt%3B%20%7B%20%20%20if%20(info.menuItemId%20%3D%3D%3D%20%22add-selection-to-bookmarks%22%20%26amp%3B%26amp%3B%20info.selectionText)%20%7B%20%20%20%20%20const%20selection%20%3D%20info.selectionText.trim()%3B%20%20%20%20%20const%20title%20%3D%20selection.length%20%26gt%3B%2030%20%3F%20selection.slice(0%2C%2030)%20%2B%20%22%E2%80%A6%22%20%3A%20selection%3B%20%20%20%20%20%20%2F%2F%20%E7%94%9F%E6%88%90%20HTML%20%E6%A0%BC%E5%BC%8F%E5%86%85%E5%AE%B9%E5%B9%B6%E8%BD%AC%E4%B8%BA%20data%20URL%20%20%20%20%20const%20htmlContent%20%3D%20%60%20%26lt%3B!DOCTYPE%20html%26gt%3B%20%26lt%3Bhtml%26gt%3B%20%26lt%3Bhead%26gt%3B%20%20%20%26lt%3Bmeta%20charset%3D%22utf-8%22%26gt%3B%20%20%20%26lt%3Bstyle%26gt%3B%20%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%20%20%20%20%20pre%20%7B%20%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%20%20%20%20%20%20%20word-break%3A%20break-word%3B%20%20%20%20%20%20%20font-size%3A%2014px%3B%20%20%20%20%20%20%20line-height%3A%201.5%3B%20%20%20%20%20%7D%20%20%20%26lt%3B%2Fstyle%26gt%3B%20%26lt%3B%2Fhead%26gt%3B%20%26lt%3Bbody%26gt%3B%20%20%20%26lt%3Bpre%26gt%3B%24%7BescapeHTML(selection)%7D%26lt%3B%2Fpre%26gt%3B%20%26lt%3B%2Fbody%26gt%3B%20%26lt%3B%2Fhtml%26gt%3B%20%20%20%20%20%60.trim()%3B%20%20%20%20%20%20const%20url%20%3D%20%22data%3Atext%2Fhtml%3Bcharset%3Dutf-8%2C%22%20%2B%20encodeURIComponent(htmlContent)%3B%20%20%20%20%20%20try%20%7B%20%20%20%20%20%20%20%2F%2F%20%E6%9F%A5%E6%89%BE%E6%88%96%E5%88%9B%E5%BB%BA%E2%80%9C%F0%9F%93%8C%E6%91%98%E5%BD%95%E2%80%9D%E4%B9%A6%E7%AD%BE%E6%96%87%E4%BB%B6%E5%A4%B9%20%20%20%20%20%20%20const%20folders%20%3D%20await%20chrome.bookmarks.search(%7B%20title%3A%20%22%F0%9F%93%8C%E6%91%98%E5%BD%95%22%20%7D)%3B%20%20%20%20%20%20%20const%20folder%20%3D%20folders.find(b%20%3D%26gt%3B%20!b.url)%3B%20%20%20%20%20%20%20const%20folderId%20%3D%20folder%20%3F%20folder.id%20%3A%20(await%20chrome.bookmarks.create(%7B%20title%3A%20%22%F0%9F%93%8C%E6%91%98%E5%BD%95%22%20%7D)).id%3B%20%20%20%20%20%20%20%20%2F%2F%20%E5%88%9B%E5%BB%BA%E4%B9%A6%E7%AD%BE%20%20%20%20%20%20%20const%20bookmark%20%3D%20await%20chrome.bookmarks.create(%7B%20%20%20%20%20%20%20%20%20parentId%3A%20folderId%2C%20%20%20%20%20%20%20%20%20title%3A%20title%2C%20%20%20%20%20%20%20%20%20url%3A%20url%20%20%20%20%20%20%20%7D)%3B%20%20%20%20%20%20%20%20console.log(%22%E2%9C%85%20%E5%B7%B2%E4%BF%9D%E5%AD%98%E4%B8%BA%E4%B9%A6%E7%AD%BE%EF%BC%9A%22%2C%20bookmark)%3B%20%20%20%20%20%7D%20catch%20(err)%20%7B%20%20%20%20%20%20%20console.error(%22%E2%9D%8C%20%E5%88%9B%E5%BB%BA%E4%B9%A6%E7%AD%BE%E5%A4%B1%E8%B4%A5%EF%BC%9A%22%2C%20err)%3B%20%20%20%20%20%7D%20%20%20%7D%20%7D)%3B%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
-              },
-              {
-                "dateAdded": 1747738516721,
-                "dateLastUsed": 1747741834406,
-                "id": "5326",
-                "index": 3,
-                "parentId": "5337",
-                "syncing": true,
-                "title": "你现在可以直接替换掉你原来的那一段这部分代码。",
-                "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3E%E4%BD%A0%E7%8E%B0%E5%9C%A8%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E6%9B%BF%E6%8D%A2%E6%8E%89%E4%BD%A0%E5%8E%9F%E6%9D%A5%E7%9A%84%E9%82%A3%E4%B8%80%E6%AE%B5%E8%BF%99%E9%83%A8%E5%88%86%E4%BB%A3%E7%A0%81%E3%80%82%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
-              },
-              {
-                "dateAdded": 1747738534896,
-                "dateLastUsed": 1747743576910,
-                "id": "5327",
-                "index": 4,
-                "parentId": "5337",
-                "syncing": true,
-                "title": "最终替换代码（完全重构这段逻辑） 请直接把你那段原始的 if…",
-                "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3E%E6%9C%80%E7%BB%88%E6%9B%BF%E6%8D%A2%E4%BB%A3%E7%A0%81%EF%BC%88%E5%AE%8C%E5%85%A8%E9%87%8D%E6%9E%84%E8%BF%99%E6%AE%B5%E9%80%BB%E8%BE%91%EF%BC%89%20%E8%AF%B7%E7%9B%B4%E6%8E%A5%E6%8A%8A%E4%BD%A0%E9%82%A3%E6%AE%B5%E5%8E%9F%E5%A7%8B%E7%9A%84%20if%20(bookmark.url.startsWith(...))%20%E6%95%B4%E6%AE%B5%E6%9B%BF%E6%8D%A2%E6%88%90%E4%BB%A5%E4%B8%8B%E5%86%85%E5%AE%B9%EF%BC%9A%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
-              },
-              {
-                "dateAdded": 1747741011391,
-                "dateLastUsed": 1747743560481,
-                "id": "5328",
-                "index": 5,
-                "parentId": "5337",
-                "syncing": true,
-                "title": "转义 HTML 特殊字符 function escap…",
-                "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3E%2F%2F%20%E8%BD%AC%E4%B9%89%20HTML%20%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6%20function%20escapeHTML(text)%20%7B%20%20%20return%20text%20%20%20%20%20.replace(%2F%26amp%3B%2Fg%2C%20%22%26amp%3Bamp%3B%22)%20%20%20%20%20.replace(%2F%26lt%3B%2Fg%2C%20%22%26amp%3Blt%3B%22)%20%20%20%20%20.replace(%2F%26gt%3B%2Fg%2C%20%22%26amp%3Bgt%3B%22)%3B%20%7D%20%20%2F%2F%20%E5%88%9B%E5%BB%BA%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%20chrome.runtime.onInstalled.addListener(()%20%3D%26gt%3B%20%7B%20%20%20chrome.contextMenus.removeAll(()%20%3D%26gt%3B%20%7B%20%20%20%20%20chrome.contextMenus.create(%7B%20%20%20%20%20%20%20id%3A%20%22add-selection-to-bookmarks%22%2C%20%20%20%20%20%20%20title%3A%20%22%E6%B7%BB%E5%8A%A0%E9%80%89%E4%B8%AD%E6%96%87%E6%9C%AC%E5%88%B0%E4%B9%A6%E7%AD%BE%22%2C%20%20%20%20%20%20%20contexts%3A%20%5B%22selection%22%5D%20%20%20%20%20%7D)%3B%20%20%20%20%20console.log(%22%E2%9C%85%20%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E5%B7%B2%E5%88%9B%E5%BB%BA%22)%3B%20%20%20%7D)%3B%20%7D)%3B%20%20%2F%2F%20%E5%8F%B3%E9%94%AE%E7%82%B9%E5%87%BB%E5%A4%84%E7%90%86%20chrome.contextMenus.onClicked.addListener(async%20(info%2C%20tab)%20%3D%26gt%3B%20%7B%20%20%20if%20(info.menuItemId%20%3D%3D%3D%20%22add-selection-to-bookmarks%22%20%26amp%3B%26amp%3B%20info.selectionText)%20%7B%20%20%20%20%20const%20selection%20%3D%20info.selectionText.trim()%3B%20%20%20%20%20%20%2F%2F%20%E6%A0%87%E9%A2%98%EF%BC%9A%E6%88%AA%E5%8F%96%E5%89%8D%2030%20%E5%AD%97%E7%AC%A6%20%20%20%20%20const%20title%20%3D%20selection.length%20%26gt%3B%2030%20%3F%20selection.slice(0%2C%2030)%20%2B%20%22%E2%80%A6%22%20%3A%20selection%3B%20%20%20%20%20%20%2F%2F%20%E7%BC%96%E7%A0%81%E6%96%87%E6%9C%AC%E4%BD%9C%E4%B8%BA%20URL%20%E5%8F%82%E6%95%B0%20%20%20%20%20const%20encodedText%20%3D%20encodeURIComponent(selection)%3B%20%20%20%20%20const%20url%20%3D%20%60chrome-extension%3A%2F%2F%24%7Bchrome.runtime.id%7D%2Fcopy.html%3Ftext%3D%24%7BencodedText%7D%60%3B%20%20%20%20%20%20try%20%7B%20%20%20%20%20%20%20%2F%2F%20%E6%9F%A5%E6%89%BE%E6%88%96%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%E2%80%9C%F0%9F%93%8C%E6%91%98%E5%BD%95%E2%80%9D%20%20%20%20%20%20%20const%20folders%20%3D%20await%20chrome.bookmarks.search(%7B%20title%3A%20%22%F0%9F%93%8C%E6%91%98%E5%BD%95%22%20%7D)%3B%20%20%20%20%20%20%20const%20folder%20%3D%20folders.find(b%20%3D%26gt%3B%20!b.url)%3B%20%20%20%20%20%20%20const%20folderId%20%3D%20folder%20%3F%20folder.id%20%3A%20(await%20chrome.bookmarks.create(%7B%20title%3A%20%22%F0%9F%93%8C%E6%91%98%E5%BD%95%22%20%7D)).id%3B%20%20%20%20%20%20%20%20%2F%2F%20%E5%88%9B%E5%BB%BA%E4%B9%A6%E7%AD%BE%20%20%20%20%20%20%20const%20bookmark%20%3D%20await%20chrome.bookmarks.create(%7B%20%20%20%20%20%20%20%20%20parentId%3A%20folderId%2C%20%20%20%20%20%20%20%20%20title%3A%20title%2C%20%20%20%20%20%20%20%20%20url%3A%20url%20%20%20%20%20%20%20%7D)%3B%20%20%20%20%20%20%20%20console.log(%22%E2%9C%85%20%E4%B9%A6%E7%AD%BE%E5%88%9B%E5%BB%BA%E6%88%90%E5%8A%9F%EF%BC%9A%22%2C%20bookmark)%3B%20%20%20%20%20%7D%20catch%20(err)%20%7B%20%20%20%20%20%20%20console.error(%22%E2%9D%8C%20%E5%88%9B%E5%BB%BA%E4%B9%A6%E7%AD%BE%E5%A4%B1%E8%B4%A5%EF%BC%9A%22%2C%20err)%3B%20%20%20%20%20%7D%20%20%20%7D%20%7D)%3B%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
-              },
-              {
-                "dateAdded": 1747741971299,
-                "id": "5334",
-                "index": 6,
-                "parentId": "5337",
-                "syncing": true,
-                "title": "bookmark_1.01 1.0 一个支持层级折叠显示的 …",
-                "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3Ebookmark_1.01%201.0%20%E4%B8%80%E4%B8%AA%E6%94%AF%E6%8C%81%E5%B1%82%E7%BA%A7%E6%8A%98%E5%8F%A0%E6%98%BE%E7%A4%BA%E7%9A%84%20Chrome%20%E4%B9%A6%E7%AD%BE%E6%89%A9%E5%B1%95%E3%80%82%E4%B9%9F%E6%94%AF%E6%8C%81%E6%B7%BB%E5%8A%A0%E9%80%89%E4%B8%AD%E6%96%87%E6%9C%AC%E5%88%B0%E4%B9%A6%E7%AD%BE%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
-              },
-              {
-                "dateAdded": 1747744987891,
-                "id": "5341",
-                "index": 7,
-                "parentId": "5337",
-                "syncing": true,
-                "title": "curl -Ls https://raw.githubuse…",
-                "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3Ecurl%20-Ls%20https%3A%2F%2Fraw.githubusercontent.com%2Ffrankiejun%2Fnode-ws%2Frefs%2Fheads%2Fmain%2Fsetup.sh%20%7C%20bash%20-s%20w.692.cloudns.be%20%20curl%20-Ls%20https%3A%2F%2Fraw.githubusercontent.com%2Ffrankiejun%2Fnode-ws%2Frefs%2Fheads%2Fmain%2Fsetup.sh%20%7C%20bash%20-s%20w.mgta.dpdns.org%20%20%2Fhome%2Fzhvhvbow%2Fdomains%2Fw.692.cloudns.be%2Fpublic_html%2Findex.js%20%20https%3A%2F%2Fsub.692.cloudns.be%2Fsub%3Fhost%3Dweb.692.cloudns.be%26amp%3Buuid%3D11b05a52-0447-47d6-bc0d-a7817b5b5e8d%26amp%3Bpath%3D%252F%253Fed%253D2560%2526PROXYIP%253Dts.hpc.tw%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
-              },
-              {
-                "dateAdded": 1747745886569,
-                "id": "5342",
-                "index": 8,
-                "parentId": "5337",
-                "syncing": true,
-                "title": "ts.hpc.tw",
-                "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%20120px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3E%2F%3Fed%3D2560%26amp%3BPROXYIP%3Dts.hpc.tw%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
-              },
-              {
-                "dateAdded": 1747745907089,
-                "id": "5343",
-                "index": 9,
-                "parentId": "5337",
-                "syncing": true,
-                "title": "重启资源管理器",
-                "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%20120px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3Etaskkill%20%2Ff%20%2Fim%20explorer.exe%20%26amp%3B%20start%20explorer.exe%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
-              },
-              {
-                "dateAdded": 1747745924801,
-                "id": "5344",
-                "index": 10,
-                "parentId": "5337",
-                "syncing": true,
-                "title": "清除chrome缓存密码",
-                "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%20120px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3ElocalStorage.removeItem(%22pw_verified_at%22)%3B%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
-              },
-              {
-                "dateAdded": 1747746019272,
-                "id": "5345",
-                "index": 11,
-                "parentId": "5337",
-                "syncing": true,
-                "title": "nix=y uuid=5a2ad762-3ff3-49cb-…",
-                "url": "data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20body%20%7B%20font-family%3A%20monospace%3B%20padding%3A%2020px%20120px%3B%20%7D%0A%20%20%20%20pre%20%7B%0A%20%20%20%20%20%20white-space%3A%20pre-wrap%3B%0A%20%20%20%20%20%20word-break%3A%20break-word%3B%0A%20%20%20%20%20%20font-size%3A%2014px%3B%0A%20%20%20%20%20%20line-height%3A%201.5%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%20%20%3Cpre%3Enix%3Dy%20uuid%3D5a2ad762-3ff3-49cb-9187-34e9cf8a42dc%20vmpt%3D692%20agn%3Didx.692.cloudns.be%20agk%3DeyJhIjoiODYwNDkxY2JmMjQ1ZmUzNGU5NmFhMTI3YTg5ODNmNjciLCJ0IjoiODE0ODgwZDItNTdiYy00N2Y2LTk5YzAtOTIyMTllZjNmMjI0IiwicyI6Ik5qY3lPR1UwT1dRdE5EVXhaQzAwTURkaExUZzVOekl0TWpsbU56VmtZVE13WVdGbCJ9%20bash%20%26lt%3B(curl%20-Ls%20https%3A%2F%2Fraw.githubusercontent.com%2Fyonggekkk%2Fargosb%2Fmain%2Fargosb.sh)%3C%2Fpre%3E%0A%3C%2Fbody%3E%0A%3C%2Fhtml%3E"
-              }
-            ],
-            "dateAdded": 1747743428438,
-            "dateGroupModified": 1747746019272,
-            "id": "5337",
             "index": 10,
             "parentId": "1",
             "syncing": true,
-            "title": "📑摘录"
+            "title": ""
           },
           {
             "children": [
@@ -3933,9 +4043,19 @@
                   {
                     "children": [
                       {
+                        "children": [],
+                        "dateAdded": 1747809810133,
+                        "dateGroupModified": 1747809810133,
+                        "id": "5349",
+                        "index": 0,
+                        "parentId": "4778",
+                        "syncing": true,
+                        "title": "新建文件夹"
+                      },
+                      {
                         "dateAdded": 1741445583000,
                         "id": "4779",
-                        "index": 0,
+                        "index": 1,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "阅读模式",
@@ -3943,7 +4063,7 @@
                       },
                       {
                         "id": "4780",
-                        "index": 1,
+                        "index": 2,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "阅读模式",
@@ -3952,7 +4072,7 @@
                       {
                         "dateAdded": 1355405016000,
                         "id": "4781",
-                        "index": 2,
+                        "index": 3,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "宽度适配",
@@ -3961,7 +4081,7 @@
                       {
                         "dateAdded": 1355394427000,
                         "id": "4782",
-                        "index": 3,
+                        "index": 4,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "保存到instapaper",
@@ -3969,7 +4089,7 @@
                       },
                       {
                         "id": "4783",
-                        "index": 4,
+                        "index": 5,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "自动滚屏",
@@ -3977,7 +4097,7 @@
                       },
                       {
                         "id": "4784",
-                        "index": 5,
+                        "index": 6,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "垂直分屏模式",
@@ -3985,7 +4105,7 @@
                       },
                       {
                         "id": "4785",
-                        "index": 6,
+                        "index": 7,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "水平分屏模式",
@@ -3993,7 +4113,7 @@
                       },
                       {
                         "id": "4786",
-                        "index": 7,
+                        "index": 8,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "网页全屏模式",
@@ -4001,7 +4121,7 @@
                       },
                       {
                         "id": "4787",
-                        "index": 8,
+                        "index": 9,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "护眼模式",
@@ -4009,7 +4129,7 @@
                       },
                       {
                         "id": "4788",
-                        "index": 9,
+                        "index": 10,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "聚焦模式",
@@ -4017,7 +4137,7 @@
                       },
                       {
                         "id": "4789",
-                        "index": 10,
+                        "index": 11,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "纸墨模式",
@@ -4025,7 +4145,7 @@
                       },
                       {
                         "id": "4790",
-                        "index": 11,
+                        "index": 12,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "黑夜模式",
@@ -4033,7 +4153,7 @@
                       },
                       {
                         "id": "4791",
-                        "index": 12,
+                        "index": 13,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "报纸模式",
@@ -4041,7 +4161,7 @@
                       },
                       {
                         "id": "4792",
-                        "index": 13,
+                        "index": 14,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "仿生学阅读",
@@ -4049,7 +4169,7 @@
                       },
                       {
                         "id": "4793",
-                        "index": 14,
+                        "index": 15,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "长句着色阅读",
@@ -4057,7 +4177,7 @@
                       },
                       {
                         "id": "4794",
-                        "index": 15,
+                        "index": 16,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "背景切换",
@@ -4065,7 +4185,7 @@
                       },
                       {
                         "id": "4795",
-                        "index": 16,
+                        "index": 17,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "高亮介词副词",
@@ -4073,7 +4193,7 @@
                       },
                       {
                         "id": "4796",
-                        "index": 17,
+                        "index": 18,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "触屏滚动模式",
@@ -4081,7 +4201,7 @@
                       },
                       {
                         "id": "4797",
-                        "index": 18,
+                        "index": 19,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "自动刷新",
@@ -4089,7 +4209,7 @@
                       },
                       {
                         "id": "4798",
-                        "index": 19,
+                        "index": 20,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "Feedly Feed Finder",
@@ -4098,7 +4218,7 @@
                       {
                         "dateAdded": 1355405015000,
                         "id": "4799",
-                        "index": 20,
+                        "index": 21,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "Readable",
@@ -4107,7 +4227,7 @@
                       {
                         "dateAdded": 1355405016000,
                         "id": "4800",
-                        "index": 21,
+                        "index": 22,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "PrintWhatYouLike",
@@ -4115,7 +4235,7 @@
                       },
                       {
                         "id": "4801",
-                        "index": 22,
+                        "index": 23,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "Readability",
@@ -4123,7 +4243,7 @@
                       },
                       {
                         "id": "4802",
-                        "index": 23,
+                        "index": 24,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "MarkUp网页标记",
@@ -4132,7 +4252,7 @@
                       {
                         "dateAdded": 1355394432000,
                         "id": "4803",
-                        "index": 24,
+                        "index": 25,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "清除隐藏文字",
@@ -4140,7 +4260,7 @@
                       },
                       {
                         "id": "4804",
-                        "index": 25,
+                        "index": 26,
                         "parentId": "4778",
                         "syncing": true,
                         "title": "繁简转换",
@@ -4148,6 +4268,7 @@
                       }
                     ],
                     "dateAdded": 1741449975700,
+                    "dateGroupModified": 1747812607291,
                     "id": "4778",
                     "index": 1,
                     "parentId": "4749",
@@ -4181,7 +4302,7 @@
                         "url": "javascript:window.open('https://www.lofter.com/genBitmaxImage?url=%27+decodeURIComponent(location.href)+%27&h=330&w=330%27);void(0);"
                       },
                       {
-                        "dateLastUsed": 1747743670570,
+                        "dateLastUsed": 1747820773466,
                         "id": "4809",
                         "index": 3,
                         "parentId": "4805",
@@ -5885,7 +6006,7 @@
               },
               {
                 "dateAdded": 1747074966485,
-                "dateLastUsed": 1747674467155,
+                "dateLastUsed": 1747810460846,
                 "id": "5208",
                 "index": 4,
                 "parentId": "5213",
@@ -5938,11 +6059,11 @@
             "index": 11,
             "parentId": "1",
             "syncing": true,
-            "title": "☰   其他"
+            "title": "其他"
           }
         ],
         "dateAdded": 1707645589983,
-        "dateGroupModified": 1747749348257,
+        "dateGroupModified": 1747827765985,
         "folderType": "bookmarks-bar",
         "id": "1",
         "index": 0,
@@ -5953,7 +6074,7 @@
       {
         "children": [],
         "dateAdded": 1707645589983,
-        "dateGroupModified": 1747743428439,
+        "dateGroupModified": 1747826136147,
         "folderType": "other",
         "id": "2",
         "index": 1,
@@ -5962,7 +6083,7 @@
         "title": "其他书签"
       }
     ],
-    "dateAdded": 1747744818901,
+    "dateAdded": 1747823216855,
     "id": "0",
     "syncing": false,
     "title": ""
