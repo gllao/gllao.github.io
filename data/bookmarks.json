@@ -567,6 +567,7 @@
               },
               {
                 "dateAdded": 1747647146610,
+                "dateLastUsed": 1747853434827,
                 "id": "5302",
                 "index": 2,
                 "parentId": "2124",
@@ -1555,10 +1556,19 @@
                 "url": "https://github.com/fjvi?tab=repositories"
               },
               {
+                "dateAdded": 1747849910853,
+                "id": "5386",
+                "index": 3,
+                "parentId": "2272",
+                "syncing": true,
+                "title": "⬆上传 · fjvi.github.io",
+                "url": "https://github.com/fjvi/fjvi.github.io/upload/main"
+              },
+              {
                 "dateAdded": 1741280455841,
                 "dateLastUsed": 1741603743689,
                 "id": "3975",
-                "index": 3,
+                "index": 4,
                 "parentId": "2272",
                 "syncing": true,
                 "title": "✍️新建笔记@note",
@@ -1568,7 +1578,7 @@
                 "dateAdded": 1727795015903,
                 "dateLastUsed": 1742439529472,
                 "id": "2096",
-                "index": 4,
+                "index": 5,
                 "parentId": "2272",
                 "syncing": true,
                 "title": "Gists",
@@ -1578,7 +1588,7 @@
                 "dateAdded": 1741443224804,
                 "dateLastUsed": 1741508443034,
                 "id": "4747",
-                "index": 5,
+                "index": 6,
                 "parentId": "2272",
                 "syncing": true,
                 "title": "GitHub探索",
@@ -1587,7 +1597,7 @@
               {
                 "dateAdded": 1746892089746,
                 "id": "5200",
-                "index": 6,
+                "index": 7,
                 "parentId": "2272",
                 "syncing": true,
                 "title": "Codespaces",
@@ -1595,7 +1605,7 @@
               }
             ],
             "dateAdded": 1740645478211,
-            "dateGroupModified": 1747616187188,
+            "dateGroupModified": 1747851314898,
             "id": "2272",
             "index": 4,
             "parentId": "1",
@@ -3281,7 +3291,7 @@
                   }
                 ],
                 "dateAdded": 1741496561260,
-                "dateGroupModified": 1744645636488,
+                "dateGroupModified": 1747853109351,
                 "id": "5054",
                 "index": 1,
                 "parentId": "2564",
@@ -3345,29 +3355,9 @@
                     "url": "https://5sing.kugou.com/index.html"
                   },
                   {
-                    "dateAdded": 1747812726787,
-                    "dateLastUsed": 1747816462937,
-                    "id": "5351",
-                    "index": 6,
-                    "parentId": "5056",
-                    "syncing": true,
-                    "title": "data/bookmarks_2024_10_3.json",
-                    "url": "https://fjvi.github.io/sq/?data=https%3A%2F%2Fraw.githubusercontent.com%2Ffjvi%2Fdata%2Frefs%2Fheads%2Fmain%2Fbookmarks_2024_10_3.json%3Ftoken%3DGHSAT0AAAAAADBFBCZTALGX7LBMCODTTE2I2BNVQVA"
-                  },
-                  {
-                    "dateAdded": 1747812607291,
-                    "dateLastUsed": 1747823898640,
-                    "id": "5350",
-                    "index": 7,
-                    "parentId": "5056",
-                    "syncing": true,
-                    "title": "data/jav",
-                    "url": "https://fjvi.github.io/sq/?data=https%3A%2F%2Fraw.githubusercontent.com%2Ffjvi%2Fdata%2Frefs%2Fheads%2Fmain%2Fjav.json%3Ftoken%3DGHSAT0AAAAAADBFBCZSJAS2W2GJV7SPKLB22BNVM6A"
-                  },
-                  {
                     "dateAdded": 1707027446000,
                     "id": "2565",
-                    "index": 8,
+                    "index": 6,
                     "parentId": "5056",
                     "syncing": true,
                     "title": "阿里云盘无损音乐",
@@ -3377,7 +3367,7 @@
                     "dateAdded": 1707222659000,
                     "dateLastUsed": 1741496978501,
                     "id": "2567",
-                    "index": 9,
+                    "index": 7,
                     "parentId": "5056",
                     "syncing": true,
                     "title": "阿里云盘- 700G+ 无损音乐汇总",
@@ -3387,7 +3377,7 @@
                     "dateAdded": 1707222805000,
                     "dateLastUsed": 1741496851370,
                     "id": "2568",
-                    "index": 10,
+                    "index": 8,
                     "parentId": "5056",
                     "syncing": true,
                     "title": "阿里云盘-音乐合集",
@@ -3397,7 +3387,7 @@
                     "dateAdded": 1707223106000,
                     "dateLastUsed": 1741496887967,
                     "id": "2569",
-                    "index": 11,
+                    "index": 9,
                     "parentId": "5056",
                     "syncing": true,
                     "title": "阿里云盘-音乐系列",
@@ -3407,7 +3397,7 @@
                     "dateAdded": 1707231287000,
                     "dateLastUsed": 1741496936222,
                     "id": "2571",
-                    "index": 12,
+                    "index": 10,
                     "parentId": "5056",
                     "syncing": true,
                     "title": "阿里云盘-群星【无损音乐】",
@@ -3415,7 +3405,7 @@
                   }
                 ],
                 "dateAdded": 1741496763572,
-                "dateGroupModified": 1747816520821,
+                "dateGroupModified": 1747851366471,
                 "id": "5056",
                 "index": 2,
                 "parentId": "2564",
@@ -4473,7 +4463,7 @@
                       }
                     ],
                     "dateAdded": 1741449975708,
-                    "dateGroupModified": 1747849632071,
+                    "dateGroupModified": 1747849910853,
                     "id": "4805",
                     "index": 2,
                     "parentId": "4749",
@@ -4937,9 +4927,19 @@
                         "url": "javascript:var ax=prompt('%E7%99%BE%E5%BA%A6%E6%96%87%E8%BE%91%E6%90%9C%E7%B4%A2\\n%E8%AF%B7%E8%BE%93%E5%85%A5%E6%90%9C%E7%B4%A2%E5%85%B3%E9%94%AE%E5%AD%97','');if(ax.length>0){window.open('https://www.google.com/search?hl=zh-CN&client=opera&q=site:https://wenku.baidu.com/album/view%27+%27%20%27+encodeURIComponent(ax))};void(0)"
                       },
                       {
+                        "dateAdded": 1747851314898,
+                        "dateLastUsed": 1747853851630,
+                        "id": "5387",
+                        "index": 22,
+                        "parentId": "4861",
+                        "syncing": true,
+                        "title": "聚合搜索jj",
+                        "url": "https://fjvi.github.io/?data=https%3A%2F%2Fraw.githubusercontent.com%2Ffjvi%2Fdata%2Frefs%2Fheads%2Fmain%2Fdata%2Fjav.json%3Ftoken%3DGHSAT0AAAAAADBFBCZSB7QPLPIFEFY76RDG2BOEI5A"
+                      },
+                      {
                         "dateAdded": 1437214395000,
                         "id": "4884",
-                        "index": 22,
+                        "index": 23,
                         "parentId": "4861",
                         "syncing": true,
                         "title": "*查找相似页面",
@@ -4948,7 +4948,7 @@
                       {
                         "dateAdded": 1389921879000,
                         "id": "4885",
-                        "index": 23,
+                        "index": 24,
                         "parentId": "4861",
                         "syncing": true,
                         "title": "*相似网页搜索",
@@ -4956,7 +4956,7 @@
                       },
                       {
                         "id": "4886",
-                        "index": 24,
+                        "index": 25,
                         "parentId": "4861",
                         "syncing": true,
                         "title": "维基中文搜索",
@@ -4964,6 +4964,7 @@
                       }
                     ],
                     "dateAdded": 1741449975721,
+                    "dateGroupModified": 1747853177150,
                     "id": "4861",
                     "index": 5,
                     "parentId": "4749",
@@ -5982,6 +5983,7 @@
                       }
                     ],
                     "dateAdded": 1741449975749,
+                    "dateGroupModified": 1747853135111,
                     "id": "5002",
                     "index": 12,
                     "parentId": "4749",
@@ -5990,7 +5992,7 @@
                   }
                 ],
                 "dateAdded": 1741449975694,
-                "dateGroupModified": 1747743240033,
+                "dateGroupModified": 1747853132279,
                 "id": "4749",
                 "index": 0,
                 "parentId": "5213",
