@@ -27,7 +27,9 @@ ul.search-results {
     padding: 0;
     margin: 0;
 }
-
+li.open {
+    border-bottom: 1px solid #ffb75a;
+}
 .accordion-menu li>a {
     display: block;
     padding: 8px 30px;
@@ -273,7 +275,7 @@ a.bookmark-link:hover {
     /* 垂直居中 */
 }
    
-   /* 文本复制样式 */
+/* === 复制文本项样式 === */
 .chrome-extension-wrapper {
   margin: 0;
   overflow: hidden;
@@ -325,6 +327,46 @@ a.bookmark-link:hover {
   font-family: monospace;
   line-height: 1.5;
   display: none;
+}
+
+/* 展开状态 */
+.chrome-extension-wrapper.open .chrome-extension-content {
+  display: block;
+
+}
+.chrome-extension-wrapper.open .chrome-extension-header {
+    background-color: #ffc107;
+	color: #b94152;
+	font-weight: bold;
+	font-size: 1.2rem;
+	letter-spacing: 4px;
+    height: 26px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+/* 修复书签加载状态 */
+.bookmark-loading {
+  padding: 20px;
+  text-align: center;
+  color: #666;
+}
+
+.bookmark-error {
+  padding: 20px;
+  text-align: center;
+  color: #d32f2f;
+}
+
+.retry-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 
