@@ -21,35 +21,69 @@ let originalBookmarkTreeHTML = "";
 let observer = null;
 let bindEventsTimeout = null; // 用于防抖
 
-// 预处理书签数据，扁平化节点以便搜索
+// ========== chrome-extension:// 专用内容解析 ==========
+
+function htmlEntitiesDecode(str) {
+  if (!str) return str;
+  return str.replace(/&lt;/g, "<")
+            .replace(/&gt;/g, ">")
+            .replace(/&amp;/g, "&")
+            .replace(/&quot;/g, "\"")
+            .replace(/&#39;/g, "'");
+}
+
+function extractChromeExtensionContent(urlString) {
+  if (!urlString || !urlString.startsWith("chrome-extension://")) return null;
+  try {
+    const url = new URL(urlString);
+    const raw = url.searchParams.get("raw") || "";
+    if (!raw) return null;
+
+    let decoded = raw;
+    for (let i = 0; i < 3; i++) {
+      try {
+        const tmp = decodeURIComponent(decoded);
+        if (tmp === decoded) break;
+        decoded = tmp;
+      } catch { break; }
+    }
+    decoded = decoded.replace(/__NL__/g, "\n");
+    decoded = htmlEntitiesDecode(decoded);
+
+    const m = decoded.match(/<pre[^>]*>([\s\S]*?)<\/pre>/i);
+    if (m) return m[1];
+    return decoded;
+  } catch {
+    return null;
+  }
+}
+
+// ========== 预处理书签数据 ==========
 function flattenNodes(nodes, level) {
   const results = [];
   if (!nodes) return results;
-
   nodes.forEach(node => {
-    const flatNode = {
+    results.push({
       title: node.title || "(未命名)",
       url: node.url,
       level,
       originalNode: node
-    };
-    results.push(flatNode);
+    });
     if (node.children) {
       results.push(...flattenNodes(node.children, level + 1));
     }
   });
-
   return results;
 }
 
-// 📂 渲染书签树
+// ========== 渲染书签树（只支持 chrome-extension 特殊格式） ==========
+
 function createBookmarkList(node, level) {
   const li = document.createElement("li");
   li.classList.add(`level-${level}`);
 
   if (node.children && node.children.length > 0) {
     li.classList.add("folder");
-
     const a = document.createElement("a");
     a.href = "javascript:void(0);";
     a.classList.add("menu-item");
@@ -64,52 +98,51 @@ function createBookmarkList(node, level) {
     });
     li.appendChild(ul);
   } else if (node.url) {
-    const isDataBookmark = node.url.startsWith("data:text/html");
-
-    if (isDataBookmark) {
-      // 🗐 图标 + favicon + 文本（不可跳转）
+    if (node.url.startsWith("chrome-extension://")) {
+      // 📄 chrome-extension:// 类型
       const wrapper = document.createElement("div");
-      wrapper.classList.add("bookmark-data-item");
+      wrapper.className = "chrome-extension-wrapper";
 
-      const copyIcon = document.createElement("span");
-      copyIcon.classList.add("copy-symbol");
-      copyIcon.textContent = "📋";
-      wrapper.appendChild(copyIcon);
+      const title = node.title || "无标题";
+      const content = extractChromeExtensionContent(node.url) || "（无内容）";
 
-      const text = document.createElement("span");
-      text.classList.add("copyable");
-      text.textContent = node.title || "(无标题)";
-      text.title = "点击复制内容";
+      const header = document.createElement("div");
+      header.className = "chrome-extension-header";
+      header.innerHTML = `
+        <span class="chrome-extension-title">${title}</span>
+        <span class="chrome-extension-copy">📋</span>
+      `;
 
-      text.addEventListener("click", (e) => {
-        e.preventDefault();
+      const contentEl = document.createElement("pre");
+      contentEl.className = "chrome-extension-content";
+      contentEl.textContent = content;
+      contentEl.style.display = "none";
+
+      header.addEventListener("click", (e) => {
         e.stopPropagation();
-        try {
-          const html = decodeURIComponent(node.url.split(",")[1]);
-          const match = html.match(/<pre>([\s\S]*?)<\/pre>/i);
-          if (match) {
-            const content = match[1]
-              .replace(/&lt;/g, "<")
-              .replace(/&gt;/g, ">")
-              .replace(/&amp;/g, "&");
-
-            navigator.clipboard.writeText(content).then(() => {
-              copyIcon.textContent = "✅";
-              wrapper.classList.add("copied");
-              setTimeout(() => {
-                copyIcon.textContent = "📋";
-                wrapper.classList.remove("copied");
-              }, 2000);
-            });
-          }
-        } catch {}
+        if (e.target.classList.contains("chrome-extension-copy")) {
+          copyToClipboard(content, e.target);
+          return;
+        }
+        const isOpen = wrapper.classList.contains("open");
+        collapseAllExtensionExcept(wrapper);
+        if (!isOpen) {
+          wrapper.classList.add("open");
+          contentEl.style.display = "block";
+          setTimeout(() => {
+            wrapper.scrollIntoView({ behavior: "smooth", block: "start" });
+          }, 0);
+        } else {
+          wrapper.classList.remove("open");
+          contentEl.style.display = "none";
+        }
       });
 
-      wrapper.appendChild(text);
+      wrapper.appendChild(header);
+      wrapper.appendChild(contentEl);
       li.appendChild(wrapper);
-
     } else {
-      // 普通链接保留原结构
+      // 🌐 普通链接
       const a = document.createElement("a");
       a.href = node.url;
       a.classList.add("bookmark-link");
@@ -124,22 +157,52 @@ function createBookmarkList(node, level) {
       li.appendChild(a);
     }
   }
-
   return li;
 }
 
-// 📂 渲染书签树
-function renderBookmarkTree(bookmarkTree, jsonData) {
-  bookmarkTree.innerHTML = "";
+function renderBookmarkTree(bookmarkTreeEl, jsonData) {
+  bookmarkTreeEl.innerHTML = "";
   jsonData.forEach(child => {
     const el = createBookmarkList(child, 2);
-    if (el) bookmarkTree.appendChild(el);
+    if (el) bookmarkTreeEl.appendChild(el);
   });
 }
 
+// ========== 折叠/复制工具函数 ==========
+
+function collapseAllExtensionExcept(targetWrapper) {
+  document.querySelectorAll(".chrome-extension-wrapper.open").forEach(wrapper => {
+    if (wrapper !== targetWrapper) {
+      wrapper.classList.remove("open");
+      const contentEl = wrapper.querySelector(".chrome-extension-content");
+      if (contentEl) contentEl.style.display = "none";
+    }
+  });
+}
+
+function copyToClipboard(text, copyBtn) {
+  navigator.clipboard.writeText(text)
+    .then(() => {
+      copyBtn.textContent = "✅";
+      setTimeout(() => copyBtn.textContent = "📋", 1000);
+    })
+    .catch(() => {
+      copyBtn.textContent = "❌";
+      setTimeout(() => copyBtn.textContent = "📋", 1000);
+    });
+}
 
 
-// ✅ 折叠 + 滚动行为
+// 📂 渲染书签树（旧版接口：renderBookmarkTree(bookmarkTree, jsonData)）
+function renderBookmarkTree(bookmarkTreeEl, jsonData) {
+  bookmarkTreeEl.innerHTML = "";
+  jsonData.forEach(child => {
+    const el = createBookmarkList(child, 2);
+    if (el) bookmarkTreeEl.appendChild(el);
+  });
+}
+
+// ✅ 折叠 + 滚动行为（保持原逻辑）
 function setupFolderClick(e) {
   e.preventDefault();
   e.stopPropagation();
@@ -175,7 +238,7 @@ function setupFolderClick(e) {
   }
 }
 
-// 🔍 搜索
+// 🔍 搜索（保持原逻辑，使用 flattenNodes）
 searchIcon.addEventListener("click", () => {
   searchIcon.style.display = "none";
   searchBox.style.display = "block";
@@ -240,15 +303,12 @@ searchBox.addEventListener("input", () => {
 
 // ✅ 页面加载时自动尝试加载远程书签
 window.addEventListener("DOMContentLoaded", async () => {
-  // 从URL参数获取数据路径
   const urlParams = new URLSearchParams(window.location.search);
   const dataUrl = urlParams.get('data') || "data/bookmarks.json";
-  
+
   try {
-    // 使用统一的loadBookmarks函数加载数据
     await loadBookmarks(dataUrl);
-    
-    // 点击 logo 清除搜索状态
+
     topBarTitle.addEventListener("click", () => {
       searchBox.value = "";
       searchBox.style.display = "none";
@@ -263,201 +323,198 @@ window.addEventListener("DOMContentLoaded", async () => {
   }
 });
 
-// 添加"加载"按钮功能
+// 添加"加载"按钮功能（保持原逻辑）
 const loadBtn = document.getElementById("load-btn");
 
-// loadBtn事件处理
-loadBtn.addEventListener("click", async () => {
+if (loadBtn) {
+  loadBtn.addEventListener("click", async () => {
     const defaultPath = "bookmarks.json";
     const input = prompt("请输入文件名（如 bookmarks.json）或完整URL", defaultPath);
-    
+
     if (!input) return;
-    
+
     try {
-        const finalUrl = input.startsWith('http') ? input : `data/${input}`;
-        await loadBookmarks(finalUrl);
+      const finalUrl = input.startsWith('http') ? input : `data/${input}`;
+      await loadBookmarks(finalUrl);
     } catch (e) {
-        alert(`加载失败：${e.message}`);
+      alert(`加载失败：${e.message}`);
     }
-	  // 新增：20秒后自动关闭（时间可调）
+    // 新增：20秒后自动关闭（时间可调）
     setTimeout(() => {
-    importModal.style.display = "none";
-    }, 20000); // 20秒 = 20000毫秒
-
-});
-
-// 修改后的loadBookmarks函数
-async function loadBookmarks(url) {
-    // 确保本地路径始终以data/开头（除非是远程URL）
-    const processedUrl = url.startsWith('http') ? url : 
-                       url.startsWith('data/') ? url : `data/${url}`;
-    try {
-        const res = await fetch(url);
-        if (!res.ok) throw new Error("获取失败");
-
-        const json = await res.json();
-        rawJSON = JSON.stringify(json, null, 2);
-
-        const children = json?.[0]?.children?.[0]?.children || [];
-        bookmarkTree.innerHTML = "";
-        children.forEach(child => {
-            const el = createBookmarkList(child, 2);
-            if (el) bookmarkTree.appendChild(el);
-        });
-
-        allNodes = flattenNodes(children, 2);
-        originalBookmarkTreeHTML = bookmarkTree.innerHTML;
-        bindFolderClickEvents("DOMContentLoaded");
-        observeBookmarkTree();
-        
-        // 更新URL参数但不刷新页面
-        const newUrl = new URL(window.location);
-        if (url !== "data/bookmarks.json") {
-            newUrl.searchParams.set('data', url);
-        } else {
-            newUrl.searchParams.delete('data');
-        }
-        window.history.pushState({}, '', newUrl);
-    } catch (e) {
-        alert(`⚠️ 无法加载书签: ${e.message}`);
-    }
+      importModal.style.display = "none";
+    }, 20000);
+  });
 }
+
+// 修改后的 loadBookmarks（保持原接口）
+async function loadBookmarks(url) {
+  const processedUrl = url.startsWith('http') ? url :
+                       url.startsWith('data/') ? url : `data/${url}`;
+  try {
+    const res = await fetch(processedUrl);
+    if (!res.ok) throw new Error("获取失败");
+
+    const json = await res.json();
+    rawJSON = JSON.stringify(json, null, 2);
+
+    // 尽量兼容多个书签 JSON 结构
+    const children = json?.[0]?.children?.[0]?.children || json?.[0]?.children || json?.children || json?.[0] || [];
+    bookmarkTree.innerHTML = "";
+    children.forEach(child => {
+      const el = createBookmarkList(child, 2);
+      if (el) bookmarkTree.appendChild(el);
+    });
+
+    allNodes = flattenNodes(children, 2);
+    originalBookmarkTreeHTML = bookmarkTree.innerHTML;
+    bindFolderClickEvents("loadBookmarks");
+    observeBookmarkTree();
+
+    // 更新 URL 参数但不刷新页面
+    const newUrl = new URL(window.location);
+    if (url !== "data/bookmarks.json") {
+      newUrl.searchParams.set('data', url);
+    } else {
+      newUrl.searchParams.delete('data');
+    }
+    window.history.pushState({}, '', newUrl);
+  } catch (e) {
+    alert(`⚠️ 无法加载书签: ${e.message}`);
+  }
+}
+
 // ✅ 点击 "导入" 按钮显示弹窗
-importBtn.addEventListener("click", () => {
+importBtn?.addEventListener("click", () => {
   importModal.style.display = "block";
 });
 
-// ✅ 点击弹窗中的文件选择框，执行导入
-modalBookmarkFile.addEventListener("change", () => {
-    const file = modalBookmarkFile.files[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = e => {
-        const json = e.target.result;
-        rawJSON = json;
-        try {
-            const data = JSON.parse(json);
-            const children = data?.[0]?.children?.[0]?.children || [];
-            bookmarkTree.innerHTML = "";
-            children.forEach(child => {
-                const el = createBookmarkList(child, 2);
-                if (el) bookmarkTree.appendChild(el);
-            });
+// ✅ 弹窗选择文件导入
+modalBookmarkFile?.addEventListener("change", () => {
+  const file = modalBookmarkFile.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    const json = e.target.result;
+    rawJSON = json;
+    try {
+      const data = JSON.parse(json);
+      const children = data?.[0]?.children?.[0]?.children || data?.[0]?.children || data?.children || data?.[0] || [];
+      bookmarkTree.innerHTML = "";
+      children.forEach(child => {
+        const el = createBookmarkList(child, 2);
+        if (el) bookmarkTree.appendChild(el);
+      });
 
-            allNodes = flattenNodes(children, 2);
-            originalBookmarkTreeHTML = bookmarkTree.innerHTML;
-            bindFolderClickEvents("modalBookmarkFile change");
+      allNodes = flattenNodes(children, 2);
+      originalBookmarkTreeHTML = bookmarkTree.innerHTML;
+      bindFolderClickEvents("modalBookmarkFile change");
 
-            //  ✅  延迟关闭弹窗
-            setTimeout(() => {
-                //  ❌  移除这一行：  importModal.style.display = "none";
-            }, 2000);  //  延迟 2 秒关闭（可以根据需要调整时间）
-
-        } catch (e) {
-            alert("无效 JSON");
-        }
-    };
-    reader.readAsText(file);
+      // 延迟（不自动关闭，保留用户操作空间）
+      // setTimeout(() => { importModal.style.display = "none"; }, 2000);
+    } catch (err) {
+      alert("无效 JSON");
+    }
+  };
+  reader.readAsText(file);
 });
 
-// ✅ 点击弹窗中的 "上传到 GitHub" 按钮，执行上传
-modalUploadBtn.addEventListener("click", async () => {
-    const token = prompt("请输入 GitHub Token：");
-    if (!token) return alert("❌ 未提供 Token，上传已取消");
+// ✅ 上传到 GitHub（保留原逻辑）
+modalUploadBtn?.addEventListener("click", async () => {
+  const token = prompt("请输入 GitHub Token：");
+  if (!token) return alert("❌ 未提供 Token，上传已取消");
 
-    const repo = "fjvi/bookmark";
-    const path = "data/bookmarks.json";
-    const branch = "main";
-    const getURL = `https://api.github.com/repos/${repo}/contents/${path}`;
-    let sha = null;
+  const repo = "fjvi/bookmark";
+  const path = "data/bookmarks.json";
+  const branch = "main";
+  const getURL = `https://api.github.com/repos/${repo}/contents/${path}`;
+  let sha = null;
 
-    try {
-        const res = await fetch(getURL, {
-            headers: { Authorization: "token " + token }
-        });
-        if (res.ok) {
-            const json = await res.json();
-            sha = json.sha;
-        }
-    } catch (e) {}
-
-    const content = btoa(unescape(encodeURIComponent(rawJSON)));
-    const payload = {
-        message: "更新书签 JSON",
-        content,
-        branch,
-        ...(sha && { sha })
-    };
-
+  try {
     const res = await fetch(getURL, {
-        method: "PUT",
-        headers: {
-            Authorization: "token " + token,
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(payload)
+      headers: { Authorization: "token " + token }
+    });
+    if (res.ok) {
+      const json = await res.json();
+      sha = json.sha;
+    }
+  } catch (e) {}
+
+  const content = btoa(unescape(encodeURIComponent(rawJSON)));
+  const payload = {
+    message: "更新书签 JSON",
+    content,
+    branch,
+    ...(sha && { sha })
+  };
+
+  const res = await fetch(getURL, {
+    method: "PUT",
+    headers: {
+      Authorization: "token " + token,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(payload)
+  });
+
+  if (res.ok) {
+    alert("✅ 上传成功！");
+    importModal.style.display = "none"; // 关闭弹窗
+  } else {
+    alert("❌ 上传失败");
+  }
+});
+
+// 点击弹窗外部，关闭弹窗
+window.addEventListener("click", (event) => {
+  if (event.target == importModal) {
+    importModal.style.display = "none";
+  }
+});
+
+// 💾 导出为 JSON 文件（保留原逻辑）
+exportBtn?.addEventListener("click", async () => {
+  const password = prompt("请输入导出密码：");
+
+  if (password === null) {
+    alert("导出已取消。");
+    return;
+  }
+
+  try {
+    const response = await fetch("https://api.692.cloudns.be/api/check-password", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ password: password })
     });
 
-    if (res.ok) {
-        alert("✅ 上传成功！");
-        importModal.style.display = "none"; // 关闭弹窗
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+
+    const result = await response.json();
+
+    if (result.success) {
+      if (!rawJSON) return alert("请先导入书签");
+
+      const blob = new Blob([rawJSON], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "bookmarks.json";
+      a.click();
+      URL.revokeObjectURL(url);
     } else {
-        alert("❌ 上传失败");
+      alert("密码错误，导出已取消。");
     }
+  } catch (error) {
+    console.error("密码验证失败", error);
+    alert("网络错误，请稍后再试！");
+  }
 });
 
-// ✅ 点击弹窗外部，关闭弹窗
-window.addEventListener("click", (event) => {
-    if (event.target == importModal) {
-        importModal.style.display = "none";
-    }
-});
-
-
-// 💾 导出为 JSON 文件
-exportBtn.addEventListener("click", async () => {
-    const password = prompt("请输入导出密码：");
-
-    if (password === null) {
-        alert("导出已取消。");
-        return;
-    }
-
-    try {
-        const response = await fetch("https://api.692.cloudns.be/api/check-password", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({ password: password })
-        });
-
-        if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-
-        const result = await response.json(); //  ✅  使用 result 而不是 data
-
-        if (result.success) { //  ✅  使用 result.success
-            if (!rawJSON) return alert("请先导入书签");
-
-            const blob = new Blob([rawJSON], { type: "application/json" });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement("a");
-            a.href = url;
-            a.download = "bookmarks.json";
-            a.click();
-            URL.revokeObjectURL(url);
-        } else {
-            alert("密码错误，导出已取消。");
-        }
-    } catch (error) {
-        console.error("密码验证失败", error);
-        alert("网络错误，请稍后再试！");
-    }
-});
-
-// 绑定文件夹点击事件
+// 绑定文件夹点击事件（保持原逻辑）
 function bindFolderClickEvents(calledFrom) {
   console.log(`bindFolderClickEvents called from: ${calledFrom}`);
 
@@ -481,7 +538,7 @@ function bindFolderClickEvents(calledFrom) {
   }, 100); // 100ms 防抖
 }
 
-// 创建并配置 MutationObserver
+// 创建并配置 MutationObserver（保持原逻辑）
 function observeBookmarkTree() {
   if (observer) {
     observer.disconnect();
