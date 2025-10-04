@@ -88,7 +88,7 @@
                   },
                   {
                     "dateAdded": 1742362031337,
-                    "dateLastUsed": 1747825054595,
+                    "dateLastUsed": 1759603104591,
                     "id": "5128",
                     "index": 1,
                     "parentId": "5022",
@@ -332,10 +332,20 @@
                 "title": "便签"
               },
               {
-                "dateAdded": 1759300177895,
-                "dateLastUsed": 1759433854628,
-                "id": "5701",
+                "dateAdded": 1759603173157,
+                "dateLastUsed": 1759603200667,
+                "id": "5748",
                 "index": 4,
+                "parentId": "5219",
+                "syncing": true,
+                "title": "Bookmarks",
+                "url": "https://692.pages.dev/"
+              },
+              {
+                "dateAdded": 1759300177895,
+                "dateLastUsed": 1759591942581,
+                "id": "5701",
+                "index": 5,
                 "parentId": "5219",
                 "syncing": true,
                 "title": "Pigmarks",
@@ -345,7 +355,7 @@
                 "dateAdded": 1423571553780,
                 "dateLastUsed": 1757089659166,
                 "id": "1599",
-                "index": 5,
+                "index": 6,
                 "parentId": "5219",
                 "syncing": true,
                 "title": "Google",
@@ -355,7 +365,7 @@
                 "dateAdded": 1629118051302,
                 "dateLastUsed": 1755674822995,
                 "id": "1602",
-                "index": 6,
+                "index": 7,
                 "parentId": "5219",
                 "syncing": true,
                 "title": "YouTube",
@@ -365,7 +375,7 @@
                 "dateAdded": 1677593317248,
                 "dateLastUsed": 1757059504647,
                 "id": "1601",
-                "index": 7,
+                "index": 8,
                 "parentId": "5219",
                 "syncing": true,
                 "title": "🅱ing",
@@ -375,7 +385,7 @@
                 "dateAdded": 1727795081351,
                 "dateLastUsed": 1759336295647,
                 "id": "2097",
-                "index": 8,
+                "index": 9,
                 "parentId": "5219",
                 "syncing": true,
                 "title": "Github",
@@ -385,7 +395,7 @@
                 "dateAdded": 1727150635839,
                 "dateLastUsed": 1759395663965,
                 "id": "2058",
-                "index": 9,
+                "index": 10,
                 "parentId": "5219",
                 "syncing": true,
                 "title": "cloudflare",
@@ -395,7 +405,7 @@
                 "dateAdded": 1740666626685,
                 "dateLastUsed": 1757264831001,
                 "id": "2791",
-                "index": 10,
+                "index": 11,
                 "parentId": "5219",
                 "syncing": true,
                 "title": "MGTnote",
@@ -405,7 +415,7 @@
                 "dateAdded": 1740017996540,
                 "dateLastUsed": 1748970767117,
                 "id": "2213",
-                "index": 11,
+                "index": 12,
                 "parentId": "5219",
                 "syncing": true,
                 "title": "DeepSeek",
@@ -415,7 +425,7 @@
                 "dateAdded": 1730268767166,
                 "dateLastUsed": 1755767970039,
                 "id": "2208",
-                "index": 12,
+                "index": 13,
                 "parentId": "5219",
                 "syncing": true,
                 "title": "GPT",
@@ -423,7 +433,7 @@
               }
             ],
             "dateAdded": 1747300171048,
-            "dateGroupModified": 1759300195834,
+            "dateGroupModified": 1759603192151,
             "id": "5219",
             "index": 0,
             "parentId": "1",
@@ -1496,7 +1506,7 @@
               },
               {
                 "dateAdded": 1747647146610,
-                "dateLastUsed": 1759517373899,
+                "dateLastUsed": 1759600303876,
                 "id": "5302",
                 "index": 2,
                 "parentId": "2124",
@@ -1506,7 +1516,7 @@
               },
               {
                 "dateAdded": 1747844112070,
-                "dateLastUsed": 1759517384413,
+                "dateLastUsed": 1759591664601,
                 "id": "5385",
                 "index": 3,
                 "parentId": "2124",
@@ -2264,7 +2274,7 @@
               },
               {
                 "dateAdded": 1741508216580,
-                "dateLastUsed": 1749305748805,
+                "dateLastUsed": 1759594886708,
                 "id": "5068",
                 "index": 4,
                 "parentId": "2272",
@@ -2685,57 +2695,66 @@
                     "url": "https://bbbfj.pages.dev/sub/normal/YaIHGStT1fkT!nRU#%F0%9F%92%A6%20BPB%20Normal"
                   },
                   {
-                    "dateAdded": 1747616295217,
-                    "dateLastUsed": 1757258978539,
-                    "id": "5273",
-                    "index": 5,
-                    "parentId": "5250",
-                    "syncing": true,
-                    "title": "💦BPB last",
-                    "url": "https://bbbfff.pages.dev/login?password=BBBfffa6889692"
-                  },
-                  {
-                    "dateAdded": 1747616322322,
-                    "id": "5274",
-                    "index": 6,
-                    "parentId": "5250",
-                    "syncing": true,
-                    "title": "💧#BPB  v3.4.6",
-                    "url": "https://bbbfff.pages.dev/sub/normal/692?app=xray#%F0%9F%92%A6%20BPB%20Normal"
-                  },
-                  {
                     "dateAdded": 1756920728826,
                     "dateLastUsed": 1759236369302,
                     "id": "5626",
-                    "index": 7,
+                    "index": 5,
                     "parentId": "5250",
                     "syncing": true,
-                    "title": "💦BPB v3.3.18",
+                    "title": "💦v3.3.18@692",
                     "url": "https://b.mgt.xx.kg/login?password=BBBa6889692"
                   },
                   {
                     "dateAdded": 1756920785154,
                     "id": "5627",
-                    "index": 8,
+                    "index": 6,
                     "parentId": "5250",
                     "syncing": true,
-                    "title": "💧 #BPB v3.3.18",
+                    "title": "💧# v3.3.18@692",
                     "url": "https://b.mgt.xx.kg/sub/normal/Z5iN!8vMDoOXmMTV#%F0%9F%92%A6%20BPB%20Normal"
                   },
                   {
-                    "dateAdded": 1746868417162,
-                    "dateLastUsed": 1757262050562,
-                    "id": "5199",
+                    "dateAdded": 1747616295217,
+                    "dateLastUsed": 1759590519960,
+                    "id": "5273",
+                    "index": 7,
+                    "parentId": "5250",
+                    "syncing": true,
+                    "title": "💦last@692",
+                    "url": "https://b692.pages.dev/panel"
+                  },
+                  {
+                    "dateAdded": 1747616322322,
+                    "dateLastUsed": 1759590719320,
+                    "id": "5274",
+                    "index": 8,
+                    "parentId": "5250",
+                    "syncing": true,
+                    "title": "💧# last@692",
+                    "url": "https://b692.pages.dev/sub/normal/b692?app=xray#%F0%9F%92%A6%20BPB%20Normal"
+                  },
+                  {
+                    "dateAdded": 1759252037144,
+                    "id": "5694",
                     "index": 9,
                     "parentId": "5250",
                     "syncing": true,
-                    "title": "SUB订阅转换",
-                    "url": "https://sub.mgt.xx.kg/"
+                    "title": "BPB 变量生成",
+                    "url": "https://b692.pages.dev/secrets"
+                  },
+                  {
+                    "dateAdded": 1759516623860,
+                    "id": "5744",
+                    "index": 10,
+                    "parentId": "5250",
+                    "syncing": true,
+                    "title": "侃侃侃",
+                    "url": "https://kkk.mgt.xx.kg/6889692"
                   },
                   {
                     "dateAdded": 1747616600342,
                     "id": "5295",
-                    "index": 10,
+                    "index": 11,
                     "parentId": "5250",
                     "syncing": true,
                     "title": "🔗fjvi@Trojan",
@@ -2745,23 +2764,15 @@
                     "dateAdded": 1747616416118,
                     "dateLastUsed": 1755530370038,
                     "id": "5279",
-                    "index": 11,
+                    "index": 12,
                     "parentId": "5250",
                     "syncing": true,
                     "title": "6889692/wiki",
                     "url": "https://github.com/6889692/wiki"
                   },
                   {
-                    "dateAdded": 1747616520814,
-                    "id": "5286",
-                    "index": 12,
-                    "parentId": "5250",
-                    "syncing": true,
-                    "title": "IDX.vless@SUB",
-                    "url": "https://sub.692.cloudns.be/sub?host=idx.692.cloudns.be&uuid=5a2ad762-3ff3-49cb-9187-34e9cf8a42dc&path=%2F5a2ad762-3ff3-49cb-9187-34e9cf8a42dc-vm%3Fed%3D2048&sni=idx.692.cloudns.be&type=none&alpn=h3&alterid=0&security=auto"
-                  },
-                  {
                     "dateAdded": 1747616529397,
+                    "dateLastUsed": 1759602931277,
                     "id": "5287",
                     "index": 13,
                     "parentId": "5250",
@@ -2770,64 +2781,27 @@
                     "url": "https://sub.692.cloudns.be/sub?uuid=12a40bc9-97ea-4ca6-a127-a43e4164f2ae&encryption=none&security=tls&sni=claw.692.cloudns.be&fp=chrome&allowInsecure=1&type=ws&host=claw.692.cloudns.be&path=%2F12a40bc9-97ea-4ca6-a127-a43e4164f2ae%3Fed%3D2048"
                   },
                   {
-                    "dateAdded": 1747616547261,
-                    "dateLastUsed": 1757262636646,
-                    "id": "5288",
-                    "index": 14,
-                    "parentId": "5250",
-                    "syncing": true,
-                    "title": "idx@GITHUB",
-                    "url": "https://raw.githubusercontent.com/6889692/wiki/main/idx.txt"
-                  },
-                  {
                     "dateAdded": 1747616747857,
                     "id": "5299",
-                    "index": 15,
+                    "index": 14,
                     "parentId": "5250",
                     "syncing": true,
                     "title": "vless://sg.692.cloudns.be",
                     "url": "vless://e340dcb9-6fd8-491d-81b8-08441d1730f5@sg.692.cloudns.be:443?encryption=none&security=tls&sni=sg.692.cloudns.be&allowInsecure=1&type=ws&host=sg.692.cloudns.be&path=%2F#sg.692.cloudns.be"
                   },
                   {
-                    "dateAdded": 1757521144785,
-                    "id": "5663",
-                    "index": 16,
-                    "parentId": "5250",
-                    "syncing": true,
-                    "title": "侃侃侃",
-                    "url": "https://kkk.mgt.xx.kg/cde2e976-74eb-4514-ad66-04d0d677a91b"
-                  },
-                  {
                     "dateAdded": 1759242619372,
-                    "dateLastUsed": 1759243841386,
+                    "dateLastUsed": 1759517846637,
                     "id": "5692",
-                    "index": 17,
+                    "index": 15,
                     "parentId": "5250",
                     "syncing": true,
                     "title": "cf-names.txt",
                     "url": "https://raw.githubusercontent.com/6889692/cloudflare-nameservers/main/cloudflare-names.txt"
-                  },
-                  {
-                    "dateAdded": 1759252037144,
-                    "id": "5694",
-                    "index": 18,
-                    "parentId": "5250",
-                    "syncing": true,
-                    "title": "BPB 变量生成",
-                    "url": "https://bbbfff.pages.dev/secrets"
-                  },
-                  {
-                    "dateAdded": 1759516623860,
-                    "id": "5744",
-                    "index": 19,
-                    "parentId": "5250",
-                    "syncing": true,
-                    "title": "侃侃侃",
-                    "url": "https://kkk.mgt.xx.kg/6889692"
                   }
                 ],
                 "dateAdded": 1747322770569,
-                "dateGroupModified": 1759516652188,
+                "dateGroupModified": 1759597228111,
                 "id": "5250",
                 "index": 0,
                 "parentId": "2115",
@@ -4752,10 +4726,19 @@
                 "syncing": true,
                 "title": "MGTime",
                 "url": "https://nott.pages.dev/"
+              },
+              {
+                "dateAdded": 1759597228111,
+                "id": "5746",
+                "index": 8,
+                "parentId": "2160",
+                "syncing": true,
+                "title": "CFBlog",
+                "url": "https://blog.mgt.xx.kg/"
               }
             ],
             "dateAdded": 1728480527513,
-            "dateGroupModified": 1757688571847,
+            "dateGroupModified": 1759603173157,
             "id": "2160",
             "index": 9,
             "parentId": "1",
@@ -7270,7 +7253,7 @@
         "title": "其他书签"
       }
     ],
-    "dateAdded": 1759517664486,
+    "dateAdded": 1759603310124,
     "id": "0",
     "syncing": false,
     "title": ""
